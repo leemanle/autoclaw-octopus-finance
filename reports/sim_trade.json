@@ -1,0 +1,57 @@
+{
+  "time": "2026-03-17 15:05",
+  "stocks": [
+    {
+      "code": "002285",
+      "name": "世联行",
+      "sector": "房产租赁经纪",
+      "change": 10.0,
+      "price": 3.41,
+      "first_board": true,
+      "score": 1000100.0
+    },
+    {
+      "code": "000717",
+      "name": "中南股份",
+      "sector": "长材",
+      "change": 7.06,
+      "price": 2.88,
+      "first_board": true,
+      "score": 1000070.6
+    },
+    {
+      "code": "600231",
+      "name": "凌钢股份",
+      "sector": "长材",
+      "change": 4.89,
+      "price": 2.36,
+      "first_board": true,
+      "score": 1000048.9
+    }
+  ],
+  "portfolio": {
+    "cash": 10409.0,
+    "positions": {
+      "002285": {
+        "name": "世联行",
+        "shares": 8700,
+        "cost": 3.41,
+        "buy_time": "15:05"
+      },
+      "000717": {
+        "name": "中南股份",
+        "shares": 10400,
+        "cost": 2.88,
+        "buy_time": "15:05"
+      },
+      "600231": {
+        "name": "凌钢股份",
+        "shares": 12700,
+        "cost": 2.36,
+        "buy_time": "15:05"
+      }
+    },
+    "trades": []
+  },
+  "total": 100000.0
+}

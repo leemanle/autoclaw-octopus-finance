@@ -1,0 +1,20 @@
+{
+  "channels": [
+    {
+      "type": "feishu",
+      "config": {
+        "app_id": "cli_a93fcd904ef85cd2",
+        "app_secret": "3d197BweWsyHbA4j0RBbJfRVoT0ebuKF",
+        "verification_token": "",
+        "encrypt_key": "",
+        "port": 8000
+      }
+    }
+  ],
+  "model": "minimax-m2.5",
+  "temperature": 0.1,
+  "max_tokens": 8192,
+  "tool_use": true,
+  "search_enabled": true,
+  "browser_auto": true
+}

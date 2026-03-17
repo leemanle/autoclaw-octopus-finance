@@ -1,0 +1,47 @@
+﻿# 飞书（Lark）机器人配置
+enabled: true
+appId: "cli_a93fcd904ef85cd2"
+appSecret: "3d197BweWsyHbA4j0RBbJfRVoT0ebuKF"
+
+robot:
+  openId: "ou_79e26c10b4ba8b94eff0bbbbc23e0b98"
+  name: "AutoClaw"
+
+encryptKey: ""
+verificationToken: ""
+
+events:
+  enabled: false
+  url: ""
+  secret: ""
+
+polling:
+  enabled: true
+  interval: 3000
+
+permissions:
+  - "im:chat"
+  - "im:message"
+  - "im:message.group_at_msg"
+  - "im:resource"
+  - "contact:user.base:readonly"
+  - "contact:group.base:readonly"
+
+features:
+  receiveMessages: true
+  sendMessages: true
+  replyMentions: true
+  supportGroups: true
+  supportDirect: true
+  uploadFiles: true
+  downloadFiles: true
+  reactions: true
+  typingIndicator: true
+
+logging:
+  enabled: true
+  level: "info"
+  file: "feishu.log"
+
+debug: false
+

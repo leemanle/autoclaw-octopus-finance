@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "finance-morning",
+      "name": "财经早盘快报",
+      "schedule": "0 9 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\finance_news_fetcher_v2.py"
+      ],
+      "enabled": true,
+      "description": "每天09:00生成财经早报"
+    },
+    {
+      "id": "finance-noon",
+      "name": "财经午间快报",
+      "schedule": "0 12 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\finance_news_fetcher_v2.py"
+      ],
+      "enabled": true,
+      "description": "每天12:00生成午间快报"
+    },
+    {
+      "id": "finance-close",
+      "name": "财经收盘快报",
+      "schedule": "0 15 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\finance_news_fetcher_v2.py"
+      ],
+      "enabled": true,
+      "description": "每天15:00生成收盘快报"
+    },
+    {
+      "id": "finance-evening",
+      "name": "财经晚间快报",
+      "schedule": "0 18 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\finance_news_fetcher_v2.py"
+      ],
+      "enabled": true,
+      "description": "每天18:00生成晚间快报"
+    },
+    {
+      "id": "finance-night",
+      "name": "财经夜盘快报",
+      "schedule": "0 21 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\finance_news_fetcher_v2.py"
+      ],
+      "enabled": true,
+      "description": "每天21:00生成夜盘快报"
+    },
+    {
+      "id": "stock-after-close",
+      "name": "股票收盘选股",
+      "schedule": "0 15:05 * * *",
+      "command": "python",
+      "args": [
+        "C:\\\\Users\\\\Administrator\\\\.openclaw-autoclaw\\\\workspace\\\\scripts\\\\stock_picker.py"
+      ],
+      "enabled": true,
+      "description": "每天15:05收盘后选股"
+    }
+  ]
+}

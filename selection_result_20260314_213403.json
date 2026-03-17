@@ -1,0 +1,35 @@
+[
+  {
+    "rank": 1,
+    "code": "000890",
+    "name": "法尔胜",
+    "price": 11.09,
+    "change": 0.1002,
+    "sector": "新能源",
+    "score": 35.0,
+    "first_board": true,
+    "fundamental_score": 0
+  },
+  {
+    "rank": 2,
+    "code": "000596",
+    "name": "古井贡酒",
+    "price": 113.69,
+    "change": 0.0129,
+    "sector": "新能源汽车",
+    "score": 35.0,
+    "first_board": true,
+    "fundamental_score": 0
+  },
+  {
+    "rank": 3,
+    "code": "002384",
+    "name": "东山精密",
+    "price": 110.93,
+    "change": 0.0149,
+    "sector": "光伏",
+    "score": 20.0,
+    "first_board": true,
+    "fundamental_score": 0
+  }
+]
