@@ -1,0 +1,9 @@
+# Ignore large files
+*.exe
+*.dll
+__pycache__/
+*.pyc
+data/
+reports/*.json
+*.log
+node_modules/
