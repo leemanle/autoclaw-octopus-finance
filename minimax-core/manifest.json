@@ -1,0 +1,3299 @@
+{
+    "version":  "1.0.0",
+    "generatedAt":  "2026-11-22T19:50:33+08:00",
+    "fileCount":  658,
+    "totalBytes":  21242955,
+    "channel":  "github:leemanle/autoclaw-octopus-finance/minimax-core",
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "bytes":  287,
+                      "sha256":  "7DE1DA9EF45B7A8FAF8395C48BA3BBC744CC21C1DEF6D101878E72EF0F13BC81"
+                  },
+                  {
+                      "path":  "CHANGELOG.md",
+                      "bytes":  1572,
+                      "sha256":  "D0379CD793AB77A244ECD1CE5D37CE6F0CC4DE3274EA948B07B0A9FE7295F4D8"
+                  },
+                  {
+                      "path":  "generate-manifest.ps1",
+                      "bytes":  1279,
+                      "sha256":  "2F9734705E174E10F48AD3154879444B5B371389DF26CFE587F03A92AF785453"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  2791,
+                      "sha256":  "CAF8FFF95BDE0708BAFA3F28B17E2429DEEC5F56AD077D3FC35C89EAD3E93246"
+                  },
+                  {
+                      "path":  "restore.ps1",
+                      "bytes":  3131,
+                      "sha256":  "99434C59283672E7F71303E199A4F69E118993D8B86D31728EC671D083A46091"
+                  },
+                  {
+                      "path":  "sync.ps1",
+                      "bytes":  6293,
+                      "sha256":  "3A29820121782F9227603E661375AAD8C321F6A2FD5314081E4B0EB449BFD159"
+                  },
+                  {
+                      "path":  "verify.ps1",
+                      "bytes":  4104,
+                      "sha256":  "CFCE4B8F8E9B2F574DC35E0E1B534F8BDBC15D2D6F81DB4A429FC6E7C90FCFC9"
+                  },
+                  {
+                      "path":  "VERSION",
+                      "bytes":  6,
+                      "sha256":  "59854984853104DF5C353E2F681A15FC7924742F9A2E468C29AF248DCE45CE03"
+                  },
+                  {
+                      "path":  "core/EXCLUDED.txt",
+                      "bytes":  171,
+                      "sha256":  "753524CF085306C4828C0077DB0162B1A58B3A7A3A6DE41A159823ED1E64DE47"
+                  },
+                  {
+                      "path":  "core/agents/explore/config.yaml",
+                      "bytes":  3,
+                      "sha256":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+                  },
+                  {
+                      "path":  "core/agents/explore/memory/daily/2026-08-17.md",
+                      "bytes":  138,
+                      "sha256":  "5DF1970B64D939754F18852DDF80CFAB2E6A34142B79723A12E88D64511B3FF6"
+                  },
+                  {
+                      "path":  "core/agents/mavis/config.yaml",
+                      "bytes":  3,
+                      "sha256":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/MEMORY.md",
+                      "bytes":  3021884,
+                      "sha256":  "DFDC5B404FDC55DF17E561AE8576E026CF047951B6DA396C10EFEEA24C62FD58"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-17.md",
+                      "bytes":  1018,
+                      "sha256":  "D62AC48DD855B6B2BA0178D7378AB93EEF651FCFB701C5AA016090C26574A9BD"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-18.md",
+                      "bytes":  2028,
+                      "sha256":  "D99875BC7A7669FCC3224E25593626820CB76150528D01E3068A1D33E5A76E7B"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-19.md",
+                      "bytes":  2898,
+                      "sha256":  "1B450823BFF5C8181F3F5079DEB73C242E7AE5B87935F0CDF6BB638E85421C07"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-20.md",
+                      "bytes":  1524,
+                      "sha256":  "A6CCFA6EA98593B6107EBD1291897420EEC704156CFA7B21EF465F3D260199C9"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-21.md",
+                      "bytes":  2304,
+                      "sha256":  "8AC900EA2F109313071F54A8E4CD9C9D9D918650AF51B1204BD5EDA08C121BE1"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-22.md",
+                      "bytes":  3908,
+                      "sha256":  "63BF77844B2A37C80E948B7E2AA9C56F21310DD8A7B043A513305C2118C88800"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-23.md",
+                      "bytes":  2423,
+                      "sha256":  "E20B9322CC099B28CB7262F34B61414A396DC3EB78D9AB4E58266D281223AA8B"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-25.md",
+                      "bytes":  259,
+                      "sha256":  "C32D93E605BDF176D16C478E730A8B6D1AF0CB1A1FB9FEC635C870282708AD41"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-08-26.md",
+                      "bytes":  519,
+                      "sha256":  "14408067DE10AB36628E38E9F9DC5090E152AA0B14F9C3D9D1AA61796ADEF260"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-09-03.md",
+                      "bytes":  3304,
+                      "sha256":  "27D46582306B1A9FC2B55A613C44C867DC9AAAC1C6765A3DEEB8854D32CE9D39"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-09-04.md",
+                      "bytes":  2809,
+                      "sha256":  "5F76E7C4BB77E54A5914A22AE21A809B2995C5C8794D5B201F7EC9B983C236F2"
+                  },
+                  {
+                      "path":  "core/agents/mavis/memory/daily/2026-09-05.md",
+                      "bytes":  5939,
+                      "sha256":  "9C5BD8ECDE3C8F8F915D289D23C6CC004D2914ABE3FE4A260B2B0DD9C2A415A8"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/append_xuancheng_training.py",
+                      "bytes":  879,
+                      "sha256":  "1D189C19FABBFDDB9AFEDD1A133DF4827EFCF61F281D1CAF3F5ACC4A6B55E7DC"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/build_1508_doc.py",
+                      "bytes":  19157,
+                      "sha256":  "E1B8850D4CCD233B69574A061636DA28753A3FDDC657A27EB560C5B22C5C6798"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/build_dahua_policy.py",
+                      "bytes":  31831,
+                      "sha256":  "D131189741E277EF4D37F0E7F1F17162144CF6D35B9F9D6A2EF36BBE532EF3D3"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/compare_table_layout.py",
+                      "bytes":  1489,
+                      "sha256":  "B85531F8537CCC672BEF6FAA29659BAB59E613FFE4F5982DD65FE8774E5A7DC0"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/fix_layout.py",
+                      "bytes":  5058,
+                      "sha256":  "6C279BDC20D6E49D0470D13617B83BE6A7B2C1B21BFC337A12059F85B16A4324"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/fix_sept_table_labels.py",
+                      "bytes":  7014,
+                      "sha256":  "CBE80C25CF8D2E8E0722D3BE8EC296CC5824586559F50645D664EDB4AF33C44D"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/fix_signature_cell_xml_replace.py",
+                      "bytes":  3388,
+                      "sha256":  "0D23D99258194EEAA1EB89920E3CB31C8357A97E815AB915795A2E5238BDBFB2"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/fix_training_to_xuancheng.py",
+                      "bytes":  2049,
+                      "sha256":  "D44C3B9F3359EAC9B37D6E8CC2B55AB981DEF2FC7936911C808F851064AC4AA0"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/gen_dahua_food_safety_sept2026.py",
+                      "bytes":  19551,
+                      "sha256":  "9CE463AB1B147B235D796536CA6DF25650AB5B7E3AFAF0DDE60D09CE33B91CC8"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/gen_dahua_market_rule_docx.py",
+                      "bytes":  7240,
+                      "sha256":  "01A77B902E90EF9E09BD17F403B771AB72455D580633294D098665300D8579CA"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/gen_dahua_market_rule_docx_v1.py",
+                      "bytes":  4574,
+                      "sha256":  "7343B9111650810C69BA60BA7AF510CDA9268A19040AF7252EC3F5C6C8C9AA7A"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/gen_dahua_market_rule_docx_v2.py",
+                      "bytes":  6909,
+                      "sha256":  "27A70F931B4903F483C0771794885B538ECC75F5F2D38476AC3BB1A03EE85078"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/inject_sept_content_to_aug_template.py",
+                      "bytes":  14687,
+                      "sha256":  "52A4E51E641D83AAAB293BD09F835C59F20500618D511449806B1E7C7800B213"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/inject_sept_content_v2.py",
+                      "bytes":  13833,
+                      "sha256":  "BDF528179DB2EC847FE8B2DC274F903D069970D44594603A3F5A851F3BBA123B"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/print_1508.py",
+                      "bytes":  2967,
+                      "sha256":  "117041A6953082A8D43EB42B4F8206803627F374CF292B3708EC9D07E918F932"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/render_docx_png.py",
+                      "bytes":  405,
+                      "sha256":  "91E825EFBFC13CEDC97FDF1BAC95C02B710CF83EBB8A1EEE559B613A20FCAFA3"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/strip_batch_numbers.py",
+                      "bytes":  2471,
+                      "sha256":  "EB77998129BE9BD4D47B10947CEDAA842C7B479EDBBABD018CE3EF6089F904DF"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_check_kw.py",
+                      "bytes":  634,
+                      "sha256":  "C16D8F6078092EFF0F2DC9ED5DEB9D63C79DC8F6328926D2358BEED6702EFF13"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_copy_video.py",
+                      "bytes":  518,
+                      "sha256":  "E3AFFB9D02299C59C1D8F6AC9E87857283A7A11CB3F0F907889DB4D5BEBD4A62"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_debug_check_year.py",
+                      "bytes":  662,
+                      "sha256":  "628A788B0F13F47921772236F5908E59F242546FCB01DA146BFB85FBE8586B11"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_debug_find_meeting_time.py",
+                      "bytes":  404,
+                      "sha256":  "32570C976E5776FBDB052EAC34AC1EB1D1614EA8CB42830151DE145BABEF7B37"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_print1508.log",
+                      "bytes":  412,
+                      "sha256":  "9245054BD87E25BD838226672FF5590B9C9ABCD480F12D7E06310C6F31B12D6E"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_probe_dur.py",
+                      "bytes":  670,
+                      "sha256":  "01D1D04151EE137FFC8D2F5222D064621900D0AB5E7110BC4C4F57FA153AD33A"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_scan_monthly_themes.py",
+                      "bytes":  3483,
+                      "sha256":  "B632A56117C948134319C766E459FF47F5B7922D767D01CE3D5A19B5B6EB781C"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_zhaozu_2025.txt",
+                      "bytes":  1380,
+                      "sha256":  "CC915D38B42ADBBD0C1BFA2EEB50744D8889E73BB78790F6507ED97AAC838A74"
+                  },
+                  {
+                      "path":  "core/agents/mavis/scripts/_zhaozu_doc.txt",
+                      "bytes":  1270,
+                      "sha256":  "59B1C66335BBF56B3B4E67B30E632D9EDEEAADE6B100E2DF9982AEA6FC01DE87"
+                  },
+                  {
+                      "path":  "core/agents/mavis/skills/reverse-brainstorming/SKILL.md",
+                      "bytes":  8652,
+                      "sha256":  "9D71D284F13214AF06A6A063DF48BBD63C00FAF8D706C14B030F20AE7D977A6D"
+                  },
+                  {
+                      "path":  "core/agents/mavis/skills/reverse-brainstorming/references/inversion-register.md",
+                      "bytes":  5196,
+                      "sha256":  "861331443BDB27E2F4B799639CBDE10349EB77E8751581916B725F1A3E2B6B03"
+                  },
+                  {
+                      "path":  "core/agents/verifier/config.yaml",
+                      "bytes":  3,
+                      "sha256":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+                  },
+                  {
+                      "path":  "core/agents/verifier/memory/daily/2026-08-17.md",
+                      "bytes":  138,
+                      "sha256":  "5C92179EBC1A7D4EA53937ACD21496C37A7BDE816D1A02DA39A4464707518E47"
+                  },
+                  {
+                      "path":  "core/agents/worker/config.yaml",
+                      "bytes":  3,
+                      "sha256":  "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+                  },
+                  {
+                      "path":  "core/agents/worker/memory/MEMORY.md",
+                      "bytes":  4729,
+                      "sha256":  "DFB440A866252C8E5B6A7881792DA8B91DCC0295E6E4F8CE06257465B26AA68D"
+                  },
+                  {
+                      "path":  "core/agents/worker/memory/daily/2026-08-17.md",
+                      "bytes":  138,
+                      "sha256":  "52E5A88E3F13213A52926753AE023E3D867D87A3148F88D34A258E1258DDD56A"
+                  },
+                  {
+                      "path":  "core/agents/worker/memory/daily/2026-11-01.md",
+                      "bytes":  943,
+                      "sha256":  "78613364B4A7091DD9E79BE89529998E24C8DBFEBD3F832B7C4F0B6A458DDB75"
+                  },
+                  {
+                      "path":  "core/builtin-skills/.seed-fingerprint",
+                      "bytes":  64,
+                      "sha256":  "A4528808DB8281F31CE795AC7F494E461B4E03A8AC522FF985CAD49CC524BD78"
+                  },
+                  {
+                      "path":  "core/builtin-skills/code-review/SKILL.md",
+                      "bytes":  2764,
+                      "sha256":  "79950E1856D53A7AF729A54B847DC20919D5169F0BC3176876280489D5E68901"
+                  },
+                  {
+                      "path":  "core/builtin-skills/create-agent/SKILL.md",
+                      "bytes":  5746,
+                      "sha256":  "8F549DF2C75E68E17B4225C99031BC2B464C2FE0F6A228E4FAD738B7C1BAC7FB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/deep-research/SKILL.md",
+                      "bytes":  6946,
+                      "sha256":  "ABEC46C13ACE539BD5D2ECBF422E835930C4FD532348A6AF53BEC1A2EDCEDC73"
+                  },
+                  {
+                      "path":  "core/builtin-skills/deploy-website/SKILL.md",
+                      "bytes":  4062,
+                      "sha256":  "0C5A3828B748D567ACC944F8AA76BC539A5D660D51FF244BDDE2BF36F0AD45E7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/edit-deployed-website/SKILL.md",
+                      "bytes":  1683,
+                      "sha256":  "3DE73F5903D28D2D10331EE180B029D441EC960BDA09F403ECD13955DF96A93A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/init/SKILL.md",
+                      "bytes":  6839,
+                      "sha256":  "7B1464E4250EEBABC202FE343DB23FA55812CFE7DEBEC87AB21B7DAEF32F45D9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/SKILL.md",
+                      "bytes":  20747,
+                      "sha256":  "1A2CB903DE35FD11D71015A6327C68EB8446E2E8B9C28424A6A3DE73C11CF435"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-approval/SKILL.md",
+                      "bytes":  1355,
+                      "sha256":  "E0047CA33B28E0398DEA42C107723C45027937FDF237BB82893A0D2EC06C0E68"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-attendance/SKILL.md",
+                      "bytes":  1620,
+                      "sha256":  "A0EA5F3FA176496DDA31D912F7E55AD7CFED5243B30567D16E7F9DC96EEBBE8B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/SKILL.md",
+                      "bytes":  54998,
+                      "sha256":  "739B905D6A6733DB98F3CB6BA131BB3C76C30EDDE1D3F54381CEE15B9840E659"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/dashboard-block-data-config.md",
+                      "bytes":  12165,
+                      "sha256":  "B70177E3837256961FFA59EBAD5E1AFB9C33DA00743DA596837A897CE57984DB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/examples.md",
+                      "bytes":  3656,
+                      "sha256":  "E2BF496C160D6CE1B75D87DD8854844B50309393C98C5AED78B4A08770A7284C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/formula-field-guide.md",
+                      "bytes":  56980,
+                      "sha256":  "72B14241BBB55C7CF50481C689A45FCD4462C13BF651031B689F740BDAECBF7D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-advperm-disable.md",
+                      "bytes":  2178,
+                      "sha256":  "05D36503EAD10E0B49C420214BBBEF4BE7245A7D708A78A05AAF22865876CA4A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-advperm-enable.md",
+                      "bytes":  2002,
+                      "sha256":  "91FD193577751DC9865B266E691CDF3A186F808977346538648D0542A52DF2DA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-base-copy.md",
+                      "bytes":  2791,
+                      "sha256":  "71B3B25A03C52086C1D1FAF229EB18B46DC61F17E3C875EA35D411D4EB27A037"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-base-create.md",
+                      "bytes":  2483,
+                      "sha256":  "CE6D37DA51996678002E68B9563739F6EBB888E49858E2CB54EF5800525270A2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-base-get.md",
+                      "bytes":  975,
+                      "sha256":  "92603E480DB34B350FCD4E5FECBE63860F949D4C5FE1EA65743E2EBCD4F75FF3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-arrange.md",
+                      "bytes":  2138,
+                      "sha256":  "D903AF66287796C4389C563FB084791102874B5A92CF8045593805A26FDF281D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-block-create.md",
+                      "bytes":  3659,
+                      "sha256":  "5EBD279891D2EFA1F2571D38F6DB9C75029B3CA20188308C4D80222295224E44"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-block-delete.md",
+                      "bytes":  1008,
+                      "sha256":  "0391101BC3E2A5D6E169E69ECE48A36F83AC2E2D01C1EB3484405FB00100CFDB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-block-get.md",
+                      "bytes":  1767,
+                      "sha256":  "42AD4E82B3B9293D3880F62D4F7CED2ED1128B679ABA9FC02963A07C6C6A7D87"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-block-list.md",
+                      "bytes":  1521,
+                      "sha256":  "823017601A9C36D8DFE11B073D57CE4ED12853D39DB4F9EE3664219EBE8354A3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-block-update.md",
+                      "bytes":  3111,
+                      "sha256":  "3F17EC4E0826A53424D83DC55B6A77E89A6B629AE64A6DF647A116372AA8CDF2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-create.md",
+                      "bytes":  1782,
+                      "sha256":  "6E275DE197377E861FD5935245EA9424B02DA622B74086A6CFC0A4BBFE48CD5F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-delete.md",
+                      "bytes":  1024,
+                      "sha256":  "2D1E753DE77B0B667E5AFD8CADA503B10F57BEC616A003616FAFAEFA5A96F435"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-get.md",
+                      "bytes":  1674,
+                      "sha256":  "7ABD66F68700643C440F591898239A50E19C6B56B20A251D93A66D27C09A2BBB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-list.md",
+                      "bytes":  1499,
+                      "sha256":  "B723924C7E45936377BFBAAF3352841A3872A252A6FCF51426B2676AB55FD77A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard-update.md",
+                      "bytes":  1559,
+                      "sha256":  "787F7E9C4D69606434166A87F1ADD10A01C0B9CEFD481029A108BFABAE41F042"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-dashboard.md",
+                      "bytes":  11073,
+                      "sha256":  "79CEA2A2953FA462144E58D14B06BD8C2653943A775D8F89C342E6ED59CD1880"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-data-query.md",
+                      "bytes":  14658,
+                      "sha256":  "C79ADCF3980EA88B8A405742C0B394F079FE08C7A6B0AC3B8FE6F7805D72DED8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-create.md",
+                      "bytes":  3475,
+                      "sha256":  "DACB2EA83832C6EEEF7667FD4498BA1EF103B6263A699EC29FD0CDB1E14E0AF3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-delete.md",
+                      "bytes":  1322,
+                      "sha256":  "A8C2AC0C07D9324D82B4F0CE222EE753C7DA6635E6B1EC6C5161C2507F72A25D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-get.md",
+                      "bytes":  904,
+                      "sha256":  "445CD8C2695151429E494A5E3646E42ABCE810F0624F9822DAAC18397FCCD3FB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-list.md",
+                      "bytes":  992,
+                      "sha256":  "E255466B5D80B097A64F20FCB7BC3174E96A29368360125B23C848E6AB30A857"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-search-options.md",
+                      "bytes":  1240,
+                      "sha256":  "051D81C714E055D127FFE3E8FD419E38FECB4E740B44B338FEEE3E50D4DB2B28"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field-update.md",
+                      "bytes":  3356,
+                      "sha256":  "15D71CB53517567D2FFAE25E490B63BDDEBBDE0B122B5CD9A6DC4CE48F33ED2A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-field.md",
+                      "bytes":  1179,
+                      "sha256":  "E0356CE540766060B31C7BC56FA288BEB0409F04E776326A9CF3AB5501779B2C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-create.md",
+                      "bytes":  2520,
+                      "sha256":  "A9A48F9270DA21D476280ABDEC06D04D4B522D96135B20339DBDFBADCFCC899D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-delete.md",
+                      "bytes":  1593,
+                      "sha256":  "0D85837CB21DF9035FB43C58041B79B03485DCEA7088B6F608ACE2FF4E965A3F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-get.md",
+                      "bytes":  1645,
+                      "sha256":  "67179C15A2F581EA7F392A0763444E6C24AAACA07AE34DDCEFD6454C93F1B7BF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-list.md",
+                      "bytes":  2001,
+                      "sha256":  "A020DDC730330CBDFCDA287E9080FDCF98966F22E6B89F4C8247C217C5AEC266"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-questions-create.md",
+                      "bytes":  4665,
+                      "sha256":  "8BDEF63642F8C534858D72416B6DFEBC9FD0EE52455B639B660DC785AA825900"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-questions-delete.md",
+                      "bytes":  1865,
+                      "sha256":  "0C7B1F378D33A203870BF223ED209263C3FAFFAF7D2393A1FBE0644971DBCF5F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-questions-list.md",
+                      "bytes":  2020,
+                      "sha256":  "1C962CDF9FCA91D7BF00C33BF8BAFDCE331BA37516F6C0BFADA5E698A94618F9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-questions-update.md",
+                      "bytes":  2886,
+                      "sha256":  "BAF49D0E213730937665C581D111E21FC89E84A231529D70D4A426C5DB8A12D8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-questions.md",
+                      "bytes":  1056,
+                      "sha256":  "078B016000A0FD2C8CD4DE118BDCBFC4BD2FC1AA21308D2769678A2A1875FA7B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form-update.md",
+                      "bytes":  2202,
+                      "sha256":  "5516CCE7FA659CC61D20CF5CB48DA3460B3E7B064B288EEB4978A18356DCF3C9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-form.md",
+                      "bytes":  1028,
+                      "sha256":  "D85662A4EBC57C2B97060530396DB906CD102917C1FC3AAE67825E712C2F4022"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-history.md",
+                      "bytes":  630,
+                      "sha256":  "5EB5DEE08EF909DC87611C1E6F7CDDF15ADCBB6E94E401A952DDD36C738BD546"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-batch-create.md",
+                      "bytes":  2701,
+                      "sha256":  "4B59BD3BAB4B95E7E05A5F7B919BFE5EEDFA3E6A179C3EE0D708826FAB6394E7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-batch-update.md",
+                      "bytes":  2373,
+                      "sha256":  "3CF997B0539B8E94AC7F5D31E632EF750F7EC77D9B22A8555746E9D78027BE35"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-delete.md",
+                      "bytes":  1287,
+                      "sha256":  "CCDAE3F082EE1911BDFA66977835F4F3DD0F6AA1A60A1D51A616C7BC84B0364A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-get.md",
+                      "bytes":  823,
+                      "sha256":  "C6BBE6B22007814550ED08C80E437B84541AFB2297F013A37CF9313A3132948D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-history-list.md",
+                      "bytes":  2914,
+                      "sha256":  "496672FEEDD1FFD201C164F303261C172FA23B07C9FD9D555F887B2F2813E6EA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-list.md",
+                      "bytes":  3319,
+                      "sha256":  "9E02A00B5A7182246F028DF6C72D0BA25F47DAA009B7F26BADEEFC531888DBE3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-search.md",
+                      "bytes":  3017,
+                      "sha256":  "D9B07CBA01919DBDD46675CC53A531B4BD51774EAD2AF4D091963CB15279A972"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-upload-attachment.md",
+                      "bytes":  1710,
+                      "sha256":  "273263ECDF0F8CF1AFEC92642D3C4D0F42E4ABD6D41A3FF706534FD61D6C8B83"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record-upsert.md",
+                      "bytes":  2608,
+                      "sha256":  "E5B9B7E92FE256CDFC6D552BD431F1D04BC1E7FDA3FD9385F0B14C38F3E269E2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-record.md",
+                      "bytes":  2138,
+                      "sha256":  "54A4C42B119B134709062A661722D130870007A3CBBF0ABEB22A15FE5A54B8CF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-role-create.md",
+                      "bytes":  3331,
+                      "sha256":  "FB10E0924A7BA1A8E2A0387BF694D0018EB013490A3BC73BB0C7253F578BBDB8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-role-delete.md",
+                      "bytes":  2162,
+                      "sha256":  "549C51BD252ED017D8A27C3EAD85FF46628BC16894CD0FC0B08EB053841860B2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-role-get.md",
+                      "bytes":  2729,
+                      "sha256":  "12F811421870AD85F584010FFAA4FBA01AB386F051F1A1DC4483BD16FFD015B3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-role-list.md",
+                      "bytes":  2477,
+                      "sha256":  "11A5DCFE51256E0EFCE3834CA51E7842BB0532379E9C79858F6F98DAD2E6EA47"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-role-update.md",
+                      "bytes":  2872,
+                      "sha256":  "F0F0108AE9E00195600E7CCDF21B75DDBF883B9A7AB4E3EA7162680F4AC91986"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-shortcut-field-properties.md",
+                      "bytes":  25254,
+                      "sha256":  "97BD5D86531DE0EBCE40C169D77C2CCB2C452EB567813C20A395110B7153EC3E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-shortcut-record-value.md",
+                      "bytes":  4578,
+                      "sha256":  "353E20EA121CC7E7D01D30AFFD6EFC8DC38C3C3CECB60282E3D94FEC4559266B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table-create.md",
+                      "bytes":  1722,
+                      "sha256":  "23C4DE0912E68BE116A841EF7A381DF8F55EB150DC0E1940B701371EBB660CCA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table-delete.md",
+                      "bytes":  1347,
+                      "sha256":  "E837C0911381AFDCC9394C4144A9E0FBB8E7F9F905487B4953065FAA58282000"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table-get.md",
+                      "bytes":  1338,
+                      "sha256":  "EAC9EF07B5C157F284563190885FF9AB23318F82218696FA407A43D5912AEE4F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table-list.md",
+                      "bytes":  948,
+                      "sha256":  "00EEB746D6620B12B2FCA673EC0E912882246F8E1A5DB02F63C2BC4BDA95B893"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table-update.md",
+                      "bytes":  1004,
+                      "sha256":  "08BAC24758306D002316FFDBA2678DB2EAC7D03B406D6CA4A68F827AFB1BD380"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-table.md",
+                      "bytes":  1034,
+                      "sha256":  "A6F82974E4E4AF616AB24F19F13A974B28B174AD01AEA6A4D806FB2EE798029E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-create.md",
+                      "bytes":  2360,
+                      "sha256":  "24EAD7C7C50B11581E3BE4B1A89BB85027A017F7BE7E7B3FF07F3DE4635B09D7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-delete.md",
+                      "bytes":  976,
+                      "sha256":  "FF793BD36C8234684F72B25564744259E690DA30D44E2F2BA244FE65186EC2B9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-card.md",
+                      "bytes":  791,
+                      "sha256":  "D841409FDF659AF685A310766DBD24C80D16A2EC90210715AECFE9AA69DC8C61"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-filter.md",
+                      "bytes":  797,
+                      "sha256":  "D0181E83B534B76F007AE9AB72DFE7B043EFCE8B305B16C962665F9859723E57"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-group.md",
+                      "bytes":  794,
+                      "sha256":  "06AE779640A53C12DA9B4ECD6D1D411ED67E0D19B684DAF52182597C5443633C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-sort.md",
+                      "bytes":  791,
+                      "sha256":  "78CBA8DFA78F809A74DF8B8544E1B4CF859E10BA0E12CB472E11F447ED240EE0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-timebar.md",
+                      "bytes":  806,
+                      "sha256":  "6FC13D1CEA144713E95AA07F15671129D2B8F547EF9B8B8C776351FAEC4E450A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get-visible-fields.md",
+                      "bytes":  836,
+                      "sha256":  "E4DEA173A3D701F642B8E3413C6FEAD7C008736B8760AABD643FBF001A534C75"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-get.md",
+                      "bytes":  794,
+                      "sha256":  "85269658F2930066A80F41672B4466A55EE24270F1984EC0A4176B951FD4CBD8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-list.md",
+                      "bytes":  985,
+                      "sha256":  "1EF8634AC8B92E12BDFA01C5F5CAE6464C01724DC3D43B474039346280346F09"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-rename.md",
+                      "bytes":  932,
+                      "sha256":  "106DDCE503F5D9088A407C59EE3B5025B1F3289A6BC15514A32DDC26FE29E8B5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-card.md",
+                      "bytes":  2013,
+                      "sha256":  "6F9EBAB8255786182310ADFB30C97D6DD37550F74378363207319BA5D5514DDF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-filter.md",
+                      "bytes":  4396,
+                      "sha256":  "0023AD1C30034E0D4F965D5873E29AE443A6B6E1DA38AEC198B35A71447B5082"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-group.md",
+                      "bytes":  2034,
+                      "sha256":  "2FE7D4A1AE06F474AC2DAEB4C6DBBDC83B61733A84EE76408221013FD6184C51"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-sort.md",
+                      "bytes":  2042,
+                      "sha256":  "1905BD43E1C86BBAE7477743B580012E335739C6D46AA55028B2EFE401AA9629"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-timebar.md",
+                      "bytes":  2479,
+                      "sha256":  "C0BDF76F5222662935A2B1A7BB53597201C55E768E8AB9B947AB53AF6FDFE187"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view-set-visible-fields.md",
+                      "bytes":  1972,
+                      "sha256":  "751D654DD8295B5BD45A7087669F1CD720253C74C987B944EC588C0E0CAC4264"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-view.md",
+                      "bytes":  2607,
+                      "sha256":  "CA55B39258053D27E27D93EAA570E5A072F7F5DD26CF2666CEC9182FCDAECED4"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-create.md",
+                      "bytes":  8005,
+                      "sha256":  "FDDFD6A698E39055437863F9FE68A66BFB1BDF9158DD459E9FB027F3AD9331C0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-disable.md",
+                      "bytes":  2877,
+                      "sha256":  "19B39A6E3A881614330D4BCA6171A1C5DC4D623D7141D819B7D306BB7F7B4194"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-enable.md",
+                      "bytes":  2872,
+                      "sha256":  "0EBC8E39F32F5B664BB8CD5128AB6199050D09F47225857569C24DE439AA2D20"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-get.md",
+                      "bytes":  5683,
+                      "sha256":  "52CD887A812C0EF1966F45F76CACF0F76914DFCC5B978276EF74BE855E737122"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-guide.md",
+                      "bytes":  22854,
+                      "sha256":  "3198CEA58CC735A9B838372329BFF29F5505243843647F17785F94BB7421CE97"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-list.md",
+                      "bytes":  4355,
+                      "sha256":  "1FB7BB06C055795C25AD0C5AB89664F7FEF159FE712566DC45FCE5F53A4CAD12"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-schema.md",
+                      "bytes":  33779,
+                      "sha256":  "0C443F95A9BC7171DD14B59C79B66D8EC1709A5E8E20834006F90E781C2ABC92"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow-update.md",
+                      "bytes":  6775,
+                      "sha256":  "8FE49981CE5BCDC3114E2AE298FB310992CB7D1FE8E0F0146795F57D631720C3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workflow.md",
+                      "bytes":  1734,
+                      "sha256":  "573360ED0DFCD8DA0DF819EC6E6E0DED12AA35D5E864F4AEF1067807346B487F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lark-base-workspace.md",
+                      "bytes":  684,
+                      "sha256":  "D8178F5DB0F006FEB774E0BF2E5147558CBCBFA5CDBAE9A094275C444DD83CDC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/lookup-field-guide.md",
+                      "bytes":  18616,
+                      "sha256":  "2D8397D1917B27A7691DC3CC608F37FAC8E82E1C1E15DA457C33BA53A639C2D5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-base/references/role-config.md",
+                      "bytes":  19910,
+                      "sha256":  "6490E076679602747A02D8137929C3F8D8C3C189CB6D2FAFA2562F4645CBA7C8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/SKILL.md",
+                      "bytes":  11121,
+                      "sha256":  "F03745613DE0BC32681CA31700A6B49450224A28814B9208125CA336B987570A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-agenda.md",
+                      "bytes":  2313,
+                      "sha256":  "810713427524DA397939FF95E3F5BCFD870FBA1FCC8B2C7546F2253969D57D65"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-create.md",
+                      "bytes":  5155,
+                      "sha256":  "23433C243FC3BB1DCD6FC1CD6D31633F3740B126FB32ECB53587408368421B59"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-freebusy.md",
+                      "bytes":  3855,
+                      "sha256":  "FF3B79AE776E4FB7B37F58F41C1826056B717F0D57087C6FCD30833FC20BCBEA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-room-find.md",
+                      "bytes":  7652,
+                      "sha256":  "956435EF0A3EDDB7394EDD1AA15AC30D16A6830CFBC28F95A7AE4979D8124011"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-rsvp.md",
+                      "bytes":  1358,
+                      "sha256":  "1EC25EF0827C5A0F5823B42C86E3E2DC9DDE55FADCFAD73B8DAF2E845A729369"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-schedule-meeting.md",
+                      "bytes":  11346,
+                      "sha256":  "93A1E788BBF626AE1F05D588D5A26259D75DFCE1475A75C8AFE58382B765DC46"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-calendar/references/lark-calendar-suggestion.md",
+                      "bytes":  7196,
+                      "sha256":  "6398E2172951919E94E299F0D95AE41D9B0E70D91D106978E47646CDB35257C6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-contact/SKILL.md",
+                      "bytes":  1053,
+                      "sha256":  "807A24A43285836F4D3142D107FE90C61F495A7B402DD2D6CA38CC577A602F03"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-contact/references/lark-contact-get-user.md",
+                      "bytes":  1599,
+                      "sha256":  "3210A922017740DA494D9120E25ABC2375F07DC01D15058D405D8BCCE35B220F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-contact/references/lark-contact-search-user.md",
+                      "bytes":  1342,
+                      "sha256":  "C094B05A7F07E59D63DC9158E2B842CD6CFC0E6CD1E4AFE1E10278BE9916D975"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/SKILL.md",
+                      "bytes":  11339,
+                      "sha256":  "2F233BDB504A59BCC1680F08C388B4471BC4F5CF8852AD042A8D785B4E24BFEB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-create.md",
+                      "bytes":  20693,
+                      "sha256":  "3B26689932C6CBB9EB732D53EB104FC0028ABDDB6582E30B402731E2490F3C97"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-fetch.md",
+                      "bytes":  4194,
+                      "sha256":  "6B3F7F50D60E5AFD69C2E090C1936DA92F37C3A6112EEE657763A3A950B25A25"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-media-download.md",
+                      "bytes":  2169,
+                      "sha256":  "D4C7F67D07B907106A037500E5809405CE74EE4B642767AF3E417C5EDD527277"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-media-insert.md",
+                      "bytes":  2265,
+                      "sha256":  "204BA2320611D79ED75A4124336A3788AFD757E01218BE18DE28D2E3FA0520E6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-media-preview.md",
+                      "bytes":  1647,
+                      "sha256":  "EBECF432D6AD0DBFA249CBF3DAB91E7E20E25EE29E1C4874A039AA2BB8194200"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-search.md",
+                      "bytes":  14302,
+                      "sha256":  "ECDD1021115449D0268D14D1D6293F1A37112C55F239AC89374DCF1D421163D5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-update.md",
+                      "bytes":  9677,
+                      "sha256":  "CE6FA7735E5779D2E4689B7F5117F9EECFA1935530D7F89FDF74F14164828C9D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-doc/references/lark-doc-whiteboard-update.md",
+                      "bytes":  327,
+                      "sha256":  "1D0DB1E4FD9B89C79ADD89456EF8DC9F10BF2470D178865C85BEF90F66A8EB3E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/SKILL.md",
+                      "bytes":  16034,
+                      "sha256":  "E3D85422D9DF9D0F798DEB80EEA55F6D0B61F571B24976D59026B48361427BA3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-add-comment.md",
+                      "bytes":  5471,
+                      "sha256":  "C7D702CD8A18F7B3A74297FD6B0816F8552D5A20E9CF311EDDA21798962D8076"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-create-folder.md",
+                      "bytes":  3618,
+                      "sha256":  "2DCC2D29B4C9119395B9CA1B13AA6D04C4CBE2478985DB15455430C511EB4C8F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-create-shortcut.md",
+                      "bytes":  4332,
+                      "sha256":  "ACA426B7DFBFB44C2FE17D1801BB2525EF770E7BC763FB2E0E6DBE3F13BB829D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-delete.md",
+                      "bytes":  2655,
+                      "sha256":  "EFD530E3D60EECA98FA1314A01BE4D7F6905FF9693F26B9C79BCE7AE53B05106"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-download.md",
+                      "bytes":  755,
+                      "sha256":  "0EE64549DFF3DC86EACD0F940784E2FA8B04CD91AD77BE32A44F45920A572DED"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-export-download.md",
+                      "bytes":  1515,
+                      "sha256":  "E02CB3E43A485371BC491F9CE214E4B620D45560BACFF0999D223C2F911166E1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-export.md",
+                      "bytes":  2977,
+                      "sha256":  "E481E2518FCB4C207A09C652DA91B46C3E9EA5B886BF1C840E43B05C8C9C4EBF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-import.md",
+                      "bytes":  7826,
+                      "sha256":  "485BA72AAFBE40AE3CE32B3DBB0ACC437FD0E0B3B83F1CF654F52F4FE3F6609A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-move.md",
+                      "bytes":  4647,
+                      "sha256":  "C4DA1157D8994DC1EC4D94173F6F1E613FD04EC39EEE0B5E9FD0AF48F6DB4C81"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-reactions.md",
+                      "bytes":  6271,
+                      "sha256":  "7C6761AC97E2E65F1DDB9A368A916A2A2B17B2D7C8B3146F1CAD531B394C720D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-task-result.md",
+                      "bytes":  9387,
+                      "sha256":  "5BE508F606D5CC5AC8F11486C3F1D94B30DF262FB90DB13D89289812BA71C298"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-drive/references/lark-drive-upload.md",
+                      "bytes":  2700,
+                      "sha256":  "65F370AE7F26F0109F5A8F7D04B34FA84F78A86FB724AE22FBEA79951E35AA1C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-event/SKILL.md",
+                      "bytes":  995,
+                      "sha256":  "4F902739EAAD942FFC6DE8C1483620CC6F2EEE05EA0FF62FE6C6E56D3A9F64E6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-event/references/lark-event-subscribe.md",
+                      "bytes":  10307,
+                      "sha256":  "53807B120574870EA5CF01E1A431FBDE1B340311C1A0E5058583C9C3C7D508A1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/SKILL.md",
+                      "bytes":  9782,
+                      "sha256":  "51CE467C6B17999C1F8D6699A7BBB0FCA44955C082723F8557728E81FD998F24"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-chat-create.md",
+                      "bytes":  7150,
+                      "sha256":  "40E60EFBEFB34DC5222DF562777E72326CDCA5461542FBE4973B6D7575D06CF8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-chat-identity.md",
+                      "bytes":  3210,
+                      "sha256":  "449708ED9BE8B3B4657C685509E9B587C4F728F51B00BDEB08DB20941A4135B1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-chat-messages-list.md",
+                      "bytes":  7576,
+                      "sha256":  "0EEBD45CA0724438E16B598799163566A0C1B3098E244FB8A34B4487148514DF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-chat-search.md",
+                      "bytes":  5971,
+                      "sha256":  "12204B0BF13A82D8202CA76437DC79256D975D1F42AFCA645767FBAC02454FB9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-chat-update.md",
+                      "bytes":  3425,
+                      "sha256":  "76DE0405C5CD9DCD54EADD4EDB53B925193D128EE1CFE6C0B52861340D5D1F2F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-messages-mget.md",
+                      "bytes":  3449,
+                      "sha256":  "6EE4A509EBE37849FD7B70D0981A9CE5ECB32EE7CA2100561D27DD630402D85F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-messages-reply.md",
+                      "bytes":  10933,
+                      "sha256":  "24A521C92F249DAFBA04A73DA25A78A3C5483E1E39D0D92A3211E4D171E4D424"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-messages-resources-download.md",
+                      "bytes":  4649,
+                      "sha256":  "7E77A6E6CA3F98D16CEBBC6AC05D42ADEE4CF75FE26183678EB19B90CD88BEB5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-messages-search.md",
+                      "bytes":  11110,
+                      "sha256":  "D00A8604EEC0E255E2EBD84B5465CB0B19BE1FD6733D4E5735333CB93533D6CC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-messages-send.md",
+                      "bytes":  12083,
+                      "sha256":  "F41BD266C0F79D1FF033096BF3F84CA1D527CD74AB735E536E35869A0B9ADB73"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-reactions.md",
+                      "bytes":  9941,
+                      "sha256":  "97F0CD3B0D3E672F150314FC7E41534B78244AF78EEECD34B00949BB765E1945"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-im/references/lark-im-threads-messages-list.md",
+                      "bytes":  4830,
+                      "sha256":  "820573D2A8E7CE447BDC4189EDA6ACC635019F50B79A06B61294055F3804A5CC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/SKILL.md",
+                      "bytes":  35550,
+                      "sha256":  "6D0012086D87CBB95F65180AC0C3C84D5D8EA14F255DC90B90776AF6F68DA9EC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-draft-create.md",
+                      "bytes":  5920,
+                      "sha256":  "5E356A834A4933DD27E8640852BD166E6C66A6C5CCD478199D6036106D21C8C7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-draft-edit.md",
+                      "bytes":  14348,
+                      "sha256":  "CBB2748112D50079C5D04D34AD386BCE79139BEE64246F3033B94AEA4FB94A7F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-forward.md",
+                      "bytes":  9556,
+                      "sha256":  "4F094D528A22D6328E8056A73D28A57C3CA7BF41287FC2B50999CAA0E9F41EDE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-message.md",
+                      "bytes":  8990,
+                      "sha256":  "ED2FE9A7F513EB0D367914513A66094CDB61305E240A6D33B4D83CAB7EF5D3FA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-messages.md",
+                      "bytes":  4446,
+                      "sha256":  "908AEA214F246A719BCCA039BEE11AD198796C59A8EE2E239EFFA09D4050227E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-reply-all.md",
+                      "bytes":  8678,
+                      "sha256":  "1080082FE0200DE7DC38E73B047C6B3D7D098FD4B409F26B5E940FA85982DEE7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-reply.md",
+                      "bytes":  10485,
+                      "sha256":  "FD8E162B6BFDF8E8752577F63C7D6908013E7EFDA31296C183E2B2AB44C26762"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-send.md",
+                      "bytes":  8193,
+                      "sha256":  "839E33821D923E3D7D02B60A8EDE8B557E2709088B48BCF9ED5C2161C5C1B1E5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-signature.md",
+                      "bytes":  2737,
+                      "sha256":  "FA759BF8B2EE70DCF3AB5403E6F31833D86EB1CF86812DD7C30DD909897416B2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-thread.md",
+                      "bytes":  4348,
+                      "sha256":  "EF0F803F3DC95C4012E55C3DA546A9835953E56CBFDBB5FC759A3D277CEE4503"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-triage.md",
+                      "bytes":  5302,
+                      "sha256":  "0B5EE4C76AA1FE7A1F6ED7FE246B6C7D83FEFD05267FCDDBB1E6077355DA5833"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-mail/references/lark-mail-watch.md",
+                      "bytes":  4938,
+                      "sha256":  "3E9BD88F9B73477165128C84433931734255C1A3D6C540A2E773D644A247BE12"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-minutes/SKILL.md",
+                      "bytes":  6845,
+                      "sha256":  "0D1EE5164D90C781DB5350712F39717B50901D7C55A2C1A3068DF645F38E98E6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-minutes/references/lark-minutes-download.md",
+                      "bytes":  4144,
+                      "sha256":  "CA4F9CF0DB129326C3905C65D951EBA52FE1194ACF2E2D29C02E7F3E59708386"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-minutes/references/lark-minutes-search.md",
+                      "bytes":  9612,
+                      "sha256":  "AA80CDD32D2F7C340C3AEAF3DFCB4C61A5F236DC08C24BA6142EBB3F7D8439B4"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-openapi-explorer/SKILL.md",
+                      "bytes":  4927,
+                      "sha256":  "AE89DEBC3F807F9947831B4525E1C118BC14544877C14C14AAA47298B1E863B4"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-shared/SKILL.md",
+                      "bytes":  6865,
+                      "sha256":  "E594C00163CDFDCC8CE8D3434EC7CBC445EAD9AF668F7CD509F7C342227D9373"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/SKILL.md",
+                      "bytes":  13117,
+                      "sha256":  "D89539CAD74354B8FEB022866E23C13BBF5DCA849B554B6A87B03E4793A887CF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-add-dimension.md",
+                      "bytes":  1743,
+                      "sha256":  "F7C0A08BBD4786C4C909050660932FCC00D15584C2A7B4E6AC6515188771EA67"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-append.md",
+                      "bytes":  1966,
+                      "sha256":  "69CAC2B4CC7043E10A5E2F93AEB9BD318E9F07C985F2F71A19F5CB2E2C5A72BD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-batch-set-style.md",
+                      "bytes":  2007,
+                      "sha256":  "DF5F8B3017B549A7BA02AFE21C8F902B34320CBEA071463242DE882F6706D647"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-create-filter-view-condition.md",
+                      "bytes":  1580,
+                      "sha256":  "0448662C103FDB7275F348DC77691B51DB813CEB1075973089DA808F2FEBD049"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-create-filter-view.md",
+                      "bytes":  1537,
+                      "sha256":  "FA68646A1F359F18F5C9FA148AD525CC7F8747FE4E0EA9B0A9F3E6E8255414F8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-create.md",
+                      "bytes":  2807,
+                      "sha256":  "F0E1EEECDE4BCBC594F1B2A9221468CE68E4A3F7D04145EB6C5B0C3424026841"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-delete-dimension.md",
+                      "bytes":  2019,
+                      "sha256":  "573D4872AD3AC46E4718A1E5E19BFEC4DF2EE77CC57466C9852D31F1585B2B75"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-delete-dropdown.md",
+                      "bytes":  1587,
+                      "sha256":  "CD8FB28873FF44D25BEEADCCCB835B7C7884F0D43B13937DD8557CD32528E074"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-delete-filter-view-condition.md",
+                      "bytes":  820,
+                      "sha256":  "64616C646838DC84350EF39B20BFD4A5932C3AEF7798339782887A90FA270F5D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-delete-filter-view.md",
+                      "bytes":  755,
+                      "sha256":  "A5E1A79220DF3C76ACDC04B5B51E90F7F380FDE86B9163BA1E08E6B7FEBACFE7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-export.md",
+                      "bytes":  1868,
+                      "sha256":  "96CD6BE7D04CCA9794031951D70D2BE39A82106F4D0FFB9685A2A66687D388FF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-find.md",
+                      "bytes":  2571,
+                      "sha256":  "A9BFAC4D97DED37EDA9D07510D018FA6DBAD75468370635F84FD4A195195E75C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-formula.md",
+                      "bytes":  3536,
+                      "sha256":  "F99FBF8B5D681F21E7F0750C1872EEB3DE02143EE6FA0255BEFD5CC7551951D9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-get-dropdown.md",
+                      "bytes":  1498,
+                      "sha256":  "FB6E43662FDF22E1B4F5275BF2F48BFFC500739EFBA7AE7C79CE50CDC9983EC1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-get-filter-view-condition.md",
+                      "bytes":  827,
+                      "sha256":  "EB699C3782185823A43F8B28D58A9E251283B1D8882E167B7F89CF8B841A1927"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-get-filter-view.md",
+                      "bytes":  718,
+                      "sha256":  "44D28BB0CB3B4B5362FFB49852C28A35CC1A9E4C09BDC317A77B41B364AFED56"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-info.md",
+                      "bytes":  1323,
+                      "sha256":  "27936853B5F8AA8A3171A36860C1BEF4AB796143A1C703511D45FAABAE9FA892"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-insert-dimension.md",
+                      "bytes":  2128,
+                      "sha256":  "8081275801250323C6F0D5E2B540959AD8CD0B8324C7C52D51F1BAA27A258B05"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-list-filter-view-conditions.md",
+                      "bytes":  804,
+                      "sha256":  "8949B96D6AA4122B112B214A666516153D15F6720C754E59499D097C7EA25AC0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-list-filter-views.md",
+                      "bytes":  723,
+                      "sha256":  "3B2C946478735C5B2CA5328928A30EF9D7075B065FB32D017391934CBB14D371"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-merge-cells.md",
+                      "bytes":  1724,
+                      "sha256":  "9B7242DBEB35E87A9C83053220DE04DCA740537E47DCFB934AD685652A4051B8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-move-dimension.md",
+                      "bytes":  1951,
+                      "sha256":  "96A99EA7787D250AB5AF7C96556E4A7A693F7AB0ACB5BC467CEBFAF1956162DD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-read.md",
+                      "bytes":  2438,
+                      "sha256":  "1557941976AD8E380D5E495E9D4F78C1B6FF50F421A4A7EAF42E9B7CC903D405"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-replace.md",
+                      "bytes":  2261,
+                      "sha256":  "F0F3BC3EC8B7C898C25CBBC5D0B47465F4CCEAC4630BAFD70A6FD1E05310F4E6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-set-dropdown.md",
+                      "bytes":  2610,
+                      "sha256":  "77F1C7A6EEAB95B4EBF8F64C27DCA332FBE21ADCFF203B53D4FB2A8CEE83FBD1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-set-style.md",
+                      "bytes":  2701,
+                      "sha256":  "964DE0EFA2DE72DD37723B1D278211AADD765D9BD3FF95409151333ABB184F4F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-unmerge-cells.md",
+                      "bytes":  1483,
+                      "sha256":  "40D88E78AB6F59D924A2B5196B5ED1277B9799BD939052075233133422CB5181"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-update-dimension.md",
+                      "bytes":  2342,
+                      "sha256":  "9A7215219CD58712373216243BAD7FC57DD5ED7934C469D15FFFC411B51E333C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-update-dropdown.md",
+                      "bytes":  1983,
+                      "sha256":  "621EBF33CABA009DC9165162075B2B723AE66524A7F014238F60387C8EBC7F16"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-update-filter-view-condition.md",
+                      "bytes":  949,
+                      "sha256":  "27680410AE5DD929AED036DA9AF3F53B7D092974140581C87D9D6B2A8C724AC2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-update-filter-view.md",
+                      "bytes":  759,
+                      "sha256":  "9BE08F6EE4796DEDED400A01FF7D6109A35C0656C4523EDD9B3C5BCB17F3BE26"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-write-image.md",
+                      "bytes":  2452,
+                      "sha256":  "AE1DA1AC0AECDA931302A5AB19BD8313789FA75C643556A56AAFEB5229D8C82E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-sheets/references/lark-sheets-write.md",
+                      "bytes":  2265,
+                      "sha256":  "2A2480974976DA97BA91B94565079E310AD62D8E34108BD9DF427E46EE372448"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-skill-maker/SKILL.md",
+                      "bytes":  2811,
+                      "sha256":  "A0F084BF27DC2F4788D552A5CBEAD4713E52F04AE1565E66A6A6F1FED9508B51"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/SKILL.md",
+                      "bytes":  21212,
+                      "sha256":  "1F272DBF6E00EE41DBB1766856DC7EAEA7837BE17F014577AFC4F4FFBA98D3F9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/examples.md",
+                      "bytes":  5936,
+                      "sha256":  "1FB29DA7B18A19575BE36B788CDC2987C56EA67B8952A655B77F951DA096D4D3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/lark-slides-create.md",
+                      "bytes":  7120,
+                      "sha256":  "6C28E8AFB6E58E1ACE2EBE63AFB1943865953A04E9749A51C521A3AB36438045"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/lark-slides-media-upload.md",
+                      "bytes":  6573,
+                      "sha256":  "1063EFF6BF744C4272CDA84172350431F07ED7B9C145D00BD5428161CF5FCCF8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/lark-slides-xml-presentation-slide-create.md",
+                      "bytes":  8261,
+                      "sha256":  "BCDE63C055EB14489BC4177C807DA2CE71DA4EAFD11697388F7D7DB0E649DCC4"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/lark-slides-xml-presentation-slide-delete.md",
+                      "bytes":  3873,
+                      "sha256":  "1E981A0A61CB801387D104CF5F559C4FBB8D5B2D3B4C468A485C9B70F5093C0F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/lark-slides-xml-presentations-get.md",
+                      "bytes":  2808,
+                      "sha256":  "EBC9E65240CEFD024FA60EF1A996B6AB3C27FD264D3CF92AB6E52565E6450850"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/slide-templates.md",
+                      "bytes":  8999,
+                      "sha256":  "C336B4969537480D38B53E6D12383F222D206C5D21023F48632DA33FC2757483"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/slides_demo.xml",
+                      "bytes":  12167,
+                      "sha256":  "331AB7A90FB19A4D27B57A6BF1335DFB73081299D23346BA2888F7B6EFD74859"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/slides_xml_schema_definition.xml",
+                      "bytes":  170136,
+                      "sha256":  "E457748005C83D1F636FC421982E8A142E3348C5D851B6472A8D6B4493073B83"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/xml-format-guide.md",
+                      "bytes":  9097,
+                      "sha256":  "AD31703280FA4C51C341DD2970EACEFC971FE5301F2012DD984473D40614E59D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-slides/references/xml-schema-quick-ref.md",
+                      "bytes":  5991,
+                      "sha256":  "24ED1E837FAFE121C90260DD55A0ECEA96F3517CF42D974AC736AFD7AF90599E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/SKILL.md",
+                      "bytes":  9439,
+                      "sha256":  "B9B5FC624C19FF8432A8784325E19AF71C14DC11703F960A71FE7C09713BAD01"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-assign.md",
+                      "bytes":  1217,
+                      "sha256":  "9A6B1940EE2148D45F621B48CEB6962C401CB57D4484953CE8849859D1565551"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-comment.md",
+                      "bytes":  902,
+                      "sha256":  "A214797E0CDA20B84E1C7B4FB74E16F09435372A0839A8E0FD4030951C6D975C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-complete.md",
+                      "bytes":  740,
+                      "sha256":  "8D80F65403DBFB425BD53DE2087D12A39D05DCA029987B23CB13FC3197AC64DA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-create.md",
+                      "bytes":  2513,
+                      "sha256":  "4549E5775DBBAC013E0B11052A454ED97D92B82A4489C45564D98C51BA349E9F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-followers.md",
+                      "bytes":  1082,
+                      "sha256":  "ED2A04029BD3992B3799BA35D990C24000FF57D2A3760D0FC0970BB654FE97EE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-get-my-tasks.md",
+                      "bytes":  2919,
+                      "sha256":  "7A2004A93530ADB6A5A0CFE8DBA996924A15FC43BB4AEA19E5C0C048799C1446"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-get-related-tasks.md",
+                      "bytes":  2953,
+                      "sha256":  "F5E8BA3221D29D452C017B38086CB68E52340B281E973077B95AC8A40C6F2D62"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-reminder.md",
+                      "bytes":  1501,
+                      "sha256":  "299565D936FFCCEC2EF3E34DEE1FAE424D9EA469799D7FC8232A6290A5C1B7BD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-reopen.md",
+                      "bytes":  740,
+                      "sha256":  "393C52D0F801A992A59748BAF28D8671F8AE63A2A674DBE8E55F99B603B038AC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-search.md",
+                      "bytes":  1571,
+                      "sha256":  "A666BA6A9C70DEE6A06290ED74054A3D751DC0AE098D9D898B74E42E0467B0B6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-set-ancestor.md",
+                      "bytes":  966,
+                      "sha256":  "F07DD5A0706F6A95DD83417A4A215903F9DBAD3F16C3A2A915D3BD0B850D4FCD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-subscribe-event.md",
+                      "bytes":  2812,
+                      "sha256":  "A519DEA5A52616CB3F1B5F45A83B162D232AA2FA78272FD1707C08FEB88946E0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-tasklist-create.md",
+                      "bytes":  1334,
+                      "sha256":  "011F4BF1902063F39EBBE18C94790E77DC621DD5D8A0A0318F361A2411D5C9AB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-tasklist-members.md",
+                      "bytes":  1202,
+                      "sha256":  "68C21892A5F4FB104FA0F455F4781F427B6766C999E7A8C242B642F1553D2E96"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-tasklist-search.md",
+                      "bytes":  1419,
+                      "sha256":  "C9A70B4D017BEF95F8F779343E3F01E49D2EC01E1AF2263F13476D3B918124AF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-tasklist-task-add.md",
+                      "bytes":  1514,
+                      "sha256":  "11DFB8D31BB7C5946E9CD7B881F593B82FC9592C319C0F3139B7B13433EDB51B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-task/references/lark-task-update.md",
+                      "bytes":  1386,
+                      "sha256":  "5FF63EBBF0B5413BF3D4E1C9DAB0DAC8F1015258B58A315080DC31798EEE6BC2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-vc/SKILL.md",
+                      "bytes":  8670,
+                      "sha256":  "D0E548A68AC859974A2ED63E781585D02B1C522AEF713D0FFFA1055052AF21B2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-vc/references/lark-vc-notes.md",
+                      "bytes":  5634,
+                      "sha256":  "9E2B5163DCBD8BD934CE8BF5E21F37585004759FEE242923562FCF7AC18B980C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-vc/references/lark-vc-recording.md",
+                      "bytes":  4995,
+                      "sha256":  "C486B428751AE39D87C6659902B31CFBBB5E8164DCEBE64AA4A2AF45601015FC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-vc/references/lark-vc-search.md",
+                      "bytes":  6326,
+                      "sha256":  "405A978DCCBCE985C221E8F66A405BA06F0F754D0C843B1A4AE0B692ACA43F49"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard/SKILL.md",
+                      "bytes":  9034,
+                      "sha256":  "FA4AD6D3C8C63061422BD64C3D602320978BA3DB7C559927875E967A2B6CBCB0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard/references/lark-whiteboard-query.md",
+                      "bytes":  2173,
+                      "sha256":  "E93D2516D8884E7FE6AEE7A8427805512AD9E07ABA1F1266A419F29A853D1DC3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard/references/lark-whiteboard-update.md",
+                      "bytes":  3607,
+                      "sha256":  "19BB9B8542C467C6D277028C9D08529D8C34DAD1F2DB62D0551E8F248A77417F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/SKILL.md",
+                      "bytes":  13530,
+                      "sha256":  "081DFAACFA849F272A707522F944A74B41F5D75308C54C8E1D41E9838B69C445"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/connectors.md",
+                      "bytes":  5589,
+                      "sha256":  "C4211B04F7DECC0F63422D0F0BB6E47BDAA1FA85CE04EC508FE99D6E880B7DB6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/content.md",
+                      "bytes":  1512,
+                      "sha256":  "8ED9A8B5552F63F7072E14957219EEA369A06B4BB7D6EBE8F401DF802A0EECF2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/layout.md",
+                      "bytes":  19128,
+                      "sha256":  "C05FE3FA2E4EE0684D2F68156C80037F4887017ADB2D39A1AD24A1B8630B7851"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/schema.md",
+                      "bytes":  14276,
+                      "sha256":  "BAA990E07A537E64B57879902B8CEEDC962039BCB5348C0EA26FC3E891BDCFEB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/style.md",
+                      "bytes":  11095,
+                      "sha256":  "B596A86895B7D6858B14CB8D18E37A842CB0078D774654F50FCD6B37BE146752"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/references/typography.md",
+                      "bytes":  2151,
+                      "sha256":  "9DF28A4EC089B7BFE894E2AC798D28F992C697B1A1012CE2A4561CA35FCEE761"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/architecture.md",
+                      "bytes":  22418,
+                      "sha256":  "12EED6CCA334D58EB31D45C2EBA9B8F9A5204597DC56D0DC52BD384F64CF2191"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/bar-chart.md",
+                      "bytes":  7837,
+                      "sha256":  "0220EB0B49A24463C47D30F66AE5D14B786B2EE7B527790C025912E22B94A6E6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/comparison.md",
+                      "bytes":  7595,
+                      "sha256":  "8F93EB09B817F4C13F50ACACAE83B44B10D01996F6E586E610A7EF80D90665CA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/fishbone.md",
+                      "bytes":  9813,
+                      "sha256":  "CC2BBA117E79143D6E54F1B983E0F6042CE5F11D8B30464DAF99A9B05CD29BB9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/flowchart.md",
+                      "bytes":  10834,
+                      "sha256":  "00C586DB0E4C22F10266D8A64866FB15DDBE5A90490AB2444967B9FC7FC74B2C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/flywheel.md",
+                      "bytes":  8806,
+                      "sha256":  "B65EDB33E808A731041AAE6378F1C7FC1864D1E8ADA8962C67754AC295BF17DE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/funnel.md",
+                      "bytes":  4321,
+                      "sha256":  "7BDE5F3C02C8F14676AE226E329AAFA569D051BC99B340F06B70B6F1CB478EE6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/line-chart.md",
+                      "bytes":  9407,
+                      "sha256":  "979D3F237F734719C1EB61015A78AE3C2A377874FA6C5A9285019F3531943301"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/mermaid.md",
+                      "bytes":  3648,
+                      "sha256":  "97710A7BC49EBB76382EF9BAB16CBC81662D0E13FAC1A160E62CEF292088A684"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/milestone.md",
+                      "bytes":  4098,
+                      "sha256":  "A047231F45E8A514A2B198606D1484FE845613D1700DAFE0B8E8C02199559C43"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/organization.md",
+                      "bytes":  8505,
+                      "sha256":  "979859935A0D0C4684CA38E7E6B7C67814BCB82B40B3D061549FCF48BDAF0FFF"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/pyramid.md",
+                      "bytes":  4010,
+                      "sha256":  "21A6BB4E36EAD12EE95B7C18ABBD179189E30EEFA947E5A6ECDE783791DD0559"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/swimlane.md",
+                      "bytes":  20015,
+                      "sha256":  "DF077013DE553F03AE7FA8F65D0ADDF406CDA51E01A081A87F9194C6ECC0B7D2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-whiteboard-cli/scenes/treemap.md",
+                      "bytes":  6245,
+                      "sha256":  "8A9D363392229684BFE6BFFF48896C54A7C73A5547DE26DB9FB2A20EBA5A274B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-wiki/SKILL.md",
+                      "bytes":  5260,
+                      "sha256":  "46E39F62ABF738F63DB2E46F40E78C242623F35A3F8662597C55112AB8D08442"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-wiki/references/lark-wiki-move.md",
+                      "bytes":  9652,
+                      "sha256":  "0E7FFCBC7992A2A168A0C1C0BA46DBC0A741DB4CFBFA5638ED02132E1D88051D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-wiki/references/lark-wiki-node-create.md",
+                      "bytes":  6742,
+                      "sha256":  "E0FBB63B55798B200291B65F2295CB67EAC89ED069E26FD881EA2E680B32A1D9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-workflow-meeting-summary/SKILL.md",
+                      "bytes":  4284,
+                      "sha256":  "CB315540123AA4F1309430E5819521249C1737FD8E17D5633E7D8838D6C3D65C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/cli-skills/lark-workflow-standup-report/SKILL.md",
+                      "bytes":  4436,
+                      "sha256":  "21DD0425D499928D09B01F8DFFCC45B853FD5EF893DCCA3FA938EE8D3052A20B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/references/commands-macos-linux.md",
+                      "bytes":  1029,
+                      "sha256":  "5BBF055A7359190B5F07BD50BB21281E0DC8D14C484C760AE72793EBB543A159"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/references/commands-windows-powershell.md",
+                      "bytes":  1942,
+                      "sha256":  "1F35B8145C48EBBEC99ABE1115DAF64308C8A245079CD79846F25A3E2330A3C7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/lark-tools/references/storage-paths.md",
+                      "bytes":  1720,
+                      "sha256":  "74DA6A62372E7C382DBBBF32E6769995389DE5F0DC0617DC60A1269A83B6D526"
+                  },
+                  {
+                      "path":  "core/builtin-skills/llm-call/SKILL.md",
+                      "bytes":  2412,
+                      "sha256":  "6D8D43FEE84F4732D644A805925237E7162762BA240F4E3C1C1129D02B9BDED3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/llm-call/scripts/llm_call.py",
+                      "bytes":  16997,
+                      "sha256":  "D62E5BDDD18928A7051D2031345FE984F38824A55F5AB5FADE63A78C8E5CF4B5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/SKILL.md",
+                      "bytes":  6484,
+                      "sha256":  "61E4313409274B5EB165A1C922171B3E640E90C8344A3505DB3E196C94185AF5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/agent.md",
+                      "bytes":  2420,
+                      "sha256":  "3CB876AF8097316BD6C4252838FE076F95587F439B5358874036F9126C3B5C0B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/im.md",
+                      "bytes":  2341,
+                      "sha256":  "8742785C11A66EF75320B08522F19E37FBB6B8118CA6D81F72D4C108C3379E6D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/mcp.md",
+                      "bytes":  3665,
+                      "sha256":  "E015B6C549A0C7826A0A35E7BA1A0C1805AFD28BDC6A5EE3713C0DB45E0B5CED"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/memory.md",
+                      "bytes":  8649,
+                      "sha256":  "956733C61D93239B4EFF67F34A7104A9FE980E895E7FDFE3F78FD744B3B86DD8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/session-and-communication.md",
+                      "bytes":  11282,
+                      "sha256":  "E443E0105CFF1FAD4B43431722AF2BE0BE072B7F252CFEC0304986FC59AE65CB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/skill-management.md",
+                      "bytes":  3040,
+                      "sha256":  "9DE40FD32EB06AAD5F0711FDFD45769B35FCD0467E58AC45E1DDE42C9C6B4E15"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/user-guide.md",
+                      "bytes":  8255,
+                      "sha256":  "244469D0F7BFFC627E6FA916A633C6F178765856744A4AD08D257846ABF55E4B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mavis/references/windows-tool-bootstrap.md",
+                      "bytes":  5504,
+                      "sha256":  "4807142CF05EFAA7564CCE52EF78386D32D64963FA3E024B4C7E4719B452F008"
+                  },
+                  {
+                      "path":  "core/builtin-skills/mcode-tools-master/SKILL.md",
+                      "bytes":  10455,
+                      "sha256":  "79C287A086430C5979D2D29B05ABDF02056CC82C5070C74E0C0E0F3E8A30B120"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/SKILL.md",
+                      "bytes":  26874,
+                      "sha256":  "3326A95D141E7F60A82824930BC558F008406F66FE54DD5C38BC90B440444981"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/acceptance.md",
+                      "bytes":  10752,
+                      "sha256":  "55F3D5EA9ECC9CCA73FC7A5F72CDE37F661347C72AAC80EEABBF6707DA0D5B88"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/agent-interaction.md",
+                      "bytes":  17866,
+                      "sha256":  "B3E9DB67315E87F4D0D42B6226D3B4D81DFD82FAC13B887F0A2E1D033F9A5BD2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/audio-capture.ts",
+                      "bytes":  3153,
+                      "sha256":  "64EAB27C0C4FA7CED62EC26D52E9883E419F26EF9FFDE25F7CA0A05D079AF921"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/client-api.md",
+                      "bytes":  50310,
+                      "sha256":  "DEC32A7E7C65BEFADD3A02799B4655C9EB3B0A45C706855915D1DAA52D321690"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/client-api.ts",
+                      "bytes":  27581,
+                      "sha256":  "9AF1B3A6687325DD92B84B52DFA15253A2184F8383C789704FBE8DDD8E1AEAD3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/client-index.html",
+                      "bytes":  248,
+                      "sha256":  "E194990D72EE9D6162D28DA281394E96C2BB89FC48171F536194CF7D9C9C5620"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/conversation-to-app.md",
+                      "bytes":  4014,
+                      "sha256":  "D86E0A83B86B4AC946A97C80714EA89FAF9582442A11BDD044E28B8AED3F8833"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/data-access.md",
+                      "bytes":  4357,
+                      "sha256":  "D01A54943264E2B3E6D65081F6C5AA7F081415C66DAD6A90C0CFC7E87EAF7ED9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/diagnostics.md",
+                      "bytes":  9078,
+                      "sha256":  "C17319D53C6A842013F6DD24A490EC695BC607776479B6E3383410226CC52FDB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/finished-package.md",
+                      "bytes":  2033,
+                      "sha256":  "39688480BB404B6B8317D91A1E2AC9F5B42CFBBBBD671F090E59B4BD2A1B6E3D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/host-connector-value.mjs",
+                      "bytes":  1740,
+                      "sha256":  "53BC35DC9B57C96C00BD16687E5B515EDCAB61B11956E5F82C4BF5A5C8B72061"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/mcp.md",
+                      "bytes":  3068,
+                      "sha256":  "3F065FAD7B536284EEEEC16731746EBD7325C48C8FA6912A8A798F3EDA70758E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/miniapp-api.ts",
+                      "bytes":  26440,
+                      "sha256":  "26E949C120801DB2E148E5FF176231883FE3ACF78E089596037B6FDF8A3BF13E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/minimax-code-visual-ui.md",
+                      "bytes":  14946,
+                      "sha256":  "29B6384C527A903BBBD5E301268FB7AF6AE2594A83714FE8A3D030D6DC8C7AC3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/node-entry.mjs",
+                      "bytes":  1968,
+                      "sha256":  "E4439BFBF0B7755B8D1F07D2793464F49306EE81F73246A902B525B5DCCE613B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/package-contract.md",
+                      "bytes":  17243,
+                      "sha256":  "D468EEDF5FA14869FAD70936FF71560504B418923FB16E8F02D18CE18B114FCB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/runtime-api.md",
+                      "bytes":  38760,
+                      "sha256":  "A20C549181D0C6823B9709C8C4BA8FB89099BAA2F45D6C1D3C3FC82929F56D8F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/security-and-state.md",
+                      "bytes":  4270,
+                      "sha256":  "65F52AB4C640949433014ADDD1457D85BC4DAD4A5691C2C0F33869785542C082"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/startup.md",
+                      "bytes":  6727,
+                      "sha256":  "FC772ABEE593A0343B78C395E90CEB55E3B9113C2D4DCFC7A6EF3EC0E6FF3F51"
+                  },
+                  {
+                      "path":  "core/builtin-skills/miniapp-creator/references/fixtures/host-connector-call-result.json",
+                      "bytes":  347,
+                      "sha256":  "38A88A4C96889D62E1D5622431ABC6082CCB2442CCA92E6EF1023280504E49FA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/SKILL.md",
+                      "bytes":  8853,
+                      "sha256":  "CFC69BF793EECB30C19FC45BAB868FE1DE7DEDD1246984B8C1CBB8EB2784CF9B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/account-models.md",
+                      "bytes":  5557,
+                      "sha256":  "CA734D0AB7BE06CFC0BE8576FDD16608D7550208BE56089372098EADE2061345"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/agents.md",
+                      "bytes":  1708,
+                      "sha256":  "7EFCE32401C58FAE9DEC050F1F594C215D6246F002FE3C474AAF76403388875F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/extensions.md",
+                      "bytes":  4097,
+                      "sha256":  "763B4D5CCF452875E95C0F6991F2C2998D2502235B0FEF9C10067F8B0824E73A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/hooks.md",
+                      "bytes":  9192,
+                      "sha256":  "3B2DE13659B9AB2298254FB787CE987ADADF11071344382CA9EBDD2532012C63"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/miniapps.md",
+                      "bytes":  3797,
+                      "sha256":  "00E99DBFB8410DF08057884FD60E878B23045BB74B7B5E54EAD9A42EDAF7C9AA"
+                  },
+                  {
+                      "path":  "core/builtin-skills/minimax-code-product/references/workflows.md",
+                      "bytes":  2264,
+                      "sha256":  "0CA6BD9E1352DC584093C4B5421A37C08515B711B35FC10E6A5EDFA964DC2F56"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/SKILL.md",
+                      "bytes":  24397,
+                      "sha256":  "9402D27BDF127911D5037D12289116D3AD87E7D3EE58A99482DEAFD575B3968D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-1.png",
+                      "bytes":  122688,
+                      "sha256":  "3E2BB8F5498947AB2A0B06175A945E14AC0DDCD16E4AC7FDC24B1689D116559C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-2.png",
+                      "bytes":  124452,
+                      "sha256":  "4BA1394741AD67A06FB2AF52DCD5A8227BAF3E808D13F12EEC0D28B6187A9DEE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-3.png",
+                      "bytes":  122333,
+                      "sha256":  "D9A7A52E0B38F00FE3E7DE3411A6E7921F6C5C938B06AD48CCD88B890AA5CAD0"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-4.png",
+                      "bytes":  94396,
+                      "sha256":  "8A1C06B2F13AD48CD08FDC73481CF65FD9C829C3DEBB44FC64EF7D70852E84A9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-5.png",
+                      "bytes":  67148,
+                      "sha256":  "632496DF08E2D3B466ABCC98EA3E126E22A098192C65E96071905421827F855D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-6.png",
+                      "bytes":  96382,
+                      "sha256":  "DE9B2497B7CAC4607A01CE76C0030895B320EB09414B7B881A8ECC543651A082"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-7.png",
+                      "bytes":  66402,
+                      "sha256":  "77C5D02FA2DDECE7D430DCC142610A7696B3BE02464E6C00B88D7570D5C73646"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-8.png",
+                      "bytes":  98985,
+                      "sha256":  "ADF49E2A2F8DB05D2A9D85F88DFA129813C9ED3E2E4E7B8D31F5AFA06763116A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/business/business-9.png",
+                      "bytes":  67405,
+                      "sha256":  "B0E02C24D7890E609C51F7DAA22EAFB5D7B447B5B8465C08C299E61CF69E125A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/code/code-1.png",
+                      "bytes":  128363,
+                      "sha256":  "954EFDDB7BBC1DE3D144F5DBA80170CE9B42BBEBF192BCA455122B6D4E499D2F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/code/code-2.png",
+                      "bytes":  127527,
+                      "sha256":  "888547C34C661E12F25A98252A25B8745D80B0A836861CC71AB67E5908D0D088"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/code/code-3.png",
+                      "bytes":  123321,
+                      "sha256":  "4000CB0C2A0412D0E49B3821ED0F99161BBC7893BB84515A5D9E4C895B5C222C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-1.png",
+                      "bytes":  133445,
+                      "sha256":  "ABD94BA7597B53C839EB3EAA72E701E0E7D1F1100DFF6C9845842711D653091E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-2.png",
+                      "bytes":  159711,
+                      "sha256":  "97797F61DF993518C4C542BA655DC01CCFEADB9FBD0CAD454AA9858DAF7994C3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-3.png",
+                      "bytes":  149961,
+                      "sha256":  "A10BDE026B12EB2041E62A4AD905372E7AA3520A90AFD58448AF7FA090DBF964"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-4.png",
+                      "bytes":  159484,
+                      "sha256":  "76105289C782A38B72346E2353CA742B4AD4DFC9A39611E7D90A2DDBF0FDA024"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-5.png",
+                      "bytes":  158805,
+                      "sha256":  "FEF268246ADCC135487EBCD57BF07FB973BE8F3AB91CB0569184EACAB69C1C5D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/design-and-sites/design-and-sites-6.png",
+                      "bytes":  135569,
+                      "sha256":  "B190E27CB4F06E39D9D4596EC0919A6B062459D9A5A5DECCF3F685A02A5396EB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/education/education-1.png",
+                      "bytes":  411613,
+                      "sha256":  "AEFC982D5ADA7317024571AEDF497D5FCA0BDB48F890A809D27573867ED30104"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/education/education-2.png",
+                      "bytes":  102104,
+                      "sha256":  "918090301F3FFBB13CACABD53A5651D3889074A9492EDE38434BDF9EBAAC6012"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/education/education-3.png",
+                      "bytes":  90937,
+                      "sha256":  "950C24743ACDB563B0D37104A6DEFCDBE7E65D4FFD44AE4B9F10667C44005258"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/education/education-4.png",
+                      "bytes":  141246,
+                      "sha256":  "65BE8285EE16B5CB09180FF5688740B59AE3F4BE49C9441E81ABB2E53D0722C3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/office/office-1.png",
+                      "bytes":  156603,
+                      "sha256":  "ED461645C1F81115FC74A90FB70611C3F729869383810320322F5F72745006D7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/office/office-2.png",
+                      "bytes":  145359,
+                      "sha256":  "5CF4623042DC86E8D65BC6641C041A19D5C421E3A9294E91F2F703924373904B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/office/office-3.png",
+                      "bytes":  107080,
+                      "sha256":  "6231FCBC62ED13C61712A4337279CE0E12B55E250DC6540C6755B7EADF773932"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/office/office-4.png",
+                      "bytes":  115328,
+                      "sha256":  "400CDAEDDC67ECB5F475ED52CBF8C803B66C390A7E485F683FB31E2EA8DBD50B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/other/other-1.png",
+                      "bytes":  141423,
+                      "sha256":  "39B820D5D838BD56066080A451B2DF7A81F2B43DBD015B217567D98658A2B450"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/other/other-2.png",
+                      "bytes":  136686,
+                      "sha256":  "866BB347332F41700AD5A85C55946CD3BFC1B18075C0A285E7E02FA55028912C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/productivity/productivity-1.png",
+                      "bytes":  126266,
+                      "sha256":  "4D74CE8861C59E39C4B8B799FE383A4F625EE9FD94EC26E9F0814E459B8A0A5E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/productivity/productivity-2.png",
+                      "bytes":  1592343,
+                      "sha256":  "9AECFB3CCC18774A2462B235C50DFDDF86C3C47B0B61C8092BAAC4602AA6E61F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/sales/sales-1.png",
+                      "bytes":  142319,
+                      "sha256":  "4334D2EF9FC568A678657FC97C7C53E8CEA8243DBFF09DA37C5E9AAF2A35C606"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/sales/sales-2.png",
+                      "bytes":  158848,
+                      "sha256":  "568484C0E022424C8D741C9B3706FB294920CFB4A08F55346E5C0283C1E88484"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/sales/sales-3.png",
+                      "bytes":  153295,
+                      "sha256":  "214875C75D09B16AA1DAB025F31ACC7297A685009F5946080AAE14F491F1286B"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/science-and-healthcare/science-and-healthcare-1.png",
+                      "bytes":  121834,
+                      "sha256":  "8B4801A38E9A1CCF0F8B54A981089625D670DC54AA8454E244395061C2C9801D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/science-and-healthcare/science-and-healthcare-2.png",
+                      "bytes":  163362,
+                      "sha256":  "284AF44946713A4E376C3ED750454CEE85EE81634D09951E02E4F6003F639E6A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/science-and-healthcare/science-and-healthcare-3.png",
+                      "bytes":  150012,
+                      "sha256":  "0FA3E0F5C4AAF765D3494A1BFE9814ABFDC62B919896C070DB3E99DBE015C603"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/studio/studio-1.png",
+                      "bytes":  144792,
+                      "sha256":  "73E23CC506B2BD563AF742AC34D9C010B0C6578303E6100923727C04CA5159C8"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/studio/studio-2.png",
+                      "bytes":  126539,
+                      "sha256":  "CF95858AA881AA94612AEA4BFBCBEAE2EC6EFC5EE340D9E5B3639AD2025D7D6C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons/studio/studio-3.png",
+                      "bytes":  98391,
+                      "sha256":  "BADB6B72E909B813C50165FB64ACE8C68269073C93E0BE432F24EBBF859A90EB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-1.png",
+                      "bytes":  409519,
+                      "sha256":  "C2BAD857674FA4091E2DB8B5C5E161159DD8DF6C1DB5F332177F366687130425"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-2.png",
+                      "bytes":  409879,
+                      "sha256":  "B3B2B568526B8684F5C6AEEC39B9E5DBFEEB380F0A04A2594DA99526A47131B9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-3.png",
+                      "bytes":  416727,
+                      "sha256":  "31A6A02A4C09CB5D92E76A79AB54B561BB0B7461831E5747AE68D8F221F33EEC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-4.png",
+                      "bytes":  322108,
+                      "sha256":  "BA31C5EAF5C0E0357F9FF47C5DE30C93DD52E7E3548ED72E379240FD026A0E4C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-5.png",
+                      "bytes":  247340,
+                      "sha256":  "04D67B6BC1920EB44A168C5053BD07044BF2B98F2FCD4714482BCEA1529B4129"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-6.png",
+                      "bytes":  326702,
+                      "sha256":  "BBF591ACEE44E095A40525A27FB8337CF69F36823AEAC21F9C5F769C329C9745"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-7.png",
+                      "bytes":  244932,
+                      "sha256":  "4415E3599026DBB7F1CB6219D36B82C9BC7E78FBB532A13AE6BDE8C27AA56183"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-8.png",
+                      "bytes":  323688,
+                      "sha256":  "B789781C3A633E9BE7E1ADCAB12E7A71B37B6CBA166703FE22501EE9281C5B42"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/business/business-9.png",
+                      "bytes":  246742,
+                      "sha256":  "A7998EB6A08703633574763EA9D01CC2FD894EE348925D7DAEB2410179559B5D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/code/code-1.png",
+                      "bytes":  154589,
+                      "sha256":  "E16BD1CE18915DAC39065B90B55A44596A5E495695B1E284B15CE55DF4C3852F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/code/code-2.png",
+                      "bytes":  158049,
+                      "sha256":  "0FD55E85743AF48E878BE6F1A8E2B6198C967570026AEE73132561F24C2712AC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/code/code-3.png",
+                      "bytes":  204540,
+                      "sha256":  "5858D2A54DA90E167E2B11225393A41B150243AD166C0C67840047E5DE148592"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-1.png",
+                      "bytes":  176482,
+                      "sha256":  "31AB8B5A0030CA77E6BED7003BF7DEEA717C2477C2D190A1D065AB2564B56759"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-2.png",
+                      "bytes":  197007,
+                      "sha256":  "09F1E02E9788C835C39DA2A84E06CA42EDF0AF780B15BDCDA2D71A28C49E0055"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-3.png",
+                      "bytes":  193208,
+                      "sha256":  "A9A7D11CD6674869319198CBC4E566CF43334264B84A8F60662B84CD7653EA40"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-4.png",
+                      "bytes":  209122,
+                      "sha256":  "DDAE99A9A57D7380CBA515ED21B8BC7009C93ED316871F1077C263F5DAACB8B6"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-5.png",
+                      "bytes":  199910,
+                      "sha256":  "B9F954A07D0BAFF7BC5F51B0B16AFBAFDCE2B7C660E13E01D05A71AA4357831C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/design-and-sites/design-and-sites-6.png",
+                      "bytes":  185300,
+                      "sha256":  "F715E33CB33840CE11F6E49EC72C02594C14E3F85689A938B871BFEE949D1B32"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/education/education-1.png",
+                      "bytes":  149368,
+                      "sha256":  "A6510C9EB61EB62234158C0379DE3AAD3F02C3BFDEE1E1DBC636648FD1A57332"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/education/education-2.png",
+                      "bytes":  125503,
+                      "sha256":  "0151E5DB6F1F9D0F226291CB34A3E6A9329A1D9DC4A2DB85AA4F0DA3C2CCEBFD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/education/education-3.png",
+                      "bytes":  131998,
+                      "sha256":  "93C76AEC24BD87AED386914258CDD3A7D162A622AF832B1F9B7BEAE0B527CBAE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/education/education-4.png",
+                      "bytes":  160546,
+                      "sha256":  "F1D6A73073EE492DEBA08BB26148F03606CF2F6FFB510986D0C732DE01C337D9"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/office/office-1.png",
+                      "bytes":  152470,
+                      "sha256":  "61688065202435DEDE2A2579914F4B03F19E74865C0639E3CA5A6B4B50F91172"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/office/office-2.png",
+                      "bytes":  139109,
+                      "sha256":  "FF9AC1711BB4103E56A1F3808CAF3A30DA24BC180BC9282C1E511DCC12891C56"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/office/office-3.png",
+                      "bytes":  104057,
+                      "sha256":  "7201DB81B968AEB7ED06331446B0B44C3DEBD9CE3B54319D397E2A792012498E"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/office/office-4.png",
+                      "bytes":  120968,
+                      "sha256":  "00440821144F4E01F2297ACA7EABC5E7EAD00EFD4AC6D95E6AFC1308D4900802"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/other/other-1.png",
+                      "bytes":  48693,
+                      "sha256":  "1C2D97208937E444E03572A3FD87BAF55183FF26A1E658818AF0A4FF6ABA9F9A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/other/other-2.png",
+                      "bytes":  41756,
+                      "sha256":  "C1C9289E62E525A0420844A48D3AB4B17F1917D8EE7968BCB4FACE276C2AA97F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/productivity/productivity-1.png",
+                      "bytes":  140884,
+                      "sha256":  "82B0843F0FD03A4F405FBB455BDA305D23AEBA48755E71393F03BBEA10FA151C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/productivity/productivity-2.png",
+                      "bytes":  122187,
+                      "sha256":  "64D62E9B3677AC2310C7C7AB3B83BB87180D8B081597174463161640D84E6CE5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/sales/sales-1.png",
+                      "bytes":  198595,
+                      "sha256":  "462DEA33C83A35FCC0B1312AEA20EE37EB540DE27E3898BEB537594D7539CA0A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/sales/sales-2.png",
+                      "bytes":  193997,
+                      "sha256":  "534B528BAC48C40D14F2DFEEB9BEAED2DE3E4D388402C68BC879DDEB37B88D3F"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/sales/sales-3.png",
+                      "bytes":  166055,
+                      "sha256":  "CA98D327FAC09B1E5859511FD92AF56F602B03F2A3B3E6A5E21163912A624D48"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/science-and-healthcare/science-and-healthcare-1.png",
+                      "bytes":  155489,
+                      "sha256":  "1BABA5562BEEFEC98CA530D268B693AD151990721A43E0E4767E7C13B6282D89"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/science-and-healthcare/science-and-healthcare-2.png",
+                      "bytes":  188844,
+                      "sha256":  "A7CCDB926119DEAD43487D63662C177693914691608C3AE820BD5AD6035C90CC"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/science-and-healthcare/science-and-healthcare-3.png",
+                      "bytes":  198407,
+                      "sha256":  "7C9A8CED0E1735D634736BD27B071B4A7E9145229D46F8085115DC4B299C0449"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/studio/studio-1.png",
+                      "bytes":  165920,
+                      "sha256":  "2534AD051639EC1D2FA8C676417EE68AFB3569D342DAB5FE4A360BC5B868381C"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/studio/studio-2.png",
+                      "bytes":  154656,
+                      "sha256":  "64A66174E924A2CD0BD69FB30C48A7294F61794729FBBAEF86A0AE0173F035D1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/assets/category-icons-dark/studio/studio-3.png",
+                      "bytes":  116494,
+                      "sha256":  "14871FC2234E984DD7FCAD09265785321547FDDC1A4B72D1122DC8DBEED4B57A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/category-icons.md",
+                      "bytes":  2460,
+                      "sha256":  "D7B3F67F8C831F933A5317FD3EA250D5638298A96C96A089A6633C73AF52D900"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-enhancement-decision.md",
+                      "bytes":  9028,
+                      "sha256":  "86647650956DC45DDB85492FD3409C9606DA87A332DC40550BDF2FB9271E2403"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-visualizer.md",
+                      "bytes":  14459,
+                      "sha256":  "99A0E326A267E0841FF4BCDD35D57D290CCBE5E9EA17A23A4A012FE0FAEC2D2A"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/local-plugin-agents.md",
+                      "bytes":  6770,
+                      "sha256":  "8F615CFDBE345F2C13F1D6100FA996424D4398C127D77E87C171C43517D29BF1"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/local-plugin-hooks.md",
+                      "bytes":  15827,
+                      "sha256":  "34786705E8D6A931671328C4F5BBF150B8E7C924F97510C6C752A2684133D143"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/local-plugin-v1.md",
+                      "bytes":  8938,
+                      "sha256":  "263E2697DFDB4C255675DA01570DB088C0EC39823C0A108E6E4D217A5E67D6EE"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-widget/SKILL.md",
+                      "bytes":  21619,
+                      "sha256":  "6B8176F0F9BF97696BBD8AB2D120CA9C40D251AE85C5B17D5B6FA613B7FF97C2"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-widget/references/color-system.md",
+                      "bytes":  8023,
+                      "sha256":  "048BBDCF10A25F31845A71295A18A3FAA0F18EE796FF5D186DE93976B918220D"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-widget/references/visual-rules.md",
+                      "bytes":  4989,
+                      "sha256":  "D98031536B0D98DBDF6B5D47A02ED79A9FA1E367CCA032A8739D15D0877F8A98"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-widget/references/widget-patterns.md",
+                      "bytes":  7498,
+                      "sha256":  "68BB9A281D87BFB13EB6B9B0BF5B070C4B05E6915EA0155D4189705DD351DFEB"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-creator/references/genui-widget/references/widget-recipes.md",
+                      "bytes":  9456,
+                      "sha256":  "CE633DF0E747E18E2F8D4041320F3D7B22A21950ACD72D2DBF8EF015629D46FD"
+                  },
+                  {
+                      "path":  "core/builtin-skills/plugin-management/SKILL.md",
+                      "bytes":  8907,
+                      "sha256":  "CD50E633943D07E97B0E213374D02F704777162C6F2E3096841FFEF1F296FEF3"
+                  },
+                  {
+                      "path":  "core/builtin-skills/resume-codex/SKILL.md",
+                      "bytes":  2379,
+                      "sha256":  "4764420C09350DB6C9FF6182A70CB2B7E1BD9819C80D65725C13134C57DA9A14"
+                  },
+                  {
+                      "path":  "core/builtin-skills/resume-codex/scripts/session-reader.mjs",
+                      "bytes":  14795,
+                      "sha256":  "C9E0A044D634A1F8F851EBDCA45434109EF9C26C220521F31A37D65CA22DBE79"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/SKILL.md",
+                      "bytes":  9304,
+                      "sha256":  "BC88209C8034EA743DAB2A1A251AC9D0A39FE9DD9139DB8B0F80E91B8355FC45"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/anti-patterns.md",
+                      "bytes":  7249,
+                      "sha256":  "6D12FBC32F892C976092EAEF9FC69C10FA75E74B36E78CFA17F64D2CC1BB8926"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/commands-macos-linux.md",
+                      "bytes":  1163,
+                      "sha256":  "14DB7DA31B82B2DDA96A7767C69791BC135708B6890807C5C42EAC7996046600"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/commands-windows-powershell.md",
+                      "bytes":  1843,
+                      "sha256":  "474CA3139A6EF67F779A4D294ECC315B0BA6B0FCE45DCF42739ADB86C6035AB5"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/description-rubric.md",
+                      "bytes":  4183,
+                      "sha256":  "7A3237704EFA89B13E05C454FE3B5DD94EEE0AD8DB6FC62905C60C91F9F4FEE7"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/skill-template.md",
+                      "bytes":  3812,
+                      "sha256":  "2809538861E93EB70819CE82D1B17C3C95CC4E99FC1407265AFE6E8829780908"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/references/when-to-bundle-scripts.md",
+                      "bytes":  5089,
+                      "sha256":  "7186E9123B53BF82DE10C67B348C0601F106D36D55E9387E70F990933FC4DD01"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-creator/scripts/lint-skill.js",
+                      "bytes":  7808,
+                      "sha256":  "39629FA29A06FCC5A07DA9C6473A7E6FFFEDD3FC43C800EB2A0FFCB24A24FB76"
+                  },
+                  {
+                      "path":  "core/builtin-skills/skill-refiner/SKILL.md",
+                      "bytes":  5175,
+                      "sha256":  "6C135D82DE84FD651FA242D7E36A0F1C565183CD265578C47488321A64D0F391"
+                  },
+                  {
+                      "path":  "core/builtin-skills/visual-page/SKILL.md",
+                      "bytes":  10325,
+                      "sha256":  "DA62A62FB18A06E717D3E29506AA31D60FA430A8BB74611F794CB86E16232F9D"
+                  },
+                  {
+                      "path":  "core/config/access-control.yaml",
+                      "bytes":  165,
+                      "sha256":  "208A6C4D39671D941AE590CA3090C887BB672676B85196EF095E49CC87E86FD9"
+                  },
+                  {
+                      "path":  "core/config/channel-bindings.yaml",
+                      "bytes":  1126,
+                      "sha256":  "0626E6803E868B050C9289B3926E1926B68BCFB3FE558AB50EF4B6E121B9A87C"
+                  },
+                  {
+                      "path":  "core/config/channel-routes.yaml",
+                      "bytes":  502,
+                      "sha256":  "6BE07C6EFF40A9232CA462135F1CFED31FE056B6E5167DA6DCD9C2C9959E2D02"
+                  },
+                  {
+                      "path":  "core/config/config.yaml",
+                      "bytes":  2977,
+                      "sha256":  "9C925D5CF11967EACA95BC95D2096602D85EDDA16BC863DEAF6705E7F5307140"
+                  },
+                  {
+                      "path":  "core/config/mcp-runtime-names.json",
+                      "bytes":  6418,
+                      "sha256":  "578DD896FF12838F398B7949A02521957D122802D2EA89CBAEE82EE825AF5BC2"
+                  },
+                  {
+                      "path":  "core/config/mcp.json",
+                      "bytes":  13304,
+                      "sha256":  "6EEFD956BC2F0418AFE4FE397B7FF653EFEB58F12C5E509427C5537982E23C19"
+                  },
+                  {
+                      "path":  "core/config/permission.json",
+                      "bytes":  2591,
+                      "sha256":  "273D3C2E35F3C13DF08145860DD433DC1F56CF329E18041149953DF9EEF66722"
+                  },
+                  {
+                      "path":  "core/config/wechat-channel.yaml",
+                      "bytes":  449,
+                      "sha256":  "293C5BC0615280D4C675EAEC3BE236595889495E50DA4AB8712100FB1B141513"
+                  },
+                  {
+                      "path":  "core/memory/user.md",
+                      "bytes":  325555,
+                      "sha256":  "ECD5EE3BF18DF4FCD0B470AA1FED54527819922DBFB2A0190A484DBF546C9FD8"
+                  },
+                  {
+                      "path":  "core/memory/user.md.tmp_2026-09-04_5drivers",
+                      "bytes":  1437,
+                      "sha256":  "D65B584CE4453ABADAC0408820C377BC56F875AE472C4EAD8F7EB3747C7255A6"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-17.json",
+                      "bytes":  1089,
+                      "sha256":  "C4D481A42331502617DED50ECA30C6A8DA16BA869C28538E63212A3621C411CD"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-18.json",
+                      "bytes":  363,
+                      "sha256":  "803AE5FB37BD0BB1DC9B4D9A0FA14D8D5667539657AC440CC31002F715F44A28"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-19.json",
+                      "bytes":  183,
+                      "sha256":  "B6406619DEF7E34031F04BC9030AEC26222A563DA42DA11556513F6C6A236D44"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-20.json",
+                      "bytes":  183,
+                      "sha256":  "EDACE8C40901930EA4051E278A1F3FC7D860AAEFCC59E0F5FE5870E1F35E761A"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-21.json",
+                      "bytes":  363,
+                      "sha256":  "58338A2C9C011806911B2B3AA89E7350E66AAC8B801E64648A09E35A0C79A1FC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-22.json",
+                      "bytes":  722,
+                      "sha256":  "86C128D2E06F62E9EC78F40315E50A6C50C0E49DB4B588F59AA53CE1F0BB3B3A"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-23.json",
+                      "bytes":  542,
+                      "sha256":  "D8CE854CB7DE3B4D01FCEDB9B4E7FC398F2C47814032F1FC67DE30FB61311BEA"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-25.json",
+                      "bytes":  183,
+                      "sha256":  "0F778F53AD83FE595561C8D0C56AC7F7417B50774EFA922391B631D6BDBCCF7C"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-08-26.json",
+                      "bytes":  183,
+                      "sha256":  "87D279012215D34DAD7AFA325F6B45E105C8BAB4D4A93AF643B018029ECAAF35"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-03.json",
+                      "bytes":  183,
+                      "sha256":  "43D3271611DD2FF3E5196A9EE4A44B35A4616217433D5571C0E9ACFAEE2491F2"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-04.json",
+                      "bytes":  543,
+                      "sha256":  "7CEED07EAD056F99E5077F4FBFBC7068AC66A7540C054FD3C085E0194CD56D93"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-05.json",
+                      "bytes":  902,
+                      "sha256":  "DDEE632EEDA44E8438F32E0B795C287258708BF8F1F28B1BCD46ACF6557D3630"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-06.json",
+                      "bytes":  363,
+                      "sha256":  "AC1EF9FC24D948391E360F6B374A800AA9C115561156901097B4ACA839776432"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-07.json",
+                      "bytes":  1626,
+                      "sha256":  "EBE10FAC276BB74FAC7ECA030BF2B753F20AD2ABF9D6094D2272049E60CB60F7"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-08.json",
+                      "bytes":  723,
+                      "sha256":  "543CA03CFB25DDEC6110DA3188A99BE3BD48F2802B704A284F9D9A16BA0D208B"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-09.json",
+                      "bytes":  1083,
+                      "sha256":  "BC31F4759AB6276E5A4D2BF000507D8D04DE1C16C5228D9930255FA413CF1AAC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-10.json",
+                      "bytes":  1081,
+                      "sha256":  "A8ABD3AD4A436881B6180A57EEEEBA53A640D29E6A7720FB4F2F754F8A24851D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-11.json",
+                      "bytes":  1083,
+                      "sha256":  "229D822203E2C957D9AA108F18C4507CD2D57F81C9FD5BCCDDDE8332E99E6DA5"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-12.json",
+                      "bytes":  723,
+                      "sha256":  "B6EB4DD2A847DAB9B0A093AE727E60304946721826726418981D234911918CB7"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-13.json",
+                      "bytes":  543,
+                      "sha256":  "432613937EAE918532CF4B0225F2C3527514946503F2D2DDDF8E698CCA91DCE1"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-14.json",
+                      "bytes":  543,
+                      "sha256":  "CEED9068A6C04F916F8E3FB604FC872EFDE720B283A801C69C9B23AD6AA2762D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-15.json",
+                      "bytes":  903,
+                      "sha256":  "ADA4D80F4E0ECC13E0E107F41AA4D79796460C7769DE36C014DA592EC8D0B15F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-16.json",
+                      "bytes":  543,
+                      "sha256":  "9CB3B6EC2CAD69033E21A19C2CB51A14A78C09B4516FD7A83D19BBEBB8751E70"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-17.json",
+                      "bytes":  1083,
+                      "sha256":  "15A063BAA8D2EB8F701C1A641D15C45249227D6E8061CF7A4555A7FF2CD7353D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-18.json",
+                      "bytes":  904,
+                      "sha256":  "99776FF2C2EBD81B1591832EC2259119B6EEAA9D2167A456962ECFF4AECED4E7"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-19.json",
+                      "bytes":  723,
+                      "sha256":  "5C69EB7235044F061ABCEF1666D69EF785D75E9193FFE831E82B9D5F50038B4B"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-20.json",
+                      "bytes":  1808,
+                      "sha256":  "609D3F70BDB79E1255CE43065040CC33732961C26B6DB8FEE69DC4AAB3A7FDDB"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-21.json",
+                      "bytes":  1262,
+                      "sha256":  "A84BE12B3AB346D66FB141E685A6CB36436918F1D69CE2ED385547DEBBE25A30"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-22.json",
+                      "bytes":  3796,
+                      "sha256":  "8D1CB088F588304B83BC2AC160B98BFDF0784AC459EDB5D48F7205A02656B8CF"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-23.json",
+                      "bytes":  543,
+                      "sha256":  "514D1D4596D3F0AD655AAF51BF60EE53D075003D9989DB7F11F94101F21A207E"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-24.json",
+                      "bytes":  543,
+                      "sha256":  "68740182CDCDC2506A5F69198BD0A717324391041AC8CC077B4B0E6D0B78884C"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-25.json",
+                      "bytes":  543,
+                      "sha256":  "1D75501A4BEFF158E4795D84B30F408C674BFCCDEDEFF9B956EC8067DCCA532E"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-26.json",
+                      "bytes":  183,
+                      "sha256":  "E7B25ACF4E901E9E6FCB141937EAD4D6C26B518FB0C1A8BBAAC11EB298D47D2D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-27.json",
+                      "bytes":  722,
+                      "sha256":  "0A5B0A70A525A8B0955F8972D9BC2D316F52390137C66ED529137505FB727A54"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-28.json",
+                      "bytes":  723,
+                      "sha256":  "C176A8820F9D9039C813666E9A0EB2C7DB8751C64E0E2A4EEB3EAE22C127EB24"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-29.json",
+                      "bytes":  1264,
+                      "sha256":  "2234D95ED7D7A49ACE958C21FE9644BF520FCAF43EA1675FD9FF5468D04BB6F8"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-09-30.json",
+                      "bytes":  3610,
+                      "sha256":  "7D8CE4A23FE89B7795155CAEEC6A414CC67F4E04A6BF17C1505FE438FD2011D8"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-01.json",
+                      "bytes":  1263,
+                      "sha256":  "34FE8D9F11D2CDD305987FDD0B3D3358D0B64C315082ABD5A1D60E1952D9F3B3"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-02.json",
+                      "bytes":  903,
+                      "sha256":  "2A4571822C9E8BB2D3DBECE63AA39942D5D77E7BE52675648E1C60F8519936F4"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-04.json",
+                      "bytes":  362,
+                      "sha256":  "15439CDD7C04AB9C15B6A79CE51555B0A2270CC748AE46670E623406C6A65C4D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-05.json",
+                      "bytes":  1441,
+                      "sha256":  "2E24D96C47625232B751E32D312F3F1A384CA353F468F15DE0E2883609B9C5D1"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-06.json",
+                      "bytes":  2161,
+                      "sha256":  "523485B163C1ADFDB38D8EDC29C27AFF18DDAD1DCDBAB88765C54C7D68E4D4A7"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-07.json",
+                      "bytes":  1619,
+                      "sha256":  "D0F8FD7256E59EA2C3FA277568EC1954581CCDFC4E7E5D5647AC3E21B01477BE"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-08.json",
+                      "bytes":  899,
+                      "sha256":  "5A17DCFB13A8FD5C9E117810B9A222E7072927B5A4F818DBD991403286E2A5C8"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-09.json",
+                      "bytes":  1440,
+                      "sha256":  "DECC43EBE089E9F2006DBBEFEC0D0CCB4814621AF4290DEAF9C5CBE7344F5604"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-10.json",
+                      "bytes":  721,
+                      "sha256":  "B415D48EC6C7DE0B3EA5BAD7E5C4FE7EC829EFD41DF92130AF67D1F8865C7426"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-11.json",
+                      "bytes":  3821,
+                      "sha256":  "1AB301023A8C8A4BBAACA22DAFFE7B69D6DAD6F1B1A4A701BB7ECACA88378B28"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-12.json",
+                      "bytes":  4353,
+                      "sha256":  "8F21C9532BAFEC3071F3B274126ECB548A9E828425EEA114A9A9F769250A56B4"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-13.json",
+                      "bytes":  3985,
+                      "sha256":  "E9306776E00CC04F18726708112C08EB89B509B06A3FA56AD98BC980FBAC53A1"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-14.json",
+                      "bytes":  7268,
+                      "sha256":  "D3DDB22D46A9C568ABD5E7C50870E0D953E3F3AF5054FBF04AB9934E9B8150F1"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-15.json",
+                      "bytes":  10365,
+                      "sha256":  "62FA5C5CEC5312E55870D0E3FC5B773A3E0C1655A34C55DC1AFEAA1E53E90B36"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-16.json",
+                      "bytes":  11052,
+                      "sha256":  "0A25C36E92AF93F0022652AAEFA606C0BA6F09CF05D86F6EFD0A4D491C71727F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-17.json",
+                      "bytes":  4325,
+                      "sha256":  "53F59B756EFB8C51BD5D136F7F488C24862FF27E7D89452C83E6946975BC60CE"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-18.json",
+                      "bytes":  1809,
+                      "sha256":  "C2A67243B6CBF295A0A185444AB79E448F10B4873418EBCBDA87B26A49853E05"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-19.json",
+                      "bytes":  2353,
+                      "sha256":  "DB4CA824BE01A4E1392C4BC05C0E2F60D637AC551E6DDC13741E344C4843EF6C"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-20.json",
+                      "bytes":  5617,
+                      "sha256":  "FA0BF9393A0C8C0183A6250EDEC18A5BE853252245C01F7E3F45301519E7786A"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-21.json",
+                      "bytes":  6160,
+                      "sha256":  "B8216D22C1B004249349291128AF2756984F7BC8C86E652E8F254B11A992C233"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-22.json",
+                      "bytes":  4887,
+                      "sha256":  "8E5E4C76F77FF864A1DF44372617ABD47E9C60CA236AF686A96D144BE08784D8"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-23.json",
+                      "bytes":  2167,
+                      "sha256":  "25E9677398F76FEC7D5D95C8559649074F8C1ECEFC47977BBE2908E9299ABAD4"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-24.json",
+                      "bytes":  7256,
+                      "sha256":  "A15358189DDDBF9EA099AECB7FA8B6E6BFD6F4AED2D310535F535F48E3896452"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-25.json",
+                      "bytes":  7243,
+                      "sha256":  "AB896F4358F3866D60133D567CF89FE83692A3EA2DEA84AE4A00966F85142E1F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-26.json",
+                      "bytes":  6145,
+                      "sha256":  "C60198F2A80D2AE02AB0677149D2F2D4127EB8B20C0E158CDE341C596F6B74E6"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-27.json",
+                      "bytes":  4160,
+                      "sha256":  "81572162DF12D8BF9077FF363A55BA1847EFC6E422E5192A94D6E4A22D2D89AC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-28.json",
+                      "bytes":  3615,
+                      "sha256":  "D89D7B95AB28ABDE52D41A04F4B8C438C1934F66673F6E029A0E664B7D4A768B"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-29.json",
+                      "bytes":  2890,
+                      "sha256":  "7465A1CD555BFEE154CB9F62710B8A8C84526ABF1CE19AD8E1D8346B62643D92"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-30.json",
+                      "bytes":  4881,
+                      "sha256":  "B355376BE191027F691BFDC51061C591732B2E687DC0DE9B84032EFBE85C0B9C"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-10-31.json",
+                      "bytes":  6870,
+                      "sha256":  "58D3153B90ECB3D7B4AA2A4CF467482411236F3046FFEC814C67E9BEE8403DBC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-01.json",
+                      "bytes":  4164,
+                      "sha256":  "EF88533E354BA471AC2313EB34989D9E61B083A19944CC6C75B0462B9E9F4E9F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-02.json",
+                      "bytes":  2524,
+                      "sha256":  "DEF519AC98A9731854B57935813C140045559BED57FC6FDA1A9A1065B30F8683"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-03.json",
+                      "bytes":  1260,
+                      "sha256":  "49BB67B38C823EB60AD1D50A1ADB5A4596DBC5B53ED12995A49916EBBFC80E6D"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-04.json",
+                      "bytes":  1439,
+                      "sha256":  "A65F4EF97C84677027A5572521DB4CA29843DB0E834E98FFD1EE9066DA022236"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-05.json",
+                      "bytes":  1258,
+                      "sha256":  "5EF6DD74AFDC592C8747243754072751D7C8D7E850BD5937A2CEC557FB36C42F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-06.json",
+                      "bytes":  1440,
+                      "sha256":  "ABCC45C6CE741E0946C48A8DA0B362C0CBD96F6DD191D77C0F0FD76EEDC288DB"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-07.json",
+                      "bytes":  1256,
+                      "sha256":  "AE29B229D44B3BCCF8D2F5AE1AB2EC03ED3D2D2106409408C7EACD86B243E965"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-08.json",
+                      "bytes":  1437,
+                      "sha256":  "6088CB8EBC17F327CD5BBF773AAD9179B1E98B2A15E5B6495597DDA2B051CEC9"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-09.json",
+                      "bytes":  1436,
+                      "sha256":  "400820A9A142671D89FE600179C0E54570CF5337961D2E8BCC216092CF1502F5"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-10.json",
+                      "bytes":  2705,
+                      "sha256":  "7B57C09DE1D199C05126C026735181882B3D751D0CB4C4A1AB28DB775A2F81EC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-11.json",
+                      "bytes":  3056,
+                      "sha256":  "7EBEA5CE27015CAD4B5B8089B02BA31F3A7C79E0D7B5A169833C1687E2414B1F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-12.json",
+                      "bytes":  1798,
+                      "sha256":  "362CBE3EA5AAEF274FF0B15818CD1BBDF41DBEA3403FC39D8051E71B1C8491CC"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-13.json",
+                      "bytes":  2522,
+                      "sha256":  "74E374CA2DD9DEE98B62F919490B66D1B862B06F4542702103E94403B53856F9"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-14.json",
+                      "bytes":  1087,
+                      "sha256":  "72BF35EF1278549D437F4F8A6E5D9906912F380EBB0D348D687F98CD302F49E1"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-15.json",
+                      "bytes":  1794,
+                      "sha256":  "C5AC5E6D8DC08A7906BE79ECCB2BBB03A21362C5C029E9A0538DB8594E888716"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-16.json",
+                      "bytes":  1977,
+                      "sha256":  "7E8A7BE77A322CF5DD2C73C80C2AEBB6F333EE190D7001CF09B6C29B305EF75C"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-17.json",
+                      "bytes":  2514,
+                      "sha256":  "1091B933239DA1A75AF8FD0DCC4CF4C844CEA74A9FC5BB453E8FE94A2445FA0F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-18.json",
+                      "bytes":  1437,
+                      "sha256":  "372566B3E04C87EFE9EAD73FBADB8962D5514E56B9200D8AFF1AD295E18DE5AA"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-19.json",
+                      "bytes":  898,
+                      "sha256":  "2A55E43DE5ABD7EB62D3F47D38E999E90620E639457212E551BF716B8FE0CC2F"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-20.json",
+                      "bytes":  720,
+                      "sha256":  "40F686EED65B1327698951770322E1540DE4353F5D077A64F33D81B7385ACC39"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-21.json",
+                      "bytes":  1633,
+                      "sha256":  "5493E2F4D1C377587DC731E78D16014341E665F5C13531FAEFDD3EB2155D8403"
+                  },
+                  {
+                      "path":  "core/memory/tracking/2026-11-22.json",
+                      "bytes":  2179,
+                      "sha256":  "F026AC920EE170C7123AC2BCE37008244E2D83BB428DA30E24537155839CA42B"
+                  },
+                  {
+                      "path":  "core/skills/agent-core-sync/SKILL.md",
+                      "bytes":  3483,
+                      "sha256":  "5FE3A3991ED17E2E8BC2C240442007E4AA417665265BA73C50992112A0D136C3"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/call-node.js",
+                      "bytes":  8213,
+                      "sha256":  "C201F1CEAAD40B23B11BB6690C25FF16C9D118A4846A6B3741241CD994D166EB"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/call.py",
+                      "bytes":  6041,
+                      "sha256":  "8DA89F9976B82395442D17050C0D96236A58F2A0F38E53EE8073CA1F0033159E"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/mcp_config.json",
+                      "bytes":  954,
+                      "sha256":  "C8CA8EAB112E4A8D7420C05F956A6ECB0E4E87F465CC7CFB32482EB561A3D774"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/SKILL.md",
+                      "bytes":  10605,
+                      "sha256":  "B600F9A56B5595342F3A948E0425E878E8A4B91DE9F723E02706E23A944945AE"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/skill_env_config.json",
+                      "bytes":  29,
+                      "sha256":  "3A9AAFB01E75D4A3C24A70BC275AB5B787CC0AA1372C3127D7EC80AC9D62B8D2"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/bond.md",
+                      "bytes":  2916,
+                      "sha256":  "E32B18B79FA024E58D0D30F8FE156FDB5487ECE990DA3E86C4A3387A57F0E049"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/cn_stock.md",
+                      "bytes":  3429,
+                      "sha256":  "E7248203A7834F7CCA601EC4E2804A3E5EB0B62D063767487DB807B0FF9FEA99"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/edb.md",
+                      "bytes":  1273,
+                      "sha256":  "EECC1A206B6311A009BF8720E051821DC6CA468058345347F958C62CD35DC839"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/enterprise.md",
+                      "bytes":  3980,
+                      "sha256":  "66F1F9EB4CFF437BBBD944339CCDF3188E5FC7E747B8899AD0A179BE87BE5035"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/fund.md",
+                      "bytes":  2983,
+                      "sha256":  "9F66886B06A4F37245B170303C964A12B825F6EAF515B8554D2BE47A9AC5FF28"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/future.md",
+                      "bytes":  1855,
+                      "sha256":  "8A92CDF05AD88FA2E72CE72DC5FEB87883D561D86A5C6E870D969DD5AD43B0E6"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/global_stock.md",
+                      "bytes":  2668,
+                      "sha256":  "A1F61BF17EDC2FEBA1BDA7E61E42C7A6C863606AC3606D5B88C89BF45290A26F"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/index.md",
+                      "bytes":  2365,
+                      "sha256":  "05C127D73217812692CAAD2BEAABE2C31978914003C7542931B0FE1137D603BA"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/law.md",
+                      "bytes":  4520,
+                      "sha256":  "F566D24E0EBF7C3F662DB40A5E26710F3F53C5F874C0D450A6352EC69CD8EDC1"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/news_notices.md",
+                      "bytes":  2175,
+                      "sha256":  "2A8B17FBD8FE8CD392C963049575465FE9E6F8988F369C097025FCB910D27C40"
+                  },
+                  {
+                      "path":  "core/skills/ifind-finance-data/references/quotes.md",
+                      "bytes":  3850,
+                      "sha256":  "A80FC614FDC77AFC734314D57FDC578FD6697405BADB6C83CD7FE6F77A7E5AFE"
+                  },
+                  {
+                      "path":  "core/skills/mx-data/mx_data.py",
+                      "bytes":  14468,
+                      "sha256":  "774C348064111DC6EAF35EC080D869B9474435EE2F3BB74CFD5EB5454E4E61BB"
+                  },
+                  {
+                      "path":  "core/skills/mx-data/SKILL.md",
+                      "bytes":  10396,
+                      "sha256":  "D90A04844FEFD58BF8C1486F030234589D633591080615E8572D3F921006FA07"
+                  },
+                  {
+                      "path":  "core/skills/mx-data/_meta.json",
+                      "bytes":  126,
+                      "sha256":  "4B63C904655AC22F9FE5F6B23DA2C44BBD7F03CB8DCEBA69D5AA6FEEF3904EB1"
+                  },
+                  {
+                      "path":  "core/skills/mx-moni/mx_moni.py",
+                      "bytes":  17980,
+                      "sha256":  "092CCCBB650A3040D41819B5E7CC1E4D9C2DE26E4647F431ED63D350FA22AA64"
+                  },
+                  {
+                      "path":  "core/skills/mx-moni/SKILL.md",
+                      "bytes":  32103,
+                      "sha256":  "D7106D94800FB421580C5E90E35AFB72774703B3C5F5DDB8CBED3715DC35FC0C"
+                  },
+                  {
+                      "path":  "core/skills/mx-moni/_meta.json",
+                      "bytes":  195,
+                      "sha256":  "566368468432EF98B81E8B87B94A4FE8BDC0F5100AFD30FB68A133C123BEFDC7"
+                  },
+                  {
+                      "path":  "core/skills/mx-poster/mx_poster.py",
+                      "bytes":  24768,
+                      "sha256":  "3EABE50436E37C5541E3167477EEDF4A2AD650C37727187320A214CD2DF95358"
+                  },
+                  {
+                      "path":  "core/skills/mx-poster/SKILL.md",
+                      "bytes":  42432,
+                      "sha256":  "D68A18E79E9E2C40C67A4F889CA11FDEF7CAB768047A6FF84556EF1B351A6981"
+                  },
+                  {
+                      "path":  "core/skills/mx-poster/_meta.json",
+                      "bytes":  133,
+                      "sha256":  "F552E391B4ACDD14716856445A6794A4BD5BB6B24B7FBBB125244075872E295A"
+                  },
+                  {
+                      "path":  "core/skills/mx-search/mx_search.py",
+                      "bytes":  6812,
+                      "sha256":  "F151DE6020EE4757E5ADE67CF1DB55D6BA86C14ADA3CF76A786C1148AF4A8C92"
+                  },
+                  {
+                      "path":  "core/skills/mx-search/SKILL.md",
+                      "bytes":  5128,
+                      "sha256":  "8D3285A7160914FBCC0637A56D1B9B0F4B1C274C025570EE22446C11A171BC0C"
+                  },
+                  {
+                      "path":  "core/skills/mx-search/_meta.json",
+                      "bytes":  128,
+                      "sha256":  "96E3315BF64092EA7B0BA71FF7CEE1283A0A4993F499972A67C5375495293785"
+                  },
+                  {
+                      "path":  "core/skills/mx-xuangu/mx_xuangu.py",
+                      "bytes":  9985,
+                      "sha256":  "C7B081A5A0286876C651A59FE7B3841489812F9E5C80E8022DB44F1603728F3A"
+                  },
+                  {
+                      "path":  "core/skills/mx-xuangu/SKILL.md",
+                      "bytes":  8553,
+                      "sha256":  "7A521AC6509A136264EE8A3549D9539A19B3581E3E5D78B3AAF4B150060E2F2E"
+                  },
+                  {
+                      "path":  "core/skills/mx-xuangu/_meta.json",
+                      "bytes":  133,
+                      "sha256":  "8E68C1B5D10D3DE0B23E58629E9DA4093A3725A58E9296AB9AFE2DEE9754BB7A"
+                  },
+                  {
+                      "path":  "core/skills/mx-zixuan/mx_zixuan.py",
+                      "bytes":  8949,
+                      "sha256":  "EA5F6C75EFE5C4A8FC6104744B2E94D51B7134E1C250FA7A25007C65994E3B33"
+                  },
+                  {
+                      "path":  "core/skills/mx-zixuan/SKILL.md",
+                      "bytes":  4868,
+                      "sha256":  "A4F8A19080A4BFA927E8E1A8DBCC0F474CAED88E10BFEAB6CF715D698AF34FEA"
+                  },
+                  {
+                      "path":  "core/skills/mx-zixuan/_meta.json",
+                      "bytes":  128,
+                      "sha256":  "E26B2F905E471A8E486881023F7FBF55C1EBD9D437DC7E59C653C9E6B7651443"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-data/mx_data.py",
+                      "bytes":  14468,
+                      "sha256":  "774C348064111DC6EAF35EC080D869B9474435EE2F3BB74CFD5EB5454E4E61BB"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-data/SKILL.md",
+                      "bytes":  10396,
+                      "sha256":  "D90A04844FEFD58BF8C1486F030234589D633591080615E8572D3F921006FA07"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-data/_meta.json",
+                      "bytes":  126,
+                      "sha256":  "4B63C904655AC22F9FE5F6B23DA2C44BBD7F03CB8DCEBA69D5AA6FEEF3904EB1"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-moni/mx_moni.py",
+                      "bytes":  17847,
+                      "sha256":  "E383222ABB84633D7B15797F08443732A4A5654D4845E49BDACE70C6C2CCA2D3"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-moni/SKILL.md",
+                      "bytes":  32103,
+                      "sha256":  "D7106D94800FB421580C5E90E35AFB72774703B3C5F5DDB8CBED3715DC35FC0C"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-moni/_meta.json",
+                      "bytes":  195,
+                      "sha256":  "566368468432EF98B81E8B87B94A4FE8BDC0F5100AFD30FB68A133C123BEFDC7"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-poster/mx_poster.py",
+                      "bytes":  24768,
+                      "sha256":  "3EABE50436E37C5541E3167477EEDF4A2AD650C37727187320A214CD2DF95358"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-poster/SKILL.md",
+                      "bytes":  42432,
+                      "sha256":  "D68A18E79E9E2C40C67A4F889CA11FDEF7CAB768047A6FF84556EF1B351A6981"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-poster/_meta.json",
+                      "bytes":  133,
+                      "sha256":  "F552E391B4ACDD14716856445A6794A4BD5BB6B24B7FBBB125244075872E295A"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-search/mx_search.py",
+                      "bytes":  6812,
+                      "sha256":  "F151DE6020EE4757E5ADE67CF1DB55D6BA86C14ADA3CF76A786C1148AF4A8C92"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-search/SKILL.md",
+                      "bytes":  5128,
+                      "sha256":  "8D3285A7160914FBCC0637A56D1B9B0F4B1C274C025570EE22446C11A171BC0C"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-search/_meta.json",
+                      "bytes":  128,
+                      "sha256":  "96E3315BF64092EA7B0BA71FF7CEE1283A0A4993F499972A67C5375495293785"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-xuangu/mx_xuangu.py",
+                      "bytes":  9985,
+                      "sha256":  "C7B081A5A0286876C651A59FE7B3841489812F9E5C80E8022DB44F1603728F3A"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-xuangu/SKILL.md",
+                      "bytes":  8553,
+                      "sha256":  "7A521AC6509A136264EE8A3549D9539A19B3581E3E5D78B3AAF4B150060E2F2E"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-xuangu/_meta.json",
+                      "bytes":  133,
+                      "sha256":  "8E68C1B5D10D3DE0B23E58629E9DA4093A3725A58E9296AB9AFE2DEE9754BB7A"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-zixuan/mx_zixuan.py",
+                      "bytes":  8949,
+                      "sha256":  "EA5F6C75EFE5C4A8FC6104744B2E94D51B7134E1C250FA7A25007C65994E3B33"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-zixuan/SKILL.md",
+                      "bytes":  4868,
+                      "sha256":  "A4F8A19080A4BFA927E8E1A8DBCC0F474CAED88E10BFEAB6CF715D698AF34FEA"
+                  },
+                  {
+                      "path":  "core/skills/_backup_20261013/mx-zixuan/_meta.json",
+                      "bytes":  128,
+                      "sha256":  "E26B2F905E471A8E486881023F7FBF55C1EBD9D437DC7E59C653C9E6B7651443"
+                  },
+                  {
+                      "path":  "core/workspace/.keep",
+                      "bytes":  12,
+                      "sha256":  "2F73349CFC4630255319C6C8DFC1B46A8996ACE9D14D8E07563B165915918EC2"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_asm.py",
+                      "bytes":  2875,
+                      "sha256":  "84A52BB294DCC58D0B922B656BD70046C7F891A070E773DFCF1845F0B836F55F"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_cl.py",
+                      "bytes":  5342,
+                      "sha256":  "0D59154114CC6D19F87E787BD946D9C3F8E04C84D1B8EEF7C0997FACC0C6AD62"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_clusters.json",
+                      "bytes":  14780,
+                      "sha256":  "5CBC7DE841B05C132FC8E03212B65D941BB2A7E89D0F12E5C893D2337CBE87D2"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_deliver.json",
+                      "bytes":  56541,
+                      "sha256":  "078729CBFF1385844B49B9767530BA42B29022267449254619CE586DA62EED74"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_deliver.md",
+                      "bytes":  12119,
+                      "sha256":  "D33ACD37A3E37240871ACA01DFA6EA9CA14214E5CE2E7D986EA03C00CF4FDB6C"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_dump.py",
+                      "bytes":  1042,
+                      "sha256":  "1EB11D4ABF503498717F26C7075F966638A85BC808326F3E3C846A1B2D0134FC"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_final.json",
+                      "bytes":  49243,
+                      "sha256":  "3F948EE74DFBEF5EEB6376576CB7085BDC4A1BA0485A9E763B561658A9217AD4"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_final.py",
+                      "bytes":  13270,
+                      "sha256":  "173C8BD9BE87001CFA20322E428446D8F46E36C4C29F9C9800CE79B0573F68ED"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_final2.py",
+                      "bytes":  11041,
+                      "sha256":  "17368223928857B33DCD4425F1755CF4026F77E8D963C34D42E5D2976EEB51F0"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_finalize.py",
+                      "bytes":  1740,
+                      "sha256":  "F8FB4A3544585178B7763ED871F5CC2C965C323D3853CB257FD235435E514B9E"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_main.py",
+                      "bytes":  4348,
+                      "sha256":  "3282EAA7050C25A8C51851535F7DC9A27D91968249A96182AE35CB9C68CAA4CB"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_md.py",
+                      "bytes":  7112,
+                      "sha256":  "60E732C4054450C9C14110BE25C486248E4CA5C0EF2441F5FD64D2859FD9C624"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_mkt.py",
+                      "bytes":  754,
+                      "sha256":  "2740970006534CD4712AD4330EA99066A9E61735543641FEA1EEC01C5DBE58AC"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_mkt2.py",
+                      "bytes":  2164,
+                      "sha256":  "514EC26E702201C3B7F78CBCE895F766673097172ABC024545B1118F58DB2C96"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_peek.py",
+                      "bytes":  1351,
+                      "sha256":  "D44BE1673C15745F65BC37A34C21A63F839A511BAE3759C8549E144F2B2C116D"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_peek2.py",
+                      "bytes":  1382,
+                      "sha256":  "B3D9446641A00EA79A83B2B450B280A040848C2363052198E81ABF050ECF076C"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_peek3.py",
+                      "bytes":  1967,
+                      "sha256":  "5D4F5CA04826AD4542D76E9C1B132F7AF02ACC164CDD7C5385A91B3AED3221DA"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_peek4.py",
+                      "bytes":  1063,
+                      "sha256":  "3FEA4F497E783BB2815D84D3394D8ADB1DB0360146B4F2DCD328F9B6F844AB89"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_probe.py",
+                      "bytes":  1130,
+                      "sha256":  "6BB4B4929691DF8D5EAC8C6FFA858A9186180C3A64D3CDB0ACD28EEFA55856BF"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_rep.py",
+                      "bytes":  1023,
+                      "sha256":  "063C4CA96AF02A915E188496D0C8BE22DA9B588CA94CF2B89535804ABA2ADAE2"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_sanity.py",
+                      "bytes":  1971,
+                      "sha256":  "F63899A544587A2D566FEC56E3B086C998974E8C9123344F3188AE3D18C8F2AD"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_stats.json",
+                      "bytes":  8291,
+                      "sha256":  "E963DAAA99BA0F1EEA90F510725C541256BC6F31EE42A8388A7E75FB2C5C7CC7"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_tags.json",
+                      "bytes":  17315,
+                      "sha256":  "707D5E8186CF3361E76689C5C9EB25931D8891AF0D3F219E67ECE8CBEEF04769"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_tags2.py",
+                      "bytes":  2175,
+                      "sha256":  "CF14CFB3860F51FC2D644CA3F569F88588DDD021C27AFD2E92C10AB0B34157B0"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_win.py",
+                      "bytes":  3914,
+                      "sha256":  "DBFF0CC9DF79145AE7D2BD7CDBABB3FA729DBF6674E82A56F81384399D17987F"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_windows.json",
+                      "bytes":  7474,
+                      "sha256":  "8E5270E6789319A992DC35151F58EDDF2D30004737363633B41E0A081E2A1C0E"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_zt.py",
+                      "bytes":  3297,
+                      "sha256":  "F5CDBE85F7E476E8D651A2DA50CED9825C3D639DF0C8D80739DB6E102A797975"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_ztdetail.py",
+                      "bytes":  531,
+                      "sha256":  "526AEFFBC3750698ACF53ACD64739DB59C34478A65A24F42D47794CE9D2CBEF9"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_ztinfo.json",
+                      "bytes":  6558,
+                      "sha256":  "4251FFD45C35C84DD862BED3CAE81BDD33ABFA281FCE37813FF025BFABB7FE65"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_zttags.json",
+                      "bytes":  300846,
+                      "sha256":  "E4DC9D157A63B07B4C9A35334DDDCCB41EB82401CC2F28568777E8ACAE204CE1"
+                  },
+                  {
+                      "path":  "core/workspace/_w3_zttop.json",
+                      "bytes":  1698,
+                      "sha256":  "EDDFABB412F87C860B066987CF97865BEFD13895095073DA1088D8BA81C1E822"
+                  },
+                  {
+                      "path":  "docs/AGENT-SYNC.md",
+                      "bytes":  4379,
+                      "sha256":  "CB202039FD92B67E921D1D2033F9B63E7130896D40C4CC6BE5763A1EC319B9CD"
+                  }
+              ]
+}

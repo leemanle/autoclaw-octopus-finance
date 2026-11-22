@@ -1178,7 +1178,7 @@ worker session 无 mcp_browser 工具，用路径 ②③ 替代。真源等价�
 <!-- mem-append-reason: 9/22 20:57 用户给同花顺金融数据 API key + 强反馈 OCR 票号+大智慧 reason 不行——新真源 -->
 ### 同花顺金融数据 API=真源（2026-09-22 20:57 立）Type: tooling-fact
 
-API key: `sk-fuyao-wS73R6EVf0yRwDrcikUx8DmKtLt81wBO`
+API key: `<REDACTED:API_KEY>`
 服务: 同花顺金融数据 API
 
 **触发**：9/22 20:57 用户强反馈"识别截图代码和大智慧异动原因不行了"——OCR 票号 5-10% 误差 + 大智慧 reason 简标签不准。
