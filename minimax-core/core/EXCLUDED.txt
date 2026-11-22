@@ -10,3 +10,7 @@ tools\
 computer-use\
 background-tasks\
 cache\
+豆包核心资产\06_凭据与账号\ (credentials, never uploaded)
+豆包核心资产\03_脚本与引擎\ (61MB, belongs in a separate repo)
+豆包核心资产\08_技能与经验\ (overlaps .minimax\skills, kept local)
+01_宪法与规则\历史留档\ (superseded drafts)

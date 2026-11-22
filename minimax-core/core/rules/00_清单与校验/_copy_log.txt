@@ -1,0 +1,85 @@
+OK	C:\Users\Administrator\Desktop\选股系统备份\_灵魂宪法全文_20260929.txt	280178B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\_灵魂宪法全文_20260929.txt
+OK	C:\Users\Administrator\Desktop\选股系统备份\池恒战法 V15 灵魂宪法（最终版）.docx	127604B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\池恒战法 V15 灵魂宪法（最终版）.docx
+OK	C:\Users\Administrator\Desktop\选股系统备份\AGENTS_规则索引.md	163672B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\AGENTS_规则索引.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\重做_v5.6_20261120\规则主文件_依恒战法v5.6.1_20261121.md	48634B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\规则主文件_依恒战法v5.6.1_20261121.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\重做_v5.6_20261120\规则主文件_依恒战法v5.6_20261120.md	47288B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\规则主文件_依恒战法v5.6_20261120.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\重做_v5.6_20261120\依恒战法5.6_第6档案例库.md	11297B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\依恒战法5.6_第6档案例库.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\买卖规则总集_最终版_20261020_首阳双口径_20261020.md	42891B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\买卖规则总集_最终版_20261020_首阳双口径_20261020.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\战法口径统一表_20261106.md	20894B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\战法口径统一表_20261106.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\池恒首阳战法_每日选股台账.md	24030B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\池恒首阳战法_每日选股台账.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\_规则_买入窗口_启动日一二_20261119.md	2391B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\规则_买入窗口_启动日一二_20261119.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\_规则_首板新主线启动_20261113.md	5274B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\规则_首板新主线启动_20261113.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\_X31共振原则落地通报_20261119.md	3213B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\_X31共振原则落地通报_20261119.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\买卖规则总集_最终版_20261022_S2全清_20261022.md	39376B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\买卖规则总集_最终版_20261022_S2全清.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\首板战法_买卖规则手册_v1.0_20261014.md	12548B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\首板战法_买卖规则手册_v1.0_20261014.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\一进二二进三铁律_20260929.md	34331B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\一进二二进三铁律_20260929.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\双系统规格_首板战法_一进二战法_20260929.md	7820B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\双系统规格_首板战法_一进二战法_20260929.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\模拟盘_操作手册_20261020.md	14633B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\模拟盘_操作手册_20261020.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\首板首阳战法卖出规则_均线版v5.4_20261109.md	23614B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\现行\首板首阳战法卖出规则_均线版v5.4_20261109.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\_bak_x31_20261119\_灵魂宪法全文_20260929.txt	269564B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\历史留档\_灵魂宪法全文_20260929.bak_x31_20261119.txt
+OK	C:\Users\Administrator\Desktop\选股系统备份\池恒首阳战法_每日选股台账.bak_20261109.md	17417B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\历史留档\池恒首阳战法_每日选股台账.bak_20261109.md
+OK	C:\Users\Administrator\Desktop\选股系统备份\池恒战法 V15 灵魂宪法（最终版）.docx.bak_v56_20261121	127356B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\01_宪法与规则\历史留档\池恒战法 V15 灵魂宪法（最终版）.docx.bak_v56_20261121
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\02_定时任务\定时任务清单_逐条原文.md	147756B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\02_定时任务\定时任务清单_逐条原文.md
+OKDIR	C:\Users\Administrator\Desktop\股票克隆包_20261107\02_定时任务\_cron_prompt_backup_20261020	54 files	387316B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\02_定时任务\_cron_prompt_backup_20261020
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\engine_sell_rules.py	62094B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\engine_sell_rules.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\mx_cred.py	3201B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\mx_cred.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\pick_rules.py	19395B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\pick_rules.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\exchange_util.py	2877B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\exchange_util.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\parse_signal_pool.py	857B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\parse_signal_pool.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\mx_zixuan_pool.py	1396B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\mx_zixuan_pool.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\_sim_ledger_upsert.py	4177B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\_sim_ledger_upsert.py
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\_rules_pos_3224097053738794.json	2311B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\_rules_pos_3224097053738794.json
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\_rules_pos_5071376422127248.json	2307B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\_rules_pos_5071376422127248.json
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\脚本说明.md	3679B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\脚本说明.md
+OKDIR	C:\Users\Administrator\Desktop\股票克隆包_20261107\05_引擎与脚本\_mx_single_account	437 files	2877426B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\卖出规则引擎\_mx_single_account
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\engine	52 files	1384983B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\engine
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\mcp_server	14 files	41818B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\mcp_server
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\scheduler	14 files	108906B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\scheduler
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\collector	23 files	232695B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\collector
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\utils	38 files	259500B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\utils
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\tools	1 files	29667B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\tools
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\config	13 files	194876B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\config
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\web	72 files	3449596B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\web
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\knowledge	2 files	25382B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\knowledge
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\ledger	6 files	75472B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\ledger
+OKDIR	C:\Users\Administrator\首阳战法回测引擎\archive	80 files	148487B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\archive
+OK	C:\Users\Administrator\首阳战法回测引擎\main.py	12485B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\main.py
+OK	C:\Users\Administrator\首阳战法回测引擎\README.md	89555B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\README.md
+OK	C:\Users\Administrator\首阳战法回测引擎\run_collect.bat	19278B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\run_collect.bat
+OK	C:\Users\Administrator\首阳战法回测引擎\path.txt	40B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\path.txt
+OK	C:\Users\Administrator\首阳战法回测引擎\_build_manual.py	9236B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\_build_manual.py
+OK	C:\Users\Administrator\首阳战法回测引擎\_q_shape_check.py	29216B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\_q_shape_check.py
+OK	C:\Users\Administrator\首阳战法回测引擎\_q_reco_log.py	17271B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\回测引擎源码\_q_reco_log.py
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\clean_round62.ps1	7758B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\clean_round62.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\clean_round62.json	3278B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\clean_round62.json
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\restore_wins.py	1028B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\restore_wins.py
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\win_state.py	2515B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\win_state.py
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\cap_win.py	2897B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\cap_win.py
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\capture_windows.ps1	2511B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\capture_windows.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\classify_drive.ps1	2817B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\classify_drive.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\move_drive.ps1	1972B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\move_drive.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\move_retry.ps1	1544B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\move_retry.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\verify_drive.ps1	985B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\verify_drive.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\check_missing.ps1	1355B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\check_missing.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\append_minimax_round56.ps1	2506B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\append_minimax_round56.ps1
+OK	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\purge_e_round49.ps1	1596B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\运维脚本\purge_e_round49.ps1
+OKDIR	选股系统备份根级脚本	1172 files	4567566B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\选股系统日常脚本
+OK	C:\Users\Administrator\Desktop\首阳战法终端_自用版_v5.5_20261118b.exe	51629780B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\03_脚本与引擎\首阳战法终端\首阳战法终端_自用版_v5.5_20261118b.exe
+OKDIR	C:\Users\Administrator\Desktop\给MiniMax的搬迁提示词	10 files	701494B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\给MiniMax的搬迁提示词
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\首板+一进二选股系统提示词.md	11211B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\首板+一进二选股系统提示词.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\总提示词_合并版_选股三系统_加_首板模拟盘_20261020.md	56353B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\总提示词_合并版_选股三系统_加_首板模拟盘_20261020.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\给minimax的提示词_卖出规则v5.4_20261109.md	18687B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\给minimax的提示词_卖出规则v5.4_20261109.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\首板模拟盘_总提示词_单文件版_20261020.md	49215B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\首板模拟盘_总提示词_单文件版_20261020.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\01_灵魂宪法与规则\首板模拟盘_迁移包_20261020.md	43961B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\首板模拟盘_迁移包_20261020.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\入口一_从哪儿开始.md	1257B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\入口一_从哪儿开始.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\入口二_密钥怎么填.md	1126B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\入口二_密钥怎么填.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\入口三_每天怎么跑.md	1273B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\入口三_每天怎么跑.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\README_克隆说明.md	9534B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\README_克隆说明.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\云盘自动备份说明_20261107.md	831B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\04_提示词\云盘自动备份说明_20261107.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\04_记忆与偏好\股票线记忆与偏好.md	15068B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\05_记忆与偏好\股票线记忆与偏好.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\03_凭据与账号\插件KEY与账号清单_明文.md	5689B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\06_凭据与账号\插件KEY与账号清单_脱敏原版_20261109.md
+OK	C:\Users\Administrator\Desktop\股票克隆包_20261107\账户映射回填表_20261111.md	1092B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\06_凭据与账号\账户映射回填表_20261111.md
+OKDIR	C:\Users\Administrator\Desktop\01_股票研究\推荐个股回测池_20261023	43 files	1450206B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\07_数据与台账\推荐个股回测池_20261023
+OK	C:\Users\Administrator\Desktop\选股系统备份\池恒首阳战法_每日选股台账.md	24030B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\07_数据与台账\池恒首阳战法_每日选股台账.md
+OKDIR	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\experience	180 files	321992B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\08_技能与经验\经验库
+OKDIR	C:\Users\Administrator\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\.user_skills	146 files	14830912B	->C:\Users\Administrator\Desktop\豆包核心资产_20261122\08_技能与经验\用户自建技能

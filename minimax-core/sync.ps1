@@ -1,6 +1,7 @@
-param(
+﻿param(
     [string]$Source = "$env:USERPROFILE\.minimax",
     [string]$Repo   = "D:\gh_sync_work",
+    [string]$AssetRoot = "$env:USERPROFILE\Desktop\豆包核心资产_20261122",
     [switch]$NoPush
 )
 
@@ -58,6 +59,24 @@ foreach ($a in $agentMap) {
 Copy-Item (Join-Path $Source "agents\mavis\memory\MEMORY.md") (Join-Path $Core "agents\mavis\memory\MEMORY.md") -Force -ErrorAction SilentlyContinue
 Write-Log "copied: agents\mavis\memory\MEMORY.md (latest only)"
 
+# 2.7) rules and prompts: the single source of truth the agent obeys.
+# Only current versions and text assets; history archives and credentials stay out.
+$assetMap = @(
+    @{ src = "00_清单与校验";        dst = "rules\00_清单与校验" },
+    @{ src = "01_宪法与规则\现行";   dst = "rules\01_宪法与规则\现行" },
+    @{ src = "02_定时任务";          dst = "rules\02_定时任务" },
+    @{ src = "04_提示词";            dst = "rules\04_提示词" },
+    @{ src = "05_记忆与偏好";        dst = "rules\05_记忆与偏好" }
+)
+foreach ($a in $assetMap) {
+    $s = Join-Path $AssetRoot $a.src
+    $d = Join-Path $Core     $a.dst
+    if (-not (Test-Path $s)) { Write-Log ("skip missing asset: " + $a.src); continue }
+    $null = robocopy $s $d /E /R:1 /W:1 /NFL /NDL /NJH /NJS /NP
+    if ($LASTEXITCODE -ge 8) { throw ("robocopy failed on " + $a.src) }
+    Write-Log ("copied asset: " + $a.src + " -> core\" + $a.dst)
+}
+
 # 3) config: sanitize then write
 $cfgDir = Join-Path $Core "config"
 New-Item -ItemType Directory -Path $cfgDir -Force | Out-Null
@@ -100,7 +119,15 @@ Get-ChildItem $Core -Recurse -File -Force -ErrorAction SilentlyContinue |
 Write-Log ("backfill scrub: $scrubbed files changed")
 
 # 4) never-copy list report (so user knows what stayed out)
-$never = @("mx_accounts.json", "local-runtime.auth.json", "codex-auth.json", "keys_new_20261026.txt", "keys_backup_20261025\", "auth\", "sessions\", "v2\", "tools\", "computer-use\", "background-tasks\", "cache\")
+$never = @(
+    "mx_accounts.json", "local-runtime.auth.json", "codex-auth.json",
+    "keys_new_20261026.txt", "keys_backup_20261025\", "auth\", "sessions\", "v2\",
+    "tools\", "computer-use\", "background-tasks\", "cache\",
+    "豆包核心资产\06_凭据与账号\ (credentials, never uploaded)",
+    "豆包核心资产\03_脚本与引擎\ (61MB, belongs in a separate repo)",
+    "豆包核心资产\08_技能与经验\ (overlaps .minimax\skills, kept local)",
+    "01_宪法与规则\历史留档\ (superseded drafts)"
+)
 Set-Content -Path (Join-Path $Core "EXCLUDED.txt") -Value ($never -join "`n") -Encoding UTF8
 
 # 5) manifest + verification gate (blocking)

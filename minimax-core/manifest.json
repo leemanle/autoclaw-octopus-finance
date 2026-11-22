@@ -1,8 +1,8 @@
 {
     "version":  "1.0.0",
-    "generatedAt":  "2026-11-22T19:51:48+08:00",
-    "fileCount":  658,
-    "totalBytes":  21244393,
+    "generatedAt":  "2026-11-22T19:58:48+08:00",
+    "fileCount":  761,
+    "totalBytes":  24199489,
     "channel":  "github:leemanle/autoclaw-octopus-finance/minimax-core",
     "files":  [
                   {
@@ -32,8 +32,8 @@
                   },
                   {
                       "path":  "sync.ps1",
-                      "bytes":  6293,
-                      "sha256":  "3A29820121782F9227603E661375AAD8C321F6A2FD5314081E4B0EB449BFD159"
+                      "bytes":  7642,
+                      "sha256":  "C068ED8FFF630DD8E3390EE7F194006A9B27E7BD6CAE9055EE12ACA7A27B083A"
                   },
                   {
                       "path":  "verify.ps1",
@@ -47,8 +47,8 @@
                   },
                   {
                       "path":  "core/EXCLUDED.txt",
-                      "bytes":  171,
-                      "sha256":  "753524CF085306C4828C0077DB0162B1A58B3A7A3A6DE41A159823ED1E64DE47"
+                      "bytes":  445,
+                      "sha256":  "C5486D1785F37802CA4A6FD4CFEBDF016043AD9E04DFA3D7B705E3AE4A23EEAC"
                   },
                   {
                       "path":  "core/agents/explore/config.yaml",
@@ -2863,7 +2863,522 @@
                   {
                       "path":  "core/memory/tracking/2026-11-22.json",
                       "bytes":  2179,
-                      "sha256":  "F026AC920EE170C7123AC2BCE37008244E2D83BB428DA30E24537155839CA42B"
+                      "sha256":  "40E75A3448BAC5D125CD398B33C65CC67F9EA4E88CA68095D993FC839FF5EB1E"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/SHA256.txt",
+                      "bytes":  332846,
+                      "sha256":  "EEEE43C9E1BAA3FD8344D4A3736A91FADF0B474F3263EB35B130E11B869FB47F"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/_copy_log.txt",
+                      "bytes":  19071,
+                      "sha256":  "BA9BA233E7574CFF1AB8A5802EB646E15F9B026645D32CF495FC83610897B843"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/云盘备份说明_20261122.txt",
+                      "bytes":  3775,
+                      "sha256":  "9C5C0407BF3A71FD0EB299B652CCA87E1FFAEFA6A489E822DA5B098EC2693665"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/包内目录说明.md",
+                      "bytes":  5422,
+                      "sha256":  "B12DF71DBA478CDB02A312B31771EDF51AE85812BBEF42A5668FC2961F06B34E"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/校验_MD5与SHA256_20261122.txt",
+                      "bytes":  625,
+                      "sha256":  "73F0A1C72EEF6E0666161B675EB4BF0F98CA87A783EF6C5BB89C3D10C1E88794"
+                  },
+                  {
+                      "path":  "core/rules/00_清单与校验/清单.txt",
+                      "bytes":  226080,
+                      "sha256":  "9FC1093A42607A6E94B17671E47ECE591F029188621289474C3C0D4668393BBA"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/AGENTS_规则索引.md",
+                      "bytes":  163649,
+                      "sha256":  "D731347067ED2764C28880E9C4D5BC53AB5CAB1AA9A72FB60C0F834BD47D4E15"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/_X31共振原则落地通报_20261119.md",
+                      "bytes":  3213,
+                      "sha256":  "7413608E7D598A556A66CEACC6997CC243CDCB6DE1024D6AA092D62B6553E096"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/_灵魂宪法全文_20260929.txt",
+                      "bytes":  280155,
+                      "sha256":  "4A7796DB6C213EB184B7A106597EBBE1B53A26DB632282912DFF1DCA99FFF321"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/一进二二进三铁律_20260929.md",
+                      "bytes":  34331,
+                      "sha256":  "FD01DA3C0F45E98A05C5787419A7ACCE1E00F8C859F47E6B7D7F09DE0990536D"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/买卖规则总集_最终版_20261020_首阳双口径_20261020.md",
+                      "bytes":  42891,
+                      "sha256":  "9375C8361936205BED89205A2D1DAF4DE7CA2D3B31361BDE67F4D91A97AFBFE9"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/买卖规则总集_最终版_20261022_S2全清.md",
+                      "bytes":  39376,
+                      "sha256":  "29D6776AB28DC1A3BC3209044079D1B697711A2F931E56144DCB8A79F4B586D2"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/依恒战法5.6_第6档案例库.md",
+                      "bytes":  11297,
+                      "sha256":  "C7B7BA4E0CD9BC34CE9950ECBD033E04AA9760BB7C24DE27933B5C6D0F3D2D55"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/双系统规格_首板战法_一进二战法_20260929.md",
+                      "bytes":  7820,
+                      "sha256":  "B44CC6F795AAD7D90985ABFBBCB411899864220F3552CA565F3177DCD07E3C0C"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/战法口径统一表_20261106.md",
+                      "bytes":  20894,
+                      "sha256":  "E462BA583DA58A9F300421E9AEC51B7915BEEBE7301FC1F96B2BA21B0C624A24"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/模拟盘_操作手册_20261020.md",
+                      "bytes":  14633,
+                      "sha256":  "9FA6FD189893E31E057C83F4A63C3178AB258940A88CE14B9F3A145D66C13160"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/池恒战法 V15 灵魂宪法（最终版）.docx",
+                      "bytes":  127604,
+                      "sha256":  "604DA8ADD4B629026032FAC9D2B8386999464496161425538FFB838AED09E97B"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/池恒首阳战法_每日选股台账.md",
+                      "bytes":  24030,
+                      "sha256":  "ED0D0610CA6F41E1797378EEBFD832049289BDF929897BD80013EC3AAD49C0F0"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/规则_买入窗口_启动日一二_20261119.md",
+                      "bytes":  2391,
+                      "sha256":  "CB4B61E7B71B51B9B1A44651E0C1A5C58D3B239B9920864ABBCA7724586945A8"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/规则_首板新主线启动_20261113.md",
+                      "bytes":  5274,
+                      "sha256":  "5197B5C32EDDD1E76EB4BC0023FF610261E05B709515079CF3BB0A7B137CF6BD"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/规则主文件_依恒战法v5.6.1_20261121.md",
+                      "bytes":  48634,
+                      "sha256":  "19F4F6BFB74179F536C5861646A8BD66C2BFF27FE2F05CC9849B4BBFBA96F1B3"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/规则主文件_依恒战法v5.6_20261120.md",
+                      "bytes":  47288,
+                      "sha256":  "AD4111D4E36E60CB199433D58F1088520646193B4051797D468261A09A29A936"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/首板战法_买卖规则手册_v1.0_20261014.md",
+                      "bytes":  12548,
+                      "sha256":  "E6DE60BB5D85DE59C20AE336617C8E79973D52D273D8612623C343763534D9F7"
+                  },
+                  {
+                      "path":  "core/rules/01_宪法与规则/现行/首板首阳战法卖出规则_均线版v5.4_20261109.md",
+                      "bytes":  23614,
+                      "sha256":  "1E1E477021F4532CA0A707795FD30FC2AEA0ECA8196293E7B026538869CEEF75"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/定时任务清单_逐条原文.md",
+                      "bytes":  147756,
+                      "sha256":  "8DF8C1DC7A366C1C4E2DFDBD2A4957CFFBC0A69AB4E83C96058CA4EDCF4813D1"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/定时任务索引_20261122.md",
+                      "bytes":  2787,
+                      "sha256":  "46688931D160A8178E0BDE0B95425499DA549C32F5CE6FAFECEA4FA833FC7462"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/08e1e6d2-dc0e-4b40-be67-e7ce4f1bfd5b.new.txt",
+                      "bytes":  7770,
+                      "sha256":  "5CFE82453231B66126DF9EAA6CB92F622D03D7DB25B5C6B35D912778B8D224DB"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/08e1e6d2-dc0e-4b40-be67-e7ce4f1bfd5b.old.txt",
+                      "bytes":  6219,
+                      "sha256":  "17B518FED0CDF0AA4E25CFF802529A186F7BE44C0B54634F36F7C08F35FACCE1"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/1daa88f3-7fa9-4edc-aeb5-5aa93bd7b844.old.txt",
+                      "bytes":  18416,
+                      "sha256":  "E741A6787C442F6E0C21B028D7D417E0BE3B4C9DF4F71E1683940F002726FB48"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/438176c5-e351-40d9-b50a-6fbaa7199499.new.txt",
+                      "bytes":  4355,
+                      "sha256":  "B543C7D215D09B68CF770AABD5A01F8413455E71F4C0E0BFC62989CA2F18A12F"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/438176c5-e351-40d9-b50a-6fbaa7199499.old.txt",
+                      "bytes":  3337,
+                      "sha256":  "3DDBE86400B1E8F5FB054A6933BA030975F8DFCA13340D8449047CEDA75AE603"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/4400f518-a316-4894-9b41-0dd5d07094aa.new.txt",
+                      "bytes":  4395,
+                      "sha256":  "602CEC2C20CFA25E36DB929B11110DE908B94BF7E7583C8242827F17B3C48308"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/4400f518-a316-4894-9b41-0dd5d07094aa.old.txt",
+                      "bytes":  4172,
+                      "sha256":  "F01473957A9A31E2E703D945A53716F88EC4F9F19D8968130B77E769F8727F41"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/464a7d74-064c-4709-9585-58595e12e8b5.old.txt",
+                      "bytes":  17803,
+                      "sha256":  "4CAFB8D1D7B1C6C740182A8C22D220C5D89D4794ABCC1F63C780EB7709BB4CAD"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/6912b194-d609-4a39-abf3-bf57b1aef259.new.txt",
+                      "bytes":  5276,
+                      "sha256":  "40AE4FDBFC6F88B2D526A6EE8E980A11996090ABE63B75F54AB31AC0273535C9"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/6912b194-d609-4a39-abf3-bf57b1aef259.old.txt",
+                      "bytes":  4674,
+                      "sha256":  "4C7C37ADA67CE5A0DEB2440EF6076B0D6334AFB79CAE0E0BDBD684167EB376A1"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/756e20e4-4434-4cd5-8458-f10b8d411361.new.txt",
+                      "bytes":  3401,
+                      "sha256":  "21B53396CF3D5A500188857897AB4C916434F6CD0BA28736DFAD773B93C1FFE6"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/756e20e4-4434-4cd5-8458-f10b8d411361.old.txt",
+                      "bytes":  2818,
+                      "sha256":  "CC490D485B88171BEF4C869951AD3FDA096A0DD91ED05264A86F0ECC135207D7"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/990a695b-45f6-4b59-92d1-467f9c2f2474.old.txt",
+                      "bytes":  18725,
+                      "sha256":  "C7429049B43F351DB25DAE744B1CA83CEEB297F32FAF3F6CF5BBCF407A98AB9C"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/ae876db6-c4c7-4db0-a04b-0b703feeda87.new.txt",
+                      "bytes":  7759,
+                      "sha256":  "72A5617D65CE230CAA243D5E3EC02841813C88C2C2A928F7115A62E760C164C1"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/ae876db6-c4c7-4db0-a04b-0b703feeda87.old.txt",
+                      "bytes":  6208,
+                      "sha256":  "7FE463936788416438A9292199143B4A6137E2DED6796696792FD911B2CC7F51"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/be37c6fb-2847-41e4-ad7a-cb70dcf8dc17.new.txt",
+                      "bytes":  5637,
+                      "sha256":  "0C835315E9DDA497D6282A00ABD1E9333C31CABF97488DA19216B97AF67757C3"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/be37c6fb-2847-41e4-ad7a-cb70dcf8dc17.old.txt",
+                      "bytes":  5035,
+                      "sha256":  "D84DCD134D48F0EAC9E7D922DEE43CDAB3C6DEF0BB01D407EBBB9FBA6E4E7887"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/c98fb932-e4c2-429d-85c1-8750d6388d49.new.txt",
+                      "bytes":  4925,
+                      "sha256":  "BA870774B7A9D12D87037821A2E5B340390C0D06832066E6DEB267371DDB2D27"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/c98fb932-e4c2-429d-85c1-8750d6388d49.old.txt",
+                      "bytes":  4702,
+                      "sha256":  "D4D5747B9919911ECD36B303B2C61049164CBC54157411BADAADE93BD84C4BAF"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/cc9cacc9-8769-4e49-93f9-3017193ea4ae.new.txt",
+                      "bytes":  7918,
+                      "sha256":  "691CCF8ED8783C45B089B563ADC6A6E85958AA738FFD8D8D52822644E81E6951"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/cc9cacc9-8769-4e49-93f9-3017193ea4ae.old.txt",
+                      "bytes":  6363,
+                      "sha256":  "B12D45B82741E37261F154CF52144645872615486A81DD67B7A6377A4B0451F8"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.new.txt",
+                      "bytes":  7646,
+                      "sha256":  "E71B6481AD6FCAC8558DB13A18FECC44A1ABED252343638581E38C788E9A6421"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.old.txt",
+                      "bytes":  7047,
+                      "sha256":  "7FF7302B0E6F8B37C2E14BCA1F3B5EBD24894AED5519DA854DA63BB58343200A"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/d4dc649c-c869-4582-b8ab-4ff8a44ebd2f.new.txt",
+                      "bytes":  4793,
+                      "sha256":  "29BC481161433A91A065ECC42F18A819ADC1CA9F0457AAFA55395FBA4850FFBB"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/d4dc649c-c869-4582-b8ab-4ff8a44ebd2f.old.txt",
+                      "bytes":  4191,
+                      "sha256":  "C2903748234623ED81389C80932795EE67F1D4AFFF2A9D2CF9332478C9CB92C9"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/e22a3275-2b61-4eef-83b1-37572e431dbe.new.txt",
+                      "bytes":  5279,
+                      "sha256":  "5CD44BDCE691FD33183971887FDF200F5C6FECF291C8455FF2CEBA7089D2FB66"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/e22a3275-2b61-4eef-83b1-37572e431dbe.old.txt",
+                      "bytes":  4677,
+                      "sha256":  "0AEBF5CA1507E7A8600818DC01B2D7BC9F555BDC5FF1BEEE91B3399A8B7051F5"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/f7a09137-3c8d-4660-873a-e639dc480fbc.new.txt",
+                      "bytes":  6318,
+                      "sha256":  "BBB8D82FE69D62FEF52403D371F8C326B4E67C47B37E7DCC8F306F52441BBE0F"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/f7a09137-3c8d-4660-873a-e639dc480fbc.old.txt",
+                      "bytes":  5716,
+                      "sha256":  "2A71EA26E7A43FC4C17DC61E84D1D3D2743EDB41D500669E10543C027C4CE913"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/_verify_rules.py",
+                      "bytes":  2682,
+                      "sha256":  "576FC0F46EB48E6B637F0631F6C6DB42868598DD0EB24BAA0256C808D9249E8F"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/08e1e6d2-dc0e-4b40-be67-e7ce4f1bfd5b.txt",
+                      "bytes":  8098,
+                      "sha256":  "4AB7A81DD6A8059864E7A8E5A1BD369427AB5ADE357F36DCC926C26FC838E019"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/438176c5-e351-40d9-b50a-6fbaa7199499.txt",
+                      "bytes":  4355,
+                      "sha256":  "B543C7D215D09B68CF770AABD5A01F8413455E71F4C0E0BFC62989CA2F18A12F"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/4400f518-a316-4894-9b41-0dd5d07094aa.txt",
+                      "bytes":  4724,
+                      "sha256":  "C140A108EEAA9EBAEB0E04B03BFF877E5B6DE9202E848E8BD9E16FD032D7CCBB"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/6912b194-d609-4a39-abf3-bf57b1aef259.txt",
+                      "bytes":  8651,
+                      "sha256":  "F6EC133D8F0EA893A5BAC366934B100093E3667F13C6E7DFFF061F7CB4D6A8BA"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/6912b194-d609-4a39-abf3-bf57b1aef259.txt.bak_20261022_1615",
+                      "bytes":  6264,
+                      "sha256":  "EF35A92AE11C14D4C199657AAEF74329C88C787C7530319DF7E64F17F0EDE8B7"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/756e20e4-4434-4cd5-8458-f10b8d411361.txt",
+                      "bytes":  3401,
+                      "sha256":  "21B53396CF3D5A500188857897AB4C916434F6CD0BA28736DFAD773B93C1FFE6"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/ae876db6-c4c7-4db0-a04b-0b703feeda87.txt",
+                      "bytes":  8087,
+                      "sha256":  "B38E74A14E29E6CCE5570F3DFB1C62ECC9FD71E022F3D701B84C2AE6969882DF"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/be37c6fb-2847-41e4-ad7a-cb70dcf8dc17.txt",
+                      "bytes":  8742,
+                      "sha256":  "B6645B7F15CC056353F52C6DD7BE843266D230A05CEFE2E3F4455BB98023D0D1"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/be37c6fb-2847-41e4-ad7a-cb70dcf8dc17.txt.bak_20261022_1615",
+                      "bytes":  6625,
+                      "sha256":  "DB78642C25E1D896EC6060F924BF905644DD5A3D4DB131544425A0B791A1F32E"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/c98fb932-e4c2-429d-85c1-8750d6388d49.txt",
+                      "bytes":  5254,
+                      "sha256":  "4464959AE29356524DE3CBFCDDBD4CB68BB22F5F4C749FDCB975F27CDB774C89"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/cc9cacc9-8769-4e49-93f9-3017193ea4ae.txt",
+                      "bytes":  8246,
+                      "sha256":  "597B062980873FEEC8A183AD11E77CF929925412108897D3CDC355E801B86A19"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.txt",
+                      "bytes":  15267,
+                      "sha256":  "E131BE8FF93C88F8C149D3B89251DDDEF5A6FDDA8CF4EEC566EB1F3E1D5A9253"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.txt.bak_20261022_1615",
+                      "bytes":  8673,
+                      "sha256":  "DBF1193FFE46F8BEF235ADBD08DE43B09CB792FBF46B6EEEEB1D903AA72D6AA8"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.txt.bak_20261022_1700",
+                      "bytes":  9343,
+                      "sha256":  "12CF9FEF3F15D2C432CD7824804CB38A1B5337C562C1F9BAF05C5E79F9461568"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/cdf5eaa2-dd70-4697-ae80-8e2b3f3b3d63.txt.bak_20261022_1703_合并前",
+                      "bytes":  9343,
+                      "sha256":  "12CF9FEF3F15D2C432CD7824804CB38A1B5337C562C1F9BAF05C5E79F9461568"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/d4dc649c-c869-4582-b8ab-4ff8a44ebd2f.txt",
+                      "bytes":  429,
+                      "sha256":  "3B68987D7CC3FC406D62600D1EA05413399726A55F3D32F33B9055DD67E39FF6"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/d4dc649c-c869-4582-b8ab-4ff8a44ebd2f.txt.bak_20261022_1615",
+                      "bytes":  5808,
+                      "sha256":  "CC6AF3D05480066925EB2F59EFA5AFCE618DDF4475D6C0B8226DA4EC15266F00"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/e22a3275-2b61-4eef-83b1-37572e431dbe.txt",
+                      "bytes":  8651,
+                      "sha256":  "5E2C881CFEF8C5A1A0C49A39DD814F5C7098C85EE89F484FCB149B0B20801506"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/e22a3275-2b61-4eef-83b1-37572e431dbe.txt.bak_20261022_1615",
+                      "bytes":  6267,
+                      "sha256":  "3F13983FBC5CEECB10799A6A052D8BDD438C45F55AE27634BC916A0DCFF944B3"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/f7a09137-3c8d-4660-873a-e639dc480fbc.txt",
+                      "bytes":  15968,
+                      "sha256":  "12510F20481D8A376F94DD75190E68A12E198007A33A33DC39B52F32BA8ED515"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/f7a09137-3c8d-4660-873a-e639dc480fbc.txt.bak_20261022_1615",
+                      "bytes":  7345,
+                      "sha256":  "437D2CBAE02EE4B8C5EF3C9A8DA75EA2C852862EC01199732E411E34EA78E56A"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/f7a09137-3c8d-4660-873a-e639dc480fbc.txt.bak_20261022_1632",
+                      "bytes":  9728,
+                      "sha256":  "F0417C5290A8F40C97F2541E341710B9771E26D28A44D47FC1062CF132452F5E"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/f7a09137-3c8d-4660-873a-e639dc480fbc.txt.bak_20261022_1700",
+                      "bytes":  9895,
+                      "sha256":  "4EF4E15661A2805035E3F31E819FC7ED1BEF7CDC1B1897D8AD33BB75ADCD7FC0"
+                  },
+                  {
+                      "path":  "core/rules/02_定时任务/_cron_prompt_backup_20261020/current/f7a09137-3c8d-4660-873a-e639dc480fbc.txt.bak_20261022_1703_合并前",
+                      "bytes":  9895,
+                      "sha256":  "4EF4E15661A2805035E3F31E819FC7ED1BEF7CDC1B1897D8AD33BB75ADCD7FC0"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/README_克隆说明.md",
+                      "bytes":  9534,
+                      "sha256":  "4767A65BD6714AE0D0633C97E7874726C33CAF03113E4BB29C5FC2190407ED2B"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/云盘自动备份说明_20261107.md",
+                      "bytes":  831,
+                      "sha256":  "9884B020B0CAFE4C1D28578315F8D26DD7B47CE3B32140074A42382C2855ED3E"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/入口一_从哪儿开始.md",
+                      "bytes":  1257,
+                      "sha256":  "ADB843C1DDA74A2A5D212BD1A7CB25287503055526A01E7CA5B81D558823FDEE"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/入口三_每天怎么跑.md",
+                      "bytes":  1273,
+                      "sha256":  "11A83ED1ECFE28EC0D71B95947F9FFBDA492F7CC814C7E874EA07E1F1E34EA79"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/入口二_密钥怎么填.md",
+                      "bytes":  1126,
+                      "sha256":  "D0B23A9223309A1713375F369AE6BD7770628C8EDAC8C59FFD9FC0DC15092B77"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/总提示词_合并版_选股三系统_加_首板模拟盘_20261020.md",
+                      "bytes":  56353,
+                      "sha256":  "C588C49A01F3BB1F53A5C8191B8DB057A71846FC13FAA1CC348B966BBA60C58F"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给minimax的提示词_卖出规则v5.4_20261109.md",
+                      "bytes":  18687,
+                      "sha256":  "FF84C5E6C2E136D134C66E651E541B3626E2BD852EBB10ECB13DE2BEFCA982FB"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/首板+一进二选股系统提示词.md",
+                      "bytes":  11211,
+                      "sha256":  "EAEE27FB4FEAB639ABC0F3D4DF04491AC313FB32205A53C34CE44891A438A775"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/首板模拟盘_总提示词_单文件版_20261020.md",
+                      "bytes":  49215,
+                      "sha256":  "01E52F4A181F176FB6D3C7134B8BD33B02C0C8276FFFABDEAFA32D7D504BC791"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/首板模拟盘_迁移包_20261020.md",
+                      "bytes":  43961,
+                      "sha256":  "21078D6F2D0D31E29C736D65390619BF77D46A64C15DD8E3F77CA8A84BDFBE37"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/E盘去重丢失清单.md",
+                      "bytes":  12522,
+                      "sha256":  "A8630D3AD5ACD31C19F02B2E44974DB3212A39ABED23BA114F16CE1F2D7610FA"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/E盘重复文件合并清单.md",
+                      "bytes":  162904,
+                      "sha256":  "D9427619C6671FC88922F5615AA5787F059C6D822F8AFC76F975FA169082523F"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/已做过视频清单.md",
+                      "bytes":  223770,
+                      "sha256":  "0743E2D2E6B4F7CA5E237847398F711BF0FD107A0710FFB16F0332EC0C8D7E40"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/素材删除清单_20261117.txt",
+                      "bytes":  68220,
+                      "sha256":  "784F5559FA83036033E98CACE449F863497B7011E8F82871B6E6BB6A783111D5"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给Minimax_四系统全聊天框重整理提示词_20261116.md",
+                      "bytes":  34124,
+                      "sha256":  "38EA435E0A012D5504EDBAC115E96A3562A5F636F0A86898C979D2AF8F2F7826"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给MiniMax_看门狗与端口改按需启动_20261117.md",
+                      "bytes":  9714,
+                      "sha256":  "8519D9EBBBBC77CE22EF1F84F251337B531414BD9FEB3FFC5CE06BD9E192514A"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给MiniMax的E盘搬迁提示词.md",
+                      "bytes":  3933,
+                      "sha256":  "E0124D27C6C26E6AB120678F998360B25E865181FCC0E9B5C35EF5FC21878710"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给MiniMax的文件迁移说明_v3.md",
+                      "bytes":  7247,
+                      "sha256":  "29075BDF662849A75C9FE6FF2D1C39A1EA480620EEE79B8A7BEC5CC0585784C4"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给MiniMax的桌面迁移通知_20261117.md",
+                      "bytes":  2589,
+                      "sha256":  "D490904669E75D19C4ECCC5613BB540B5F1E4D78DE2CD15CC3184E608CB0FF49"
+                  },
+                  {
+                      "path":  "core/rules/04_提示词/给MiniMax的搬迁提示词/给MiniMax的转移目录说明.md",
+                      "bytes":  176471,
+                      "sha256":  "B46498A96DE5279C0D8796A7C64DA94DF0B50B068215324DBFBB8700AB377DA9"
+                  },
+                  {
+                      "path":  "core/rules/05_记忆与偏好/偏好与画像摘要_20261122.md",
+                      "bytes":  4171,
+                      "sha256":  "EFD1EAE509894E0680ACFD18BC49AD0332F0566C92429A7C713310039B8C92B3"
+                  },
+                  {
+                      "path":  "core/rules/05_记忆与偏好/核心规则速查_一页纸_20261122.md",
+                      "bytes":  3972,
+                      "sha256":  "0CFE7370CFEAC9D6B20792D6E8BA1CA9DCABB52EE77439D968DEACFBAC37B0EC"
+                  },
+                  {
+                      "path":  "core/rules/05_记忆与偏好/股票线记忆与偏好.md",
+                      "bytes":  15068,
+                      "sha256":  "5267C6CFBFEAA5B34FFC587E32FDE1F6576BEE79F8014A96F852E67C769983F0"
                   },
                   {
                       "path":  "core/skills/agent-core-sync/SKILL.md",
