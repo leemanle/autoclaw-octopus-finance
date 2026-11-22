@@ -17,7 +17,7 @@ mx_accounts.json
 local-runtime.auth.json
 codex-auth.json
 **/memory/archive/
-**/*.png
-**/*.jpg
+**/memory/**/*.png
+**/scripts/**/*.png
 **/*.zip
 **/*.exe
