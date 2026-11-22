@@ -1,8 +1,8 @@
 {
     "version":  "1.0.0",
-    "generatedAt":  "2026-11-22T19:50:33+08:00",
+    "generatedAt":  "2026-11-22T19:51:48+08:00",
     "fileCount":  658,
-    "totalBytes":  21242955,
+    "totalBytes":  21244393,
     "channel":  "github:leemanle/autoclaw-octopus-finance/minimax-core",
     "files":  [
                   {
@@ -22,8 +22,8 @@
                   },
                   {
                       "path":  "README.md",
-                      "bytes":  2791,
-                      "sha256":  "CAF8FFF95BDE0708BAFA3F28B17E2429DEEC5F56AD077D3FC35C89EAD3E93246"
+                      "bytes":  3592,
+                      "sha256":  "BCD11730EC7ABB26E6A3F969AD99D03A1E1C3932D69F9C95A18E9711B1DAA09C"
                   },
                   {
                       "path":  "restore.ps1",
@@ -2867,8 +2867,8 @@
                   },
                   {
                       "path":  "core/skills/agent-core-sync/SKILL.md",
-                      "bytes":  3483,
-                      "sha256":  "5FE3A3991ED17E2E8BC2C240442007E4AA417665265BA73C50992112A0D136C3"
+                      "bytes":  4120,
+                      "sha256":  "7B8844E14D47554AA3AFA31A09AFB7DF22FE98AF61A368D5B28E596BB2D86AB2"
                   },
                   {
                       "path":  "core/skills/ifind-finance-data/call-node.js",

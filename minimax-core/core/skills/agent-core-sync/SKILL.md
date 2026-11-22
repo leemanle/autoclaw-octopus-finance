@@ -47,15 +47,26 @@ powershell -ExecutionPolicy Bypass -File D:\gh_sync_work\minimax-core\sync.ps1
 
 ## 校验（必做，不靠猜）
 
+`sync.ps1` 内置阻断门，提交前自动跑 `generate-manifest.ps1` 和 `verify.ps1`。verify 出现 FAIL 会直接中止，不产出坏快照。
+
+手工复核：
+
 ```
+powershell -File D:\gh_sync_work\minimax-core\verify.ps1 -Root D:\gh_sync_work\minimax-core
 git -C D:\gh_sync_work log -1 --oneline
 git -C D:\gh_sync_work status --short
 git -C D:\gh_sync_work ls-remote origin refs/heads/main
 ```
 
-- 本地 HEAD 等于远端 SHA → 成功
+- verify 退出码 0 且 0 fail → 结构、体积、密钥都过关
+- 本地 HEAD 等于远端 SHA → 推送成功
 - `status --short` 为空 → 无残留
 - 任一不满足 → 视为失败，不许向用户报"已完成"
+
+## 关于密钥
+
+`core` 下所有文本在入库前会过 `Sanitize-Secrets`，`sk-`/`ghp_`/`AKIA`/bearer/appSecret 一类会被替换成 `<REDACTED:...>`。
+记忆文件里粘过的真 key 同样会被拦下。**恢复后必须手工补回真值**，这是设计上的取舍：密钥不进云端。
 
 ## 恢复
 

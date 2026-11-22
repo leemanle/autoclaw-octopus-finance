@@ -62,6 +62,17 @@ Host github.com
 
 ---
 
+## 工程保障
+
+每次同步有一道阻断门，过不了就不提交：
+
+1. `generate-manifest.ps1` 产出 `manifest.json`：版本号、生成时间、每文件 SHA256 与字节数、总量。事后能核对云端那份到底是不是本机这份。
+2. `verify.ps1` 六项检查：禁止路径存在、必备资产缺失、单文件超 50/100MiB、真实密钥泄漏、manifest 哈希漂移、总体积超预算。任一 FAIL 直接中止提交。
+3. 全库文本脱敏：`core` 下所有 md/yaml/json/py 在入库前统一过密钥正则。记忆文件里粘过的 API key 也拦得住，不靠人记得删。
+4. CI：`.github/workflows/verify.yml`，每次 push 在干净的 Windows 环境重跑校验，避免本地环境差异掩盖问题。
+
+版本 1.0.0，变更记录见 `CHANGELOG.md`。
+
 ## 红线
 
 永不入库：`auth/`、`keys_backup_*/`、`keys_new_*.txt`、`sessions/`、`v2/`、`tools/`、`computer-use/`、`background-tasks/`、`mx_accounts.json`、`local-runtime.auth.json`、`codex-auth.json`、任何 `*.sqlite`、`*.log`。
