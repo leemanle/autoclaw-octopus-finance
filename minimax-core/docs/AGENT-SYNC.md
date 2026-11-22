@@ -1,71 +1,71 @@
 # 智能体状态同步 SOP（给 Mavis / MiniMax 执行）
 
-## 这份文档解决什么
+## 解决什么
 
-你的记忆、技能、人格、工作区散在本机 `%USERPROFILE%\.minimax` 里，机器坏了或换机就归零。
-这个仓库把它们变成可版本化、可恢复的状态。
+你的记忆、技能、人格、工作区散在 `%USERPROFILE%\.minimax`。机器坏了或换机就归零。
+这份流程把它们变成可版本化、可恢复的状态。
 
 **目标不是备份文件，是保住"你还是你"。**
 
 ---
 
-## 仓库定位
+## 坐标
 
-- 远端：GitHub 私有库 `doubao-agent-core`（账号 leemanle）
-- 本地工作区：`D:\agent-core-sync`
-- 协议：SSH（`~/.ssh/id_ed25519`），不走 HTTPS token
-- 只存文本状态，约 20MB
+- 远端：GitHub 私有库 `leemanle/autoclaw-octopus-finance` → 目录 `minimax-core/`
+- 本地工作副本：`D:\gh_sync_work`
+- 通道：SSH over 443（22 端口不稳）
+- 规模：652 文件 / 20.33MB
 
 ---
 
-## 何时触发同步
+## 何时触发
 
-满足任一条件就跑：
+任一条件成立就跑：
 
-1. 用户明确说"存一下""备份一下""同步"
+1. 用户说"存一下""备份""同步"
 2. 本次会话产生了长期记忆（写入 `memory/user.md` 或 `agents/mavis/memory/MEMORY.md`）
-3. 新增或修改了技能（`skills/` 下有文件变化）
-4. 配置变更（模型、渠道、权限、MCP 服务）
+3. 新增或改动了技能
+4. 配置变更（模型 / 渠道 / 权限 / MCP）
 5. 距上次同步超过 3 天
 
-不需要同步的场景：只做了问答、只生成了临时文件、只跑了数据查询没落盘。
+不必跑的场景：纯问答、临时文件、只查数据没落盘。
 
 ---
 
-## 执行流程
+## 执行
 
 ### 第一步：同步
 
 ```
-powershell -ExecutionPolicy Bypass -File D:\agent-core-sync\sync.ps1
+powershell -ExecutionPolicy Bypass -File D:\gh_sync_work\minimax-core\sync.ps1
 ```
 
-脚本内部顺序是固定的，不要跳过：
+脚本顺序固定，不要跳：
 
-1. 白名单目录增量复制（memory / skills / workspace / .builtin-skills / agents）
-2. 只取 `agents/mavis/memory/MEMORY.md` 最新版，`archive/` 按日快照不入库
-3. 8 个配置文件逐个读入、正则脱敏、再写出到 `core/config/`
-4. `git add -A` → 有变更才提交 → `git push origin HEAD`
+1. 白名单增量复制（memory / skills / workspace / .builtin-skills / agents）
+2. 座席记忆只取 `MEMORY.md` 最新版，`archive/` 按日快照不入库（Git 历史本身就是版本）
+3. 8 个配置文件逐个读入 → 正则脱敏 → 写出到 `core/config/`
+4. `git add minimax-core` → 有变更才提交 → `git push origin main`
 
-### 第二步：校验（必做，不靠猜）
+### 第二步：校验（必做）
 
 ```
-git -C D:\agent-core-sync log -1 --pretty="%h %ad %s" --date=iso
-git -C D:\agent-core-sync status --short
-git -C D:\agent-core-sync ls-remote origin HEAD
+git -C D:\gh_sync_work log -1 --oneline
+git -C D:\gh_sync_work status --short
+git -C D:\gh_sync_work ls-remote origin refs/heads/main
 ```
 
-判定标准：
+判定：
 
 - 本地 HEAD 与 `ls-remote` 返回的 SHA 一致 → 推送成功
-- `status --short` 为空 → 无残留未提交
-- 提交信息是 `sync YYYY-MM-DD HH:mm` → 时间对得上
+- `status --short` 为空 → 无残留
+- 提交信息形如 `sync YYYY-MM-DD HH:mm` → 时间对得上
 
-任一不满足，视为失败，进入故障处理，**不要向用户报告"已完成"**。
+任一不满足即失败，进故障处理，**不许报"已完成"**。
 
 ### 第三步：回报
 
-一句话给结论：提交短哈希、文件数、体积。不要贴 diff，不要列目录。
+一句话：提交短哈希、文件数、体积。不贴 diff，不列目录。
 
 ---
 
@@ -73,54 +73,59 @@ git -C D:\agent-core-sync ls-remote origin HEAD
 
 | 现象 | 原因 | 动作 |
 |---|---|---|
-| `git push` 报 `Connection reset` / timeout | HTTPS 或网页通道被掐，SSH 正常 | 确认 `git remote -v` 是 `git@github.com:` 开头；`ssh -T git@github.com` 应返回 `Hi leemanle!` |
-| `Permission denied (publickey)` | SSH 密钥未加载 | 检查 `~/.ssh/id_ed25519` 存在；`ssh-add` |
-| `robocopy` 退出码 ≥ 8 | 源文件被占用或路径不存在 | 看具体目录，跳过并记录，不整体中止 |
-| 提交后仓库体积异常增长 | 误入大文件 | `git rm --cached` 该文件，补进 `.gitignore`，再强推前先确认历史是否需要清理 |
-| 敏感值出现在 diff 里 | 脱敏规则漏了字段 | 立即改 `sync.ps1` 的 `Sanitize-Text` 函数，`git filter-repo` 清历史，改密钥 |
+| `Connection timed out` / `reset` | 22 端口被断 | 确认 `~/.ssh/config` 里 github.com 走 443；`ssh -T git@github.com` 应返回 `Hi leemanle!` |
+| `Permission denied (publickey)` | 密钥未加载 | 查 `~/.ssh/id_ed25519`；`ssh-add` |
+| `robocopy` 退出码 ≥ 8 | 源被占用或路径不存在 | 记录跳过，不整体中止 |
+| 仓库体积异常增长 | 大文件误入 | `git rm --cached` + 补 `.gitignore`，必要时清历史 |
+| 敏感值出现在 diff | 脱敏规则漏字段 | 改 `sync.ps1` 的 `Sanitize-Text`，清历史，换密钥 |
 
 ---
 
-## 恢复流程（换机 / 重装后）
+## 恢复（换机 / 重装）
 
-### 前提
-
-装好 Git，配好 SSH 密钥，能 `ssh -T git@github.com` 通。
-
-### 步骤
+前提：装 Git，配 SSH key，`ssh -T git@github.com` 通。
 
 ```
-git clone git@github.com:leemanle/doubao-agent-core.git D:\agent-core-sync
-powershell -ExecutionPolicy Bypass -File D:\agent-core-sync\restore.ps1 -DryRun
-powershell -ExecutionPolicy Bypass -File D:\agent-core-sync\restore.ps1
+git clone git@github.com:leemanle/autoclaw-octopus-finance.git D:\gh_sync_work
+powershell -File D:\gh_sync_work\minimax-core\restore.ps1 -DryRun
+powershell -File D:\gh_sync_work\minimax-core\restore.ps1
 ```
 
-`restore.ps1` 做的事：
+`restore.ps1` 做三件事：
 
 1. 现有 `memory/ skills/ workspace/` 先备份到 `~/.minimax_backup_<时间戳>`
 2. 按目录还原到 `%USERPROFILE%\.minimax`
-3. 配置不直接覆盖生产路径，放到 `~/.minimax/_restored_config/` 等你手工合并
+3. 配置放 `~/.minimax/_restored_config/`，不直接覆盖生产路径
 
-### 恢复后必须手工补的三项
+### 恢复后必补三项
 
-1. **密钥**：`_restored_config/` 里所有 `<REDACTED:...>` 换成真值，再合并进 `~/.minimax/`
-2. **登录态**：`auth/` 属于凭据，不在备份范围，重新登录一次
-3. **验证**：跑 `sync.ps1 -NoPush`，看能否正常读源、写 core
+1. **密钥**：`_restored_config/` 里 `<REDACTED:...>` 换真值，再合进 `~/.minimax/`
+2. **登录态**：`auth/` 是凭据，不在备份范围，重新登录
+3. **验证**：跑 `sync.ps1 -NoPush`，确认能读源、写 core
 
 三项做完再启用定时任务。
 
 ---
 
-## 红线（任何情况下不破）
+## 红线
 
 - 不打包 `auth/`、`keys_*`、`sessions/`、`v2/`、`tools/`、`computer-use/`、`background-tasks/`
 - 不传 `mx_accounts.json`、`local-runtime.auth.json`、`codex-auth.json`
-- 不把 `*.sqlite`、`*.log`、行情数据 zip、模型二进制塞进 Git
-- 仓库是私有的，但**私有不等于保险箱**：任何真密钥都不该进去
-- 单文件超 50MiB 立刻停手，改方案；超 100MiB Git 直接拒绝
+- 不把 `*.sqlite`、`*.log`、行情 zip、模型二进制塞进 Git
+- 私有不等于保险箱，任何真密钥都不该进仓库
+- 单文件超 50MiB 停手换方案；超 100MiB Git 直接拒
 
 ---
 
-## 一句话总结
+## 如果以后要独立成库
 
-记忆和技能用 Git 管版本，密钥和执行态永远留在本机。仓库里只该有"能公开但不想公开"的东西。
+现在没独立库，是因为网页通道和密码都不可用，只能走 SSH 推已有库。
+一旦拿到可用的 PAT 或能登录网页，一条命令即可拆分：
+
+```
+# 用 API 建空私有库后，把 minimax-core 作为独立仓库推出
+git -C D:\gh_sync_work subtree split -p minimax-core -b minimax-core-only
+git push git@github.com:<user>/doubao-agent-core.git minimax-core-only:main
+```
+
+拆完后把 `sync.ps1` 的 `$Repo` 指向新库工作副本即可，其余不变。

@@ -1,11 +1,11 @@
 param(
-    [string]$Repo   = "D:\agent-core-sync",
+    [string]$Repo   = "D:\gh_sync_work",
     [string]$Target = "$env:USERPROFILE\.minimax",
     [switch]$DryRun
 )
 
 $ErrorActionPreference = "Stop"
-$Core = Join-Path $Repo "core"
+$Core = Join-Path $Repo "minimax-core\core"
 
 function Write-Log($m) { Write-Host ("[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $m) }
 

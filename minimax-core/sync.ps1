@@ -1,11 +1,11 @@
 param(
     [string]$Source = "$env:USERPROFILE\.minimax",
-    [string]$Repo   = "D:\agent-core-sync",
+    [string]$Repo   = "D:\gh_sync_work",
     [switch]$NoPush
 )
 
 $ErrorActionPreference = "Stop"
-$Core = Join-Path $Repo "core"
+$Core = Join-Path $Repo "minimax-core\core"
 
 function Write-Log($m) { Write-Host ("[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $m) }
 
@@ -82,7 +82,7 @@ Set-Content -Path (Join-Path $Core "EXCLUDED.txt") -Value ($never -join "`n") -E
 Push-Location $Repo
 try {
     if (-not (Test-Path (Join-Path $Repo ".git"))) { throw "repo not initialized: run setup first" }
-    git add -A
+    git add minimax-core
     $msg = "sync " + (Get-Date -Format "yyyy-MM-dd HH:mm")
     git diff --cached --quiet
     if ($LASTEXITCODE -eq 0) {

@@ -4,7 +4,7 @@
     "agentName": "mavis",
     "wroteMemory": true,
     "reminded": false,
-    "checkedAt": "2026-11-22 00:14:38"
+    "checkedAt": "2026-11-22 09:38:45"
   },
   {
     "sessionId": "mvs_7df65bb73e8646bd95aac5185f5105d1",
@@ -40,5 +40,19 @@
     "wroteMemory": false,
     "reminded": false,
     "checkedAt": "2026-11-22 08:56:03"
+  },
+  {
+    "sessionId": "mvs_334343e1f69e4dada0e925cf25dff301",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 09:09:07"
+  },
+  {
+    "sessionId": "mvs_ba0eaae03b5c4251accffbc4ea8551f8",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 09:32:43"
   }
 ]
