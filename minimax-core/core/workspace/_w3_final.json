@@ -1,0 +1,2602 @@
+{
+ "talk": [
+  {
+   "code": "603337",
+   "name": "杰克科技",
+   "rank_today": 1,
+   "mentions": 2,
+   "threads": 1,
+   "title_hits": 1,
+   "tag_hits": 1,
+   "first_at": "2026-10-29 10:44:01",
+   "last_at": "2026-10-29 10:44:01",
+   "samples": [
+    "【国投机械】杰克科技发布会更新：发布缝制机器人艾妮+产线王（人机协同，AI赋能）两款产品"
+   ],
+   "chg": 6.9,
+   "win2d_1028_1029": {
+    "mentions": 6,
+    "threads": 5,
+    "first_at": "2026-10-28 09:03:06",
+    "last_at": "2026-10-29 10:44:01"
+   },
+   "win3d_1027_1029": {
+    "mentions": 10,
+    "threads": 8
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002565",
+   "name": "顺灏股份",
+   "rank_today": 2,
+   "mentions": 1,
+   "threads": 1,
+   "title_hits": 0,
+   "tag_hits": 1,
+   "first_at": "2026-10-29 11:25:51",
+   "last_at": "2026-10-29 11:25:51",
+   "samples": [
+    "商业航天持续催化"
+   ],
+   "chg": 10.0,
+   "win2d_1028_1029": {
+    "mentions": 1,
+    "threads": 1,
+    "first_at": "2026-10-29 11:25:51",
+    "last_at": "2026-10-29 11:25:51"
+   },
+   "win3d_1027_1029": {
+    "mentions": 1,
+    "threads": 1
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "300762",
+   "name": "上海瀚讯",
+   "rank_today": 3,
+   "mentions": 1,
+   "threads": 1,
+   "title_hits": 0,
+   "tag_hits": 1,
+   "first_at": "2026-10-29 11:25:51",
+   "last_at": "2026-10-29 11:25:51",
+   "samples": [
+    "商业航天持续催化"
+   ],
+   "chg": 4.97,
+   "win2d_1028_1029": {
+    "mentions": 1,
+    "threads": 1,
+    "first_at": "2026-10-29 11:25:51",
+    "last_at": "2026-10-29 11:25:51"
+   },
+   "win3d_1027_1029": {
+    "mentions": 1,
+    "threads": 1
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "603536",
+   "name": "惠发食品",
+   "rank_today": 4,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.01,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "920576",
+   "name": "天力复合",
+   "rank_today": 5,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 12.26,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300753",
+   "name": "爱朋医疗",
+   "rank_today": 6,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 3.54,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600107",
+   "name": "*ST恒雅",
+   "rank_today": 7,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.73,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "002337",
+   "name": "赛象科技",
+   "rank_today": 8,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.01,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002275",
+   "name": "桂林三金",
+   "rank_today": 9,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.02,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "600997",
+   "name": "开滦股份",
+   "rank_today": 10,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.0,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "002975",
+   "name": "博杰股份",
+   "rank_today": 11,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": -4.79,
+   "win2d_1028_1029": {
+    "mentions": 2,
+    "threads": 1,
+    "first_at": "2026-10-28 17:30:32",
+    "last_at": "2026-10-28 17:30:32"
+   },
+   "win3d_1027_1029": {
+    "mentions": 2,
+    "threads": 1
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "603408",
+   "name": "建霖家居",
+   "rank_today": 12,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.61,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300516",
+   "name": "久之洋",
+   "rank_today": 13,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 3.87,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "688466",
+   "name": "金科环境",
+   "rank_today": 14,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 3.6,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "688360",
+   "name": "德马科技",
+   "rank_today": 15,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.26,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600611",
+   "name": "大众交通",
+   "rank_today": 16,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.3,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "688686",
+   "name": "奥普特",
+   "rank_today": 17,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.73,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "605100",
+   "name": "华丰股份",
+   "rank_today": 18,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.47,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002277",
+   "name": "友阿股份",
+   "rank_today": 19,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.94,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "301121",
+   "name": "紫建电子",
+   "rank_today": 20,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.83,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300006",
+   "name": "莱美药业",
+   "rank_today": 21,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.65,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 2,
+    "threads": 1
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "603135",
+   "name": "中重科技",
+   "rank_today": 22,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": -3.24,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600728",
+   "name": "佳都科技",
+   "rank_today": 23,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 8.55,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "603389",
+   "name": "亚振家居",
+   "rank_today": 24,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 7.16,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300129",
+   "name": "泰胜风能",
+   "rank_today": 25,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.26,
+   "win2d_1028_1029": {
+    "mentions": 1,
+    "threads": 1,
+    "first_at": "2026-10-28 18:21:00",
+    "last_at": "2026-10-28 18:21:00"
+   },
+   "win3d_1027_1029": {
+    "mentions": 1,
+    "threads": 1
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "605598",
+   "name": "上海港湾",
+   "rank_today": 26,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.98,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "300102",
+   "name": "乾照光电",
+   "rank_today": 27,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 7.54,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600879",
+   "name": "航天电子",
+   "rank_today": 28,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.27,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300455",
+   "name": "航天智装",
+   "rank_today": 29,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 3.79,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "688375",
+   "name": "国博电子",
+   "rank_today": 30,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.15,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002361",
+   "name": "神剑股份",
+   "rank_today": 31,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.75,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600501",
+   "name": "航天晨光",
+   "rank_today": 32,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.03,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "920885",
+   "name": "星辰科技",
+   "rank_today": 33,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.15,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "603379",
+   "name": "腾达科技",
+   "rank_today": 34,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.38,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "rank_today": 35,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.06,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "002865",
+   "name": "钧达股份",
+   "rank_today": 36,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.0,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "603703",
+   "name": "盛洋科技",
+   "rank_today": 37,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.03,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "688387",
+   "name": "信科移动",
+   "rank_today": 38,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.54,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "rank_today": 39,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.04,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 2
+  },
+  {
+   "code": "920166",
+   "name": "海圣医疗",
+   "rank_today": 40,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.5,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "rank_today": 41,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.03,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "rank_today": 42,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.06,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "600576",
+   "name": "祥源文旅",
+   "rank_today": 43,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.02,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "300045",
+   "name": "华力创通",
+   "rank_today": 44,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.42,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600592",
+   "name": "龙溪股份",
+   "rank_today": 45,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.98,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "002948",
+   "name": "青岛银行",
+   "rank_today": 46,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 8.02,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600078",
+   "name": "澄星股份",
+   "rank_today": 47,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": -0.74,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002636",
+   "name": "金安国纪",
+   "rank_today": 48,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": -1.19,
+   "win2d_1028_1029": {
+    "mentions": 7,
+    "threads": 6,
+    "first_at": "2026-10-28 12:00:44",
+    "last_at": "2026-10-28 22:12:41"
+   },
+   "win3d_1027_1029": {
+    "mentions": 7,
+    "threads": 6
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "002679",
+   "name": "福建金森",
+   "rank_today": 49,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.02,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "000701",
+   "name": "厦门信达",
+   "rank_today": 50,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.98,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "603279",
+   "name": "景津装备",
+   "rank_today": 51,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.27,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600428",
+   "name": "中远海特",
+   "rank_today": 52,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.05,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "600727",
+   "name": "鲁北化工",
+   "rank_today": 53,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 5.46,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600643",
+   "name": "爱建集团",
+   "rank_today": 54,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.1,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "600118",
+   "name": "中国卫星",
+   "rank_today": 55,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.0,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "600387",
+   "name": "长城科技",
+   "rank_today": 56,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": -4.39,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "rank_today": 57,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.96,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "002531",
+   "name": "天顺风能",
+   "rank_today": 58,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 9.97,
+   "win2d_1028_1029": {
+    "mentions": 1,
+    "threads": 1,
+    "first_at": "2026-10-28 18:21:00",
+    "last_at": "2026-10-28 18:21:00"
+   },
+   "win3d_1027_1029": {
+    "mentions": 1,
+    "threads": 1
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "605338",
+   "name": "巴比食品",
+   "rank_today": 59,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.03,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "rank_today": 60,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 10.03,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": true,
+   "lbc_1029": 1
+  },
+  {
+   "code": "301338",
+   "name": "迪达汽服",
+   "rank_today": 61,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 6.74,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "301155",
+   "name": "海力风电",
+   "rank_today": 62,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 12.43,
+   "win2d_1028_1029": {
+    "mentions": 2,
+    "threads": 1,
+    "first_at": "2026-10-28 21:33:59",
+    "last_at": "2026-10-28 21:33:59"
+   },
+   "win3d_1027_1029": {
+    "mentions": 2,
+    "threads": 1
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300677",
+   "name": "英科医疗",
+   "rank_today": 63,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 7.71,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300177",
+   "name": "中海达",
+   "rank_today": 64,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 14.19,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "300136",
+   "name": "信维通信",
+   "rank_today": 65,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.56,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "688087",
+   "name": "英科再生",
+   "rank_today": 66,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 4.89,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  },
+  {
+   "code": "600757",
+   "name": "长江传媒",
+   "rank_today": 67,
+   "mentions": 0,
+   "threads": 0,
+   "title_hits": 0,
+   "tag_hits": 0,
+   "first_at": "",
+   "last_at": "",
+   "samples": [],
+   "chg": 7.9,
+   "win2d_1028_1029": {
+    "mentions": 0,
+    "threads": 0,
+    "first_at": "",
+    "last_at": ""
+   },
+   "win3d_1027_1029": {
+    "mentions": 0,
+    "threads": 0
+   },
+   "is_zt_1029": false,
+   "lbc_1029": 0
+  }
+ ],
+ "tag_top": [
+  {
+   "tag": "商业航天",
+   "n": 13,
+   "codes": [
+    "603135",
+    "300129",
+    "605598",
+    "300102",
+    "600879",
+    "300455",
+    "688375",
+    "002361",
+    "600501",
+    "920885",
+    "603379",
+    "600261",
+    "002865"
+   ]
+  },
+  {
+   "tag": "三季报增长",
+   "n": 9,
+   "codes": [
+    "002636",
+    "002679",
+    "000701",
+    "603279",
+    "600428",
+    "600727",
+    "600643",
+    "600387",
+    "003032"
+   ]
+  },
+  {
+   "tag": "军工",
+   "n": 3,
+   "codes": [
+    "600501",
+    "920885",
+    "600592"
+   ]
+  },
+  {
+   "tag": "冰雪经济",
+   "n": 3,
+   "codes": [
+    "000530",
+    "601188",
+    "600576"
+   ]
+  },
+  {
+   "tag": "卫星通信",
+   "n": 3,
+   "codes": [
+    "603703",
+    "300762",
+    "300045"
+   ]
+  },
+  {
+   "tag": "机器人",
+   "n": 3,
+   "codes": [
+    "002337",
+    "688360",
+    "003032"
+   ]
+  },
+  {
+   "tag": "福建",
+   "n": 3,
+   "codes": [
+    "600592",
+    "002679",
+    "000701"
+   ]
+  },
+  {
+   "tag": "业绩增长",
+   "n": 2,
+   "codes": [
+    "605100",
+    "600078"
+   ]
+  },
+  {
+   "tag": "人工智能",
+   "n": 2,
+   "codes": [
+    "300753",
+    "600728"
+   ]
+  },
+  {
+   "tag": "人形机器人",
+   "n": 2,
+   "codes": [
+    "920885",
+    "603337"
+   ]
+  },
+  {
+   "tag": "低空经济",
+   "n": 2,
+   "codes": [
+    "300045",
+    "002531"
+   ]
+  },
+  {
+   "tag": "军用",
+   "n": 2,
+   "codes": [
+    "300455",
+    "688375"
+   ]
+  },
+  {
+   "tag": "北交所",
+   "n": 2,
+   "codes": [
+    "920576",
+    "920885"
+   ]
+  },
+  {
+   "tag": "卫星",
+   "n": 2,
+   "codes": [
+    "688375",
+    "688387"
+   ]
+  },
+  {
+   "tag": "固态电池",
+   "n": 2,
+   "codes": [
+    "301121",
+    "600078"
+   ]
+  },
+  {
+   "tag": "外销",
+   "n": 2,
+   "codes": [
+    "603379",
+    "600261"
+   ]
+  },
+  {
+   "tag": "太空算力",
+   "n": 2,
+   "codes": [
+    "300516",
+    "600728"
+   ]
+  },
+  {
+   "tag": "无人机",
+   "n": 2,
+   "codes": [
+    "000701",
+    "003032"
+   ]
+  },
+  {
+   "tag": "无人驾驶",
+   "n": 2,
+   "codes": [
+    "300516",
+    "600611"
+   ]
+  },
+  {
+   "tag": "星间激光",
+   "n": 2,
+   "codes": [
+    "300516",
+    "600879"
+   ]
+  }
+ ],
+ "clusters": [
+  {
+   "name": "商业航天·卫星·军工",
+   "n": 24,
+   "codes": [
+    "920576",
+    "600261",
+    "000530",
+    "600501",
+    "603703",
+    "002565",
+    "002865",
+    "600118",
+    "600592",
+    "605598",
+    "600728",
+    "300102",
+    "603379",
+    "600879",
+    "688387",
+    "300045",
+    "300129",
+    "688375",
+    "300762",
+    "002361",
+    "920885",
+    "300516",
+    "300455",
+    "603135"
+   ],
+   "leader": "920576 天力复合 +12.26%",
+   "leader_code": "920576",
+   "zt_members": [
+    "600261",
+    "000530",
+    "600501",
+    "603703",
+    "002565",
+    "002865",
+    "600118",
+    "600592",
+    "605598"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 2 个盘日(10-28,10-29)；论坛语料出现日 2026-10-20,2026-10-21,2026-10-22,2026-10-23,2026-10-25,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 9 只；600261,000530,002565,603135 近10日已有涨停史",
+   "report_hits": [
+    "10-28 08:00(5次)",
+    "10-28 12:40(4次)",
+    "10-28 16:00(8次)",
+    "10-28 21:00(3次)",
+    "10-29 08:00(8次)",
+    "10-29 12:40(v106)(25次)",
+    "10-29 12:40(v107)(100次)"
+   ],
+   "corpus_days": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-25",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "业绩增长·三季报",
+   "n": 19,
+   "codes": [
+    "600643",
+    "600428",
+    "605338",
+    "002275",
+    "002679",
+    "600118",
+    "600997",
+    "000701",
+    "002531",
+    "003032",
+    "603279",
+    "002948",
+    "600107",
+    "605100",
+    "600727",
+    "002337",
+    "600078",
+    "002636",
+    "600387"
+   ],
+   "leader": "600643 爱建集团 +10.10%",
+   "leader_code": "600643",
+   "zt_members": [
+    "600643",
+    "600428",
+    "605338",
+    "002275",
+    "002679",
+    "600118",
+    "600997",
+    "000701",
+    "002531",
+    "003032",
+    "600107"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-21,2026-10-22,2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 11 只；600078,002636 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(5次)",
+    "10-28 08:00(5次)",
+    "10-28 12:40(7次)",
+    "10-28 16:00(6次)",
+    "10-28 21:00(40次)",
+    "10-29 08:00(32次)",
+    "10-29 12:40(v106)(10次)",
+    "10-29 12:40(v107)(15次)"
+   ],
+   "corpus_days": [
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "风电·钙钛矿·固态电池·新能源",
+   "n": 14,
+   "codes": [
+    "600261",
+    "601188",
+    "000530",
+    "002565",
+    "002865",
+    "605598",
+    "002531",
+    "603279",
+    "301121",
+    "603408",
+    "603379",
+    "300129",
+    "688466",
+    "600078"
+   ],
+   "leader": "600261 阳光照明 +10.06%",
+   "leader_code": "600261",
+   "zt_members": [
+    "600261",
+    "601188",
+    "000530",
+    "002565",
+    "002865",
+    "605598",
+    "002531"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-22,2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 7 只；600261,000530,002565,600078 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(4次)",
+    "10-28 08:00(9次)",
+    "10-28 12:40(7次)",
+    "10-28 16:00(6次)",
+    "10-28 21:00(5次)",
+    "10-29 08:00(6次)",
+    "10-29 12:40(v106)(14次)",
+    "10-29 12:40(v107)(16次)"
+   ],
+   "corpus_days": [
+    "2026-10-22",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "AI·算力·数据中心·液冷",
+   "n": 13,
+   "codes": [
+    "000530",
+    "603103",
+    "603703",
+    "003032",
+    "600728",
+    "300102",
+    "301338",
+    "605100",
+    "300045",
+    "600611",
+    "688686",
+    "300753",
+    "002975"
+   ],
+   "leader": "000530 冰山冷热 +10.03%",
+   "leader_code": "000530",
+   "zt_members": [
+    "000530",
+    "603103",
+    "603703",
+    "003032"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-20,2026-10-21,2026-10-22,2026-10-23,2026-10-25,2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 4 只；000530,002975 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(48次)",
+    "10-28 08:00(62次)",
+    "10-28 12:40(57次)",
+    "10-28 16:00(54次)",
+    "10-28 21:00(70次)",
+    "10-29 08:00(129次)",
+    "10-29 12:40(v106)(41次)",
+    "10-29 12:40(v107)(87次)"
+   ],
+   "corpus_days": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "化工·材料·资源",
+   "n": 11,
+   "codes": [
+    "002679",
+    "600997",
+    "002277",
+    "300102",
+    "603389",
+    "600107",
+    "600727",
+    "002361",
+    "600078",
+    "002636",
+    "600387"
+   ],
+   "leader": "002679 福建金森 +10.02%",
+   "leader_code": "002679",
+   "zt_members": [
+    "002679",
+    "600997",
+    "002277",
+    "600107"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-20,2026-10-25,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 4 只；600078,002636 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(4次)",
+    "10-28 08:00(1次)",
+    "10-28 21:00(9次)",
+    "10-29 08:00(6次)",
+    "10-29 12:40(v106)(3次)",
+    "10-29 12:40(v107)(7次)"
+   ],
+   "corpus_days": [
+    "2026-10-20",
+    "2026-10-25",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "人形机器人·具身智能",
+   "n": 9,
+   "codes": [
+    "600592",
+    "003032",
+    "603337",
+    "002337",
+    "688360",
+    "920885",
+    "300753",
+    "603135",
+    "600387"
+   ],
+   "leader": "600592 龙溪股份 +9.98%",
+   "leader_code": "600592",
+   "zt_members": [
+    "600592",
+    "003032"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-20,2026-10-21,2026-10-22,2026-10-23,2026-10-25,2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 2 只；603337,603135 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(58次)",
+    "10-28 08:00(60次)",
+    "10-28 12:40(50次)",
+    "10-28 16:00(56次)",
+    "10-28 21:00(46次)",
+    "10-29 08:00(49次)",
+    "10-29 12:40(v106)(30次)",
+    "10-29 12:40(v107)(28次)"
+   ],
+   "corpus_days": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "金融·地方国资",
+   "n": 9,
+   "codes": [
+    "600643",
+    "600428",
+    "002679",
+    "000701",
+    "600592",
+    "002948",
+    "301338",
+    "600107",
+    "300516"
+   ],
+   "leader": "600643 爱建集团 +10.10%",
+   "leader_code": "600643",
+   "zt_members": [
+    "600643",
+    "600428",
+    "002679",
+    "000701",
+    "600592",
+    "600107"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-23,2026-10-27,2026-10-29；簇内最高连板=1；簇内今日涨停 6 只",
+   "report_hits": [
+    "10-27 21:00(21次)",
+    "10-28 08:00(12次)",
+    "10-28 12:40(4次)",
+    "10-28 16:00(4次)",
+    "10-28 21:00(3次)",
+    "10-29 08:00(2次)",
+    "10-29 12:40(v106)(7次)",
+    "10-29 12:40(v107)(5次)"
+   ],
+   "corpus_days": [
+    "2026-10-23",
+    "2026-10-27",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "低空经济·无人机·无人驾驶",
+   "n": 8,
+   "codes": [
+    "601188",
+    "600576",
+    "000701",
+    "002531",
+    "003032",
+    "300045",
+    "600611",
+    "300516"
+   ],
+   "leader": "601188 龙江交通 +10.06%",
+   "leader_code": "601188",
+   "zt_members": [
+    "601188",
+    "600576",
+    "000701",
+    "002531",
+    "003032"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "新冒头",
+   "evidence": "历史档未见；论坛语料出现日 无；簇内最高连板=1；簇内今日涨停 5 只",
+   "report_hits": [],
+   "corpus_days": []
+  },
+  {
+   "name": "冰雪经济·文旅·商贸",
+   "n": 5,
+   "codes": [
+    "601188",
+    "000530",
+    "605338",
+    "600576",
+    "002277"
+   ],
+   "leader": "601188 龙江交通 +10.06%",
+   "leader_code": "601188",
+   "zt_members": [
+    "601188",
+    "000530",
+    "605338",
+    "600576",
+    "002277"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-22,2026-10-23；簇内最高连板=1；簇内今日涨停 5 只；000530 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(5次)",
+    "10-28 08:00(6次)",
+    "10-28 12:40(4次)",
+    "10-28 16:00(4次)",
+    "10-28 21:00(3次)",
+    "10-29 12:40(v107)(2次)"
+   ],
+   "corpus_days": [
+    "2026-10-22",
+    "2026-10-23"
+   ]
+  },
+  {
+   "name": "医药·脑机接口·医疗",
+   "n": 5,
+   "codes": [
+    "002172",
+    "002275",
+    "920166",
+    "300006",
+    "300753"
+   ],
+   "leader": "002172 澳洋健康 +10.04%",
+   "leader_code": "002172",
+   "zt_members": [
+    "002172",
+    "002275"
+   ],
+   "max_lbc": 2,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-20,2026-10-21,2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=2；簇内今日涨停 2 只；002172,300006 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(4次)",
+    "10-28 08:00(1次)",
+    "10-28 12:40(9次)",
+    "10-28 16:00(8次)",
+    "10-28 21:00(19次)",
+    "10-29 08:00(38次)",
+    "10-29 12:40(v106)(8次)",
+    "10-29 12:40(v107)(5次)"
+   ],
+   "corpus_days": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "食品·消费·烟草",
+   "n": 3,
+   "codes": [
+    "605338",
+    "603536",
+    "002565"
+   ],
+   "leader": "605338 巴比食品 +10.03%",
+   "leader_code": "605338",
+   "zt_members": [
+    "605338",
+    "603536",
+    "002565"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 3 个盘日(10-27,10-28,10-29)；论坛语料出现日 2026-10-26,2026-10-27,2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 3 只；002565 近10日已有涨停史",
+   "report_hits": [
+    "10-27 21:00(5次)",
+    "10-28 08:00(8次)",
+    "10-28 12:40(1次)",
+    "10-29 12:40(v106)(5次)",
+    "10-29 12:40(v107)(7次)"
+   ],
+   "corpus_days": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  },
+  {
+   "name": "影视·IP·传媒",
+   "n": 1,
+   "codes": [
+    "603103"
+   ],
+   "leader": "603103 横店影视 +10.03%",
+   "leader_code": "603103",
+   "zt_members": [
+    "603103"
+   ],
+   "max_lbc": 1,
+   "new_or_old": "老热点",
+   "evidence": "历史档出现 2 个盘日(10-28,10-29)；论坛语料出现日 2026-10-28,2026-10-29；簇内最高连板=1；簇内今日涨停 1 只",
+   "report_hits": [
+    "10-28 08:00(2次)",
+    "10-28 12:40(9次)",
+    "10-28 16:00(8次)",
+    "10-28 21:00(30次)",
+    "10-29 08:00(7次)",
+    "10-29 12:40(v106)(6次)",
+    "10-29 12:40(v107)(6次)"
+   ],
+   "corpus_days": [
+    "2026-10-28",
+    "2026-10-29"
+   ]
+  }
+ ],
+ "zt_theme_top": [
+  {
+   "theme": "三季报·业绩增长",
+   "n": 14,
+   "codes": [
+    "003032.SZ",
+    "600428.SH",
+    "603006.SH",
+    "002526.SZ",
+    "001219.SZ",
+    "600643.SH",
+    "600997.SH",
+    "002679.SZ",
+    "000701.SZ",
+    "605338.SH",
+    "301079.SZ",
+    "603131.SH",
+    "600118.SH",
+    "001400.SZ"
+   ],
+   "samples": [
+    "传智教育",
+    "中远海特",
+    "联明股份"
+   ]
+  },
+  {
+   "theme": "商业航天·卫星·太空算力",
+   "n": 12,
+   "codes": [
+    "603703.SH",
+    "600261.SH",
+    "002565.SZ",
+    "301079.SZ",
+    "603131.SH",
+    "600501.SH",
+    "605598.SH",
+    "002865.SZ",
+    "001270.SZ",
+    "600118.SH",
+    "001400.SZ",
+    "001379.SZ"
+   ],
+   "samples": [
+    "盛洋科技",
+    "阳光照明",
+    "顺灏股份"
+   ]
+  },
+  {
+   "theme": "人形机器人·机器人",
+   "n": 6,
+   "codes": [
+    "003032.SZ",
+    "002526.SZ",
+    "601956.SH",
+    "600592.SH",
+    "603131.SH",
+    "603211.SH"
+   ],
+   "samples": [
+    "传智教育",
+    "山东矿机",
+    "东贝集团"
+   ]
+  },
+  {
+   "theme": "特种运输·船舶·装备",
+   "n": 5,
+   "codes": [
+    "600428.SH",
+    "001225.SZ",
+    "301079.SZ",
+    "001400.SZ",
+    "001379.SZ"
+   ],
+   "samples": [
+    "中远海特",
+    "和泰机电",
+    "邵阳液压"
+   ]
+  },
+  {
+   "theme": "AI·短剧·传媒·玩具",
+   "n": 4,
+   "codes": [
+    "003032.SZ",
+    "600715.SH",
+    "002862.SZ",
+    "603103.SH"
+   ],
+   "samples": [
+    "传智教育",
+    "文投控股",
+    "实丰文化"
+   ]
+  },
+  {
+   "theme": "液冷·数据中心·新能源",
+   "n": 4,
+   "codes": [
+    "603006.SH",
+    "002865.SZ",
+    "001400.SZ",
+    "000530.SZ"
+   ],
+   "samples": [
+    "联明股份",
+    "钧达股份",
+    "江顺科技"
+   ]
+  },
+  {
+   "theme": "食品·消费",
+   "n": 4,
+   "codes": [
+    "001219.SZ",
+    "605338.SH",
+    "603536.SH",
+    "605179.SH"
+   ],
+   "samples": [
+    "青岛食品",
+    "巴比食品",
+    "惠发食品"
+   ]
+  },
+  {
+   "theme": "冰雪·文旅",
+   "n": 3,
+   "codes": [
+    "601188.SH",
+    "000530.SZ",
+    "600576.SH"
+   ],
+   "samples": [
+    "龙江交通",
+    "冰山冷热",
+    "祥源文旅"
+   ]
+  },
+  {
+   "theme": "零售·重组·并购",
+   "n": 2,
+   "codes": [
+    "002277.SZ",
+    "001219.SZ"
+   ],
+   "samples": [
+    "友阿股份",
+    "青岛食品"
+   ]
+  },
+  {
+   "theme": "资源·化工·煤炭",
+   "n": 2,
+   "codes": [
+    "002526.SZ",
+    "600997.SH"
+   ],
+   "samples": [
+    "山东矿机",
+    "开滦股份"
+   ]
+  },
+  {
+   "theme": "军工电子·相控阵·铜缆",
+   "n": 2,
+   "codes": [
+    "603703.SH",
+    "001270.SZ"
+   ],
+   "samples": [
+    "盛洋科技",
+    "铖昌科技"
+   ]
+  },
+  {
+   "theme": "低空·雷达·探测",
+   "n": 2,
+   "codes": [
+    "001270.SZ",
+    "600576.SH"
+   ],
+   "samples": [
+    "铖昌科技",
+    "祥源文旅"
+   ]
+  },
+  {
+   "theme": "金融·多元金融",
+   "n": 1,
+   "codes": [
+    "600643.SH"
+   ],
+   "samples": [
+    "爱建集团"
+   ]
+  },
+  {
+   "theme": "医药·脑机接口",
+   "n": 1,
+   "codes": [
+    "002172.SZ"
+   ],
+   "samples": [
+    "澳洋健康"
+   ]
+  }
+ ]
+}

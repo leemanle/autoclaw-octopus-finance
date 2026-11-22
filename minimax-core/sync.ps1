@@ -1,0 +1,104 @@
+param(
+    [string]$Source = "$env:USERPROFILE\.minimax",
+    [string]$Repo   = "D:\agent-core-sync",
+    [switch]$NoPush
+)
+
+$ErrorActionPreference = "Stop"
+$Core = Join-Path $Repo "core"
+
+function Write-Log($m) { Write-Host ("[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $m) }
+
+function Copy-Safe($srcRel, $dstRel) {
+    $s = Join-Path $Source $srcRel
+    $d = Join-Path $Core   $dstRel
+    if (-not (Test-Path $s)) { Write-Log "skip missing: $srcRel"; return }
+    $null = robocopy $s $d /E /R:1 /W:1 /NFL /NDL /NJH /NJS /NP /XF *.png *.jpg *.jpeg *.webp *.zip *.exe *.dll
+    if ($LASTEXITCODE -ge 8) { throw "robocopy failed on $srcRel (code $LASTEXITCODE)" }
+    Write-Log "copied: $srcRel -> $dstRel"
+}
+
+function Sanitize-Text([string]$t) {
+    $t = [regex]::Replace($t, 'sk-[A-Za-z0-9_\-]{12,}', '<REDACTED:MINIMAX_API_KEY>')
+    $t = [regex]::Replace($t, 'ghp_[A-Za-z0-9]{20,}', '<REDACTED:GITHUB_TOKEN>')
+    $t = [regex]::Replace($t, '(?i)(botToken\s*:\s*)(\S+)', '${1}"<REDACTED:WECHAT_BOT_TOKEN>"')
+    $t = [regex]::Replace($t, '(?i)(qrcodeToken\s*:\s*)(\S+)', '${1}"<REDACTED:WECHAT_QRCODE_TOKEN>"')
+    $t = [regex]::Replace($t, '(?i)(accessToken\s*[":=]\s*)([^",\r\n]{8,})', '${1}"<REDACTED:ACCESS_TOKEN>"')
+    $t = [regex]::Replace($t, '(?i)(sessionId\s*[":=]\s*)([^",\r\n]{6,})', '${1}"<REDACTED:SESSION_ID>"')
+    $t = [regex]::Replace($t, '(?i)(appSecret\s*[":=]\s*)([^",\r\n]{8,})', '${1}"<REDACTED:APP_SECRET>"')
+    $t = [regex]::Replace($t, '(?i)(apiKey\s*[":=]\s*)([^",\r\n]{8,})', '${1}"<REDACTED:API_KEY>"')
+    return $t
+}
+
+Write-Log "=== sync start ==="
+
+# 1) core data (whitelisted only)
+Copy-Safe "memory"          "memory"
+Copy-Safe "skills"          "skills"
+Copy-Safe "workspace"       "workspace"
+Copy-Safe ".builtin-skills" "builtin-skills"
+
+# 2) agents: text assets only, exclude memory/archive heavy snapshots
+$agentMap = @("mavis", "worker", "explore", "verifier", "builtin")
+foreach ($a in $agentMap) {
+    $s = Join-Path $Source "agents\$a"
+    $d = Join-Path $Core   "agents\$a"
+    if (-not (Test-Path $s)) { continue }
+    $excl = Join-Path $s "memory\archive"
+    $null = robocopy $s $d /E /R:1 /W:1 /NFL /NDL /NJH /NJS /NP /XF *.png *.jpg *.jpeg *.webp *.log /XD $excl "$($s)sessions" "$($s)tmp" "$($s)cache"
+    Write-Log "copied: agents\$a"
+}
+Copy-Item (Join-Path $Source "agents\mavis\memory\MEMORY.md") (Join-Path $Core "agents\mavis\memory\MEMORY.md") -Force -ErrorAction SilentlyContinue
+Write-Log "copied: agents\mavis\memory\MEMORY.md (latest only)"
+
+# 3) config: sanitize then write
+$cfgDir = Join-Path $Core "config"
+New-Item -ItemType Directory -Path $cfgDir -Force | Out-Null
+$cfgList = @(
+    "config.yaml",
+    "permission.json",
+    "access-control.yaml",
+    "channel-bindings.yaml",
+    "channel-routes.yaml",
+    "wechat-channel.yaml",
+    "mcp.json",
+    "mcp-runtime-names.json"
+)
+foreach ($f in $cfgList) {
+    $p = Join-Path $Source $f
+    if (-not (Test-Path $p)) { continue }
+    $raw = Get-Content $p -Raw -Encoding UTF8
+    $out = Sanitize-Text $raw
+    $dst = Join-Path $cfgDir $f
+    [System.IO.File]::WriteAllText($dst, $out, (New-Object System.Text.UTF8Encoding($false)))
+    Write-Log "sanitized: $f"
+}
+
+# 4) never-copy list report (so user knows what stayed out)
+$never = @("mx_accounts.json", "local-runtime.auth.json", "codex-auth.json", "keys_new_20261026.txt", "keys_backup_20261025\", "auth\", "sessions\", "v2\", "tools\", "computer-use\", "background-tasks\", "cache\")
+Set-Content -Path (Join-Path $Core "EXCLUDED.txt") -Value ($never -join "`n") -Encoding UTF8
+
+# 5) git
+Push-Location $Repo
+try {
+    if (-not (Test-Path (Join-Path $Repo ".git"))) { throw "repo not initialized: run setup first" }
+    git add -A
+    $msg = "sync " + (Get-Date -Format "yyyy-MM-dd HH:mm")
+    git diff --cached --quiet
+    if ($LASTEXITCODE -eq 0) {
+        Write-Log "no changes to commit"
+    } else {
+        git commit -m $msg | Out-Null
+        Write-Log "committed: $msg"
+    }
+    if (-not $NoPush) {
+        git push origin HEAD
+        if ($LASTEXITCODE -ne 0) { throw "git push failed" }
+        Write-Log "pushed to origin"
+    }
+} finally {
+    Pop-Location
+}
+
+$stat = Get-ChildItem $Core -Recurse -File -Force | Measure-Object Length -Sum
+Write-Log ("=== done: files={0} size={1}MB ===" -f (Get-ChildItem $Core -Recurse -File -Force | Measure-Object).Count, [math]::Round($stat.Sum / 1MB, 2))

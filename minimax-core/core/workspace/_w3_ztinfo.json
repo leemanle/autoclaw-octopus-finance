@@ -1,0 +1,472 @@
+{
+ "603536": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "920576": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 30.0
+ },
+ "300753": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "600107": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 5.0
+ },
+ "002337": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "002275": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600997": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "002975": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261028"
+  ],
+  "limit": 10.0
+ },
+ "603408": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "300516": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "688466": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "688360": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "600611": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "688686": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "605100": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "002277": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "301121": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "300006": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261021",
+   "20261028"
+  ],
+  "limit": 20.0
+ },
+ "603135": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261028"
+  ],
+  "limit": 10.0
+ },
+ "002565": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261021",
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600728": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "603389": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "300129": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "605598": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "300102": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "600879": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "300455": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "688375": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "002361": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "600501": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "920885": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 30.0
+ },
+ "603379": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "600261": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261022",
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "002865": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "603703": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "300762": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "688387": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "002172": {
+  "lbc": 2,
+  "today_zt": true,
+  "ztdays": [
+   "20261028",
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "920166": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 30.0
+ },
+ "000530": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261022",
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "601188": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600576": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "300045": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "600592": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "603337": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261026",
+   "20261028"
+  ],
+  "limit": 10.0
+ },
+ "002948": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "600078": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261028"
+  ],
+  "limit": 10.0
+ },
+ "002636": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [
+   "20261028"
+  ],
+  "limit": 10.0
+ },
+ "002679": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "000701": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "603279": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "600428": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600727": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "600643": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600118": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "600387": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ },
+ "003032": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "002531": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "605338": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "603103": {
+  "lbc": 1,
+  "today_zt": true,
+  "ztdays": [
+   "20261029"
+  ],
+  "limit": 10.0
+ },
+ "301338": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "301155": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "300677": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "300177": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "300136": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "688087": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 20.0
+ },
+ "600757": {
+  "lbc": 0,
+  "today_zt": false,
+  "ztdays": [],
+  "limit": 10.0
+ }
+}

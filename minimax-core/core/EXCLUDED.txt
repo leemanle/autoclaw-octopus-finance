@@ -1,0 +1,12 @@
+﻿mx_accounts.json
+local-runtime.auth.json
+codex-auth.json
+keys_new_20261026.txt
+keys_backup_20261025\
+auth\
+sessions\
+v2\
+tools\
+computer-use\
+background-tasks\
+cache\

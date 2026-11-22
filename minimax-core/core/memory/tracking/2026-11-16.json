@@ -1,0 +1,79 @@
+[
+  {
+    "sessionId": "mvs_9822ff9417b647a5a211952561eb19b4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-16 07:28:43"
+  },
+  {
+    "sessionId": "mvs_302f3da3363b404d96caa35b8da83b15",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 22:43:50"
+  },
+  {
+    "sessionId": "mvs_0f4db234546a412ca965da7aae6399d4",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 13:05:22"
+  },
+  {
+    "sessionId": "mvs_04d102a0479144d19b75ebb0b06eea98",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 22:32:58"
+  },
+  {
+    "sessionId": "mvs_a17dd8b5bcc44f6f8fbdc7d03479bab6",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 22:18:13"
+  },
+  {
+    "sessionId": "mvs_c2346bf66e0248e59a2c2f53657cb54e",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 15:38:59"
+  },
+  {
+    "sessionId": "mvs_f7bfab2b4fba461f87eb945470e277ca",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-16 23:59:49"
+  },
+  {
+    "sessionId": "mvs_1aefbe71c427476abc9f689a01740437",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-16 23:56:55"
+  },
+  {
+    "sessionId": "mvs_c3fee996a853423aa05d111540879df4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-16 23:56:56"
+  },
+  {
+    "sessionId": "mvs_76524c4e9d0c4bf28514a11a245afb29",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-16 23:57:04"
+  },
+  {
+    "sessionId": "mvs_fddc4095e1a8404a89544e48bdfe17c5",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-16 23:57:09"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "mcpServers": {
+    "hexin-ifind-ds-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-stock-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-stock-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-news-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-news-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-fund-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-fund-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-edb-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-edb-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-index-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-index-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-bond-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-bond-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-global-stock-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-global-stock-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-ifind-ds-futures-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-ifind-ds-futures-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "kuaicha-enterprise-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/kuaicha-enterprise-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    },
+    "hexin-law-mcp": {
+      "type": "http",
+      "enabled": true,
+      "configured": true,
+      "builtin": false,
+      "url": "https://api-mcp.51ifind.com:8643/ds-mcp-servers/hexin-law-mcp",
+      "headers": {
+        "Authorization": "eyJraWQiOiJtY3AtYXBpIiwidWlkIjoiNTg2ODc4MzkwIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwiZW5jIjoiQTI1NkdDTSJ9.P1PSaH2qmbhaj9G1LnbN3c_vSgv7574rQG9OhYobCAITNpnxtNAU-YF3nscQk7JNQ9PnfC7LXCuREOV71B7_Mxv1JMfcr8wUaLb57Cf33boq15IBPCTSRK83on9K2RTm0VI1Lg0hgj0NtwEu44Z0OoclRcO0L0gmrn-gv8K_HlaNd9Z1wwSEuZynbeI4cszGGzreXabBRKGPle1H0_3Nz-RUeujdqkTgjTXOtDJhgAtBvhgWbLwz9queX5HZES9sr9n0yJeGeiyGlNMgJmtoLLKnEuDPQZaOT3rNrChsF5FCNbYYEhc0uY2VKvq0sSMN10zyU_fVYKMlbzyynhX06w.U2mrX_2o9TjgUf7w.B67bMbYrqwxMil7Eni_2oRlUh3iG1bXGM1SiQgfMtx4CFZJPS_3AqrkWzcGeOUvI5UBVq091UOm4nk-MKOx04is4tJF653-qzJKCBA2yXBnWUYx92AS8cqygWnFIepOpowq1c4W9KIAqB6jPMhjr-dE2vYvrxi-qAZPFeQvY6cWmzYGFquXVrEPJYfvYeOKl7rKH_18tLEpLTDmTJ4SHJXYLpWMbrkIIO3kGb3uAWnhrod38tc3G0EURI9pyogfH8blh-KEAWdovTjcbEi2B8rkqCSxeGp4VCsI5_14RNPAA2G7nPRKP9IbW6xkmdh_C1SpgF5qk90SxV7CPV1VZWu0KIzsF0xOBFUKIWtbCp9Q87D2BptbaactJTPXsUN11pAbZLbRoRHX2vvjAlQPl2Rzm4adA-AEXmmZPlJSBcq1qQLoJKREnQz-ZLKMg_HvHNg.C8IxD6-HAOtAUJQlTcBFOA"
+      }
+    }
+  }
+}

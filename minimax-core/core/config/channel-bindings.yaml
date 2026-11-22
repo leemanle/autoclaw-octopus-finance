@@ -1,0 +1,40 @@
+schemaVersion: 3
+bindings:
+  wechat:wechat%3Amavis:mavis:mavis::interactive:
+    key: wechat:wechat%3Amavis:mavis:mavis::interactive
+    platform: wechat
+    clientName: wechat:mavis
+    chatId: mavis
+    senderId: mavis
+    threadId: ''
+    lane: interactive
+    agentName: mavis
+    sessionId: "<REDACTED:SESSION_ID>"
+    strategy: root
+    pinned: false
+    routeRuleId: null
+    createdAt: 1787013344424
+    updatedAt: 1789656864218
+    exactOwnerName: mavis
+    projectKey: default
+    routingMode: project-main
+    generation: 1
+messageFilters: {}
+connections:
+  connection_24d181f2-c207-4f30-b80c-88af45858751:
+    connectionId: connection_24d181f2-c207-4f30-b80c-88af45858751
+    agentName: mavis
+    channel: feishu
+    projectKey: null
+    resolvedProjectKey: default
+    createdAt: 1792414318391
+    updatedAt: 1792414318391
+  connection_94982071-1ef0-4923-a16f-8435a6d82695:
+    connectionId: connection_94982071-1ef0-4923-a16f-8435a6d82695
+    agentName: mavis
+    channel: wechat
+    projectKey: null
+    resolvedProjectKey: default
+    createdAt: 1792414318039
+    updatedAt: 1792414318039
+physicalBindings: {}

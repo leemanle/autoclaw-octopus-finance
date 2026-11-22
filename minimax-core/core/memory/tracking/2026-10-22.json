@@ -1,0 +1,191 @@
+[
+  {
+    "sessionId": "mvs_5ed0f284209745a287a1d3bdea446bd6",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 17:00:18"
+  },
+  {
+    "sessionId": "mvs_3fbcb8e9361e4829b15a8fd9dd38aa01",
+    "agentName": "cron-patrol",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 17:04:07"
+  },
+  {
+    "sessionId": "mvs_a16b00732a744a9c89a8e64f3e6f4d50",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 23:44:58"
+  },
+  {
+    "sessionId": "mvs_a6d4b66ec2ec49cf90a00f26594ebae4",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 23:58:47"
+  },
+  {
+    "sessionId": "mvs_c91746fbb5f64d51aacfae86569bb770",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 23:59:36"
+  },
+  {
+    "sessionId": "mvs_c3f1bf12d77b4b6b807430490a7c7a25",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 17:04:56"
+  },
+  {
+    "sessionId": "mvs_9967251d71ed41849a1ddc1eb93f0274",
+    "agentName": "verifier",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 08:05:59"
+  },
+  {
+    "sessionId": "mvs_90765f2d12a34d439eac859bef60f22d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:57:23"
+  },
+  {
+    "sessionId": "mvs_1d20a0d792364e6791206fbaae86bdd6",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 08:34:24"
+  },
+  {
+    "sessionId": "mvs_a034600025a447f7a1b1ddecbf98f79d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 23:38:17"
+  },
+  {
+    "sessionId": "mvs_827ca860c4664bef8b247d41ab8e663e",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 15:07:01"
+  },
+  {
+    "sessionId": "mvs_6c1865c3229247e1b33f224b44ae4dff",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 15:25:42"
+  },
+  {
+    "sessionId": "mvs_b4fbc8c4c62b45a7a94ce551d888f1f8",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 16:19:10"
+  },
+  {
+    "sessionId": "mvs_32d3f4852671480394800ad453e1eedd",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 18:46:37"
+  },
+  {
+    "sessionId": "mvs_3706d82f18094fb7b77ea7943b4ddb4c",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 18:48:22"
+  },
+  {
+    "sessionId": "mvs_ecc19fcfb5ba4faf9ae229bbf4169240",
+    "agentName": "verifier",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 18:58:45"
+  },
+  {
+    "sessionId": "mvs_e8e847ab664f43f1b3b782524146af3c",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 19:05:52"
+  },
+  {
+    "sessionId": "mvs_4d90eb52c4c5415692c3574b37f694f6",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 20:02:31"
+  },
+  {
+    "sessionId": "mvs_83fffc4f6481440a8342149fd61a10d1",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 20:47:05"
+  },
+  {
+    "sessionId": "mvs_91ec655230cc4a5c89540f0b5da13225",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 20:47:37"
+  },
+  {
+    "sessionId": "mvs_8bfabc113c6f4887a67983e7ab509010",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:30:46"
+  },
+  {
+    "sessionId": "mvs_d2003d25e3cd4d28a17a3ce3a361eadb",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:02:12"
+  },
+  {
+    "sessionId": "mvs_de3a31f646c84d6fa3334ee92f56eccf",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:04:21"
+  },
+  {
+    "sessionId": "mvs_7cdc60fd0e0e40fd92deb987fac2b580",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:38:07"
+  },
+  {
+    "sessionId": "mvs_deac2b8f102446d9b7c97d2e00a28215",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:43:13"
+  },
+  {
+    "sessionId": "mvs_14e0a14bf35c4a91bfaff5e060d4029d",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:52:24"
+  },
+  {
+    "sessionId": "mvs_86e2011f75e04a618c4d8a58341d16c8",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-22 21:59:19"
+  }
+]

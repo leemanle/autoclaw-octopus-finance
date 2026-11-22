@@ -1,0 +1,100 @@
+[
+  {
+    "sessionId": "mvs_f7bfab2b4fba461f87eb945470e277ca",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 08:27:11"
+  },
+  {
+    "sessionId": "mvs_04d102a0479144d19b75ebb0b06eea98",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-17 00:32:17"
+  },
+  {
+    "sessionId": "mvs_0f4db234546a412ca965da7aae6399d4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-17 00:35:35"
+  },
+  {
+    "sessionId": "mvs_76524c4e9d0c4bf28514a11a245afb29",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-17 00:36:20"
+  },
+  {
+    "sessionId": "mvs_c3fee996a853423aa05d111540879df4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-17 08:00:00"
+  },
+  {
+    "sessionId": "mvs_d3c7e031ed8149888fe2d710cf9611ad",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 15:11:27"
+  },
+  {
+    "sessionId": "mvs_707276e2dd1141dd8faff73a22163318",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 15:31:53"
+  },
+  {
+    "sessionId": "mvs_dabdee844d1a4d2f800323c2c85e3924",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 22:30:09"
+  },
+  {
+    "sessionId": "mvs_39c52a80326f46f5aef4cfaaf189419a",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 21:09:43"
+  },
+  {
+    "sessionId": "mvs_fddc4095e1a8404a89544e48bdfe17c5",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-17 10:00:00"
+  },
+  {
+    "sessionId": "mvs_ba0eaae03b5c4251accffbc4ea8551f8",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 20:02:19"
+  },
+  {
+    "sessionId": "mvs_262b63e0705e46e1a03ec654b6e5d21a",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 15:28:16"
+  },
+  {
+    "sessionId": "mvs_202a19798b7441e68914c6893cade08e",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 20:36:02"
+  },
+  {
+    "sessionId": "mvs_7bb940338e544be4bd6ae55ec83f9b93",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-17 21:00:02"
+  }
+]

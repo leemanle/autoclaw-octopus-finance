@@ -1,0 +1,44 @@
+[
+  {
+    "sessionId": "mvs_c537f63f9385476d82452e823ccd62a9",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-11-22 00:14:38"
+  },
+  {
+    "sessionId": "mvs_7df65bb73e8646bd95aac5185f5105d1",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 08:38:59"
+  },
+  {
+    "sessionId": "mvs_b79f1dd69ae241d2bdb17e05f0ddbea4",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 08:39:12"
+  },
+  {
+    "sessionId": "mvs_4340fc8012854f95a7f408af8f0576d2",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 08:43:21"
+  },
+  {
+    "sessionId": "mvs_b15f3928524740b1969d31c5f57b9e90",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 08:43:23"
+  },
+  {
+    "sessionId": "mvs_66b643845e864b1db9a9bca1ccc3bf6c",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-11-22 08:56:03"
+  }
+]

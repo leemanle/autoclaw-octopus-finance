@@ -1,0 +1,156 @@
+[
+  {
+    "sessionId": "mvs_f2bb7891508448118eeb80832c3bb8b1",
+    "agentName": "cron-patrol",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:30:38"
+  },
+  {
+    "sessionId": "mvs_90765f2d12a34d439eac859bef60f22d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 21:04:40"
+  },
+  {
+    "sessionId": "mvs_c91746fbb5f64d51aacfae86569bb770",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 09:55:43"
+  },
+  {
+    "sessionId": "mvs_a6d4b66ec2ec49cf90a00f26594ebae4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 16:16:04"
+  },
+  {
+    "sessionId": "mvs_29d6771d6f34461db7e14d4153ef5d1b",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 21:49:00"
+  },
+  {
+    "sessionId": "mvs_6723f8258b6142e7864fb72a2e4def9f",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 21:39:47"
+  },
+  {
+    "sessionId": "mvs_1d20a0d792364e6791206fbaae86bdd6",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 10:06:17"
+  },
+  {
+    "sessionId": "mvs_a034600025a447f7a1b1ddecbf98f79d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 20:01:15"
+  },
+  {
+    "sessionId": "mvs_f5b39bfd3a60437da20ad806cfd48bb6",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 16:31:54"
+  },
+  {
+    "sessionId": "mvs_d412ee4dd28d410a931918998fd367c2",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 16:42:21"
+  },
+  {
+    "sessionId": "mvs_094b088e76584a92a50bc234c2773d9b",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:10:08"
+  },
+  {
+    "sessionId": "mvs_4dc2d5422ae645a88ba44df93bad1463",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 17:13:59"
+  },
+  {
+    "sessionId": "mvs_e434f351b04c440ba0482f8945bf99f2",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 17:37:13"
+  },
+  {
+    "sessionId": "mvs_4764206d68904504a4be4d5615afe2ad",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 19:58:27"
+  },
+  {
+    "sessionId": "mvs_f9b600025f4d4d858659a514fe7cdd68",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 21:40:56"
+  },
+  {
+    "sessionId": "mvs_28bf688638e14e5184e0806d2b006519",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 21:41:12"
+  },
+  {
+    "sessionId": "mvs_2ac41c3905ad46468b302f989ec472e0",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 22:43:28"
+  },
+  {
+    "sessionId": "mvs_9ff41d3361fe466ca4d0f96bc33469c8",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 22:44:50"
+  },
+  {
+    "sessionId": "mvs_8aa68cf406fc4c539d31b5cf9fec973c",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:34:49"
+  },
+  {
+    "sessionId": "mvs_a42c5ba7fefa4b8dbcce855440e4c851",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:47:09"
+  },
+  {
+    "sessionId": "mvs_64a15329e11e4d118ed9e92059bfa192",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:59:27"
+  },
+  {
+    "sessionId": "mvs_8a011c1d901341af86c251b0c1101d8a",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-13 23:59:55"
+  }
+]

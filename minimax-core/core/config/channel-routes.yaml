@@ -1,0 +1,24 @@
+schemaVersion: 2
+rules: []
+defaultRoute:
+  feishu:
+    agentId: mavis
+    sessionStrategy: root
+    exactOwnerName: mavis
+    projectKey: default
+    routingMode: project-main
+    generation: 1
+  telegram:
+    agentId: mavis
+    sessionStrategy: root
+    exactOwnerName: mavis
+    projectKey: default
+    routingMode: project-main
+    generation: 1
+  wechat:
+    agentId: mavis
+    sessionStrategy: root
+    exactOwnerName: mavis
+    projectKey: default
+    routingMode: project-main
+    generation: 1

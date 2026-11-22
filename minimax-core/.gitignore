@@ -1,0 +1,23 @@
+# 绝对不进的目录/文件
+auth/
+keys_*/
+keys_new_*.txt
+sessions/
+v2/
+tools/
+computer-use/
+background-tasks/
+cache/
+tmp/
+backups/
+*.sqlite
+*.db
+*.log
+mx_accounts.json
+local-runtime.auth.json
+codex-auth.json
+**/memory/archive/
+**/*.png
+**/*.jpg
+**/*.zip
+**/*.exe

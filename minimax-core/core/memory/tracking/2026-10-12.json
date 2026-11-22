@@ -1,0 +1,170 @@
+[
+  {
+    "sessionId": "mvs_90765f2d12a34d439eac859bef60f22d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:21:52"
+  },
+  {
+    "sessionId": "mvs_a6d4b66ec2ec49cf90a00f26594ebae4",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 20:45:20"
+  },
+  {
+    "sessionId": "mvs_29d6771d6f34461db7e14d4153ef5d1b",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 15:01:57"
+  },
+  {
+    "sessionId": "mvs_6723f8258b6142e7864fb72a2e4def9f",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-12 15:53:47"
+  },
+  {
+    "sessionId": "mvs_1d20a0d792364e6791206fbaae86bdd6",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 10:39:16"
+  },
+  {
+    "sessionId": "mvs_c91746fbb5f64d51aacfae86569bb770",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-12 15:36:12"
+  },
+  {
+    "sessionId": "mvs_a034600025a447f7a1b1ddecbf98f79d",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-12 20:54:04"
+  },
+  {
+    "sessionId": "mvs_f2bb7891508448118eeb80832c3bb8b1",
+    "agentName": "cron-patrol",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 23:30:23"
+  },
+  {
+    "sessionId": "mvs_094b088e76584a92a50bc234c2773d9b",
+    "agentName": "mavis",
+    "wroteMemory": true,
+    "reminded": false,
+    "checkedAt": "2026-10-12 23:44:09"
+  },
+  {
+    "sessionId": "mvs_0fa895f9d4724f07bd2bbfa56b033e5a",
+    "agentName": "worker",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 20:48:41"
+  },
+  {
+    "sessionId": "mvs_9073b4dfc3844a6db48a88c6c79cfe04",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:01:49"
+  },
+  {
+    "sessionId": "mvs_0d7cfff5ffcf407588333ba62d74ed79",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:21:26"
+  },
+  {
+    "sessionId": "mvs_4ac3a16494914f71b84897d11b641162",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:25:35"
+  },
+  {
+    "sessionId": "mvs_56faee8d83c44036a65048166541041b",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:27:22"
+  },
+  {
+    "sessionId": "mvs_8a09b8bbdde54c3e9fff30da06ddd007",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:36:34"
+  },
+  {
+    "sessionId": "mvs_3b4b393819d946618d8c6da2e5e344a0",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:44:38"
+  },
+  {
+    "sessionId": "mvs_82af8a8a089b480f9d061832c5160d1b",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:47:27"
+  },
+  {
+    "sessionId": "mvs_a3f4989ac7214eea8d6c309aa838be0c",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 21:53:55"
+  },
+  {
+    "sessionId": "mvs_1f3a5b033d524857b58ff8dbb3d994c6",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 22:01:54"
+  },
+  {
+    "sessionId": "mvs_5e877ea3f5f5413582e8aef5472ffc36",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 22:06:11"
+  },
+  {
+    "sessionId": "mvs_d61e325b727d4b9bb80bf41ddc9ac5ba",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 22:07:45"
+  },
+  {
+    "sessionId": "mvs_e0c086d207c04914ae9e56cbc5b1974f",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 22:17:47"
+  },
+  {
+    "sessionId": "mvs_44f8b32153bd4d65bfc3acffdeb36767",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 22:27:17"
+  },
+  {
+    "sessionId": "mvs_5e2bfb1c441449fa96c910a5eea10370",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-12 23:05:31"
+  }
+]

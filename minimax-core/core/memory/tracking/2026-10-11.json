@@ -1,0 +1,149 @@
+[
+  {
+    "sessionId": "mvs_094b088e76584a92a50bc234c2773d9b",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:01:54"
+  },
+  {
+    "sessionId": "mvs_1d20a0d792364e6791206fbaae86bdd6",
+    "agentName": "mavis",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 10:01:44"
+  },
+  {
+    "sessionId": "mvs_1c6b220c9380450b80bd7b85fd8aa220",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:01:23"
+  },
+  {
+    "sessionId": "mvs_be3ba29c107e407dac90fc7deb0740e0",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:03:02"
+  },
+  {
+    "sessionId": "mvs_56f4300af59e4b5db108d5e45727eff6",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:13:38"
+  },
+  {
+    "sessionId": "mvs_99a14b276dcc46809312cacdd3707d49",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:13:41"
+  },
+  {
+    "sessionId": "mvs_f043466704fe4341877e03a744751b35",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:19:37"
+  },
+  {
+    "sessionId": "mvs_d0cc0f45609f43d484e62d96805bd773",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:21:23"
+  },
+  {
+    "sessionId": "mvs_2da79d4a075c46c18ab8bd72ae546266",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:31:47"
+  },
+  {
+    "sessionId": "mvs_5bb9fbe848834018941a990564fe16f1",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 16:32:21"
+  },
+  {
+    "sessionId": "mvs_9f2a445a1ada4204a826db46f57b91be",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 18:19:42"
+  },
+  {
+    "sessionId": "mvs_6c202cf5476a499d88ab29cbc76557e4",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 18:22:35"
+  },
+  {
+    "sessionId": "mvs_5cc6f01bada84452bc449359b6cf1e40",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 18:37:05"
+  },
+  {
+    "sessionId": "mvs_055034c786d04a17b09b62b20776a146",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 20:48:50"
+  },
+  {
+    "sessionId": "mvs_f69046eab80c452189bcca32721ce96b",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 20:54:55"
+  },
+  {
+    "sessionId": "mvs_70f0ba40909449cb8ead9694c9718dec",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:08:16"
+  },
+  {
+    "sessionId": "mvs_e639a8b67c6b4844bbfadf7a3c196815",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:19:31"
+  },
+  {
+    "sessionId": "mvs_3e36f10f6d274adf93b8d117ca9bfe49",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:28:16"
+  },
+  {
+    "sessionId": "mvs_835cdd3aa2974ad7878aff4b00808ee6",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:47:04"
+  },
+  {
+    "sessionId": "mvs_8e74c455647741e49a12ed13a9fb3ea2",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:48:50"
+  },
+  {
+    "sessionId": "mvs_e7ed1b5401ab4a0b943510dc8c388843",
+    "agentName": "explore",
+    "wroteMemory": false,
+    "reminded": false,
+    "checkedAt": "2026-10-11 21:49:12"
+  }
+]

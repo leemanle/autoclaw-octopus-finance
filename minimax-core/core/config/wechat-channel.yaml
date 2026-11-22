@@ -1,0 +1,14 @@
+schemaVersion: 1
+bindings:
+  wechat:mavis:
+    clientId: wechat:mavis
+    agentName: mavis
+    botToken: "<REDACTED:WECHAT_BOT_TOKEN>"
+    bindSessionId: "<REDACTED:SESSION_ID>"
+    qrcodeToken: "<REDACTED:WECHAT_QRCODE_TOKEN>"
+    qrcodeUrl: https://liteapp.weixin.qq.com/q/7GiQu1?qrcode=5d8513850c23a170998de7983620c4ca&bot_type=3
+    connected: false
+    enabled: false
+    mode: polling
+    createdAt: 1787013344415
+    updatedAt: 1792414318677
