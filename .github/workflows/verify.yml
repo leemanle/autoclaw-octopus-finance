@@ -1,0 +1,20 @@
+name: verify
+
+on:
+  push:
+    paths:
+      - "minimax-core/**"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Structural and secret gate
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          pwsh -NoProfile -File minimax-core/verify.ps1 -Root minimax-core
